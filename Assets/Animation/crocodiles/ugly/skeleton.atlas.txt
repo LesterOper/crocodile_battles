@@ -1,0 +1,139 @@
+
+skeleton.png
+size: 388,544
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 22 копия 3 copy 2
+  rotate: false
+  xy: 0, 488
+  size: 38, 56
+  orig: 38, 56
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 0, 131
+  size: 298, 414
+  orig: 305, 428
+  offset: 0, 5
+  index: -1
+eye 1
+  rotate: false
+  xy: 197, 77
+  size: 180, 99
+  orig: 180, 99
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 0, 78
+  size: 83, 83
+  orig: 89, 83
+  offset: 0, 0
+  index: -1
+horn 1
+  rotate: true
+  xy: 130, 52
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+horn 2
+  rotate: 270
+  xy: 303, 4
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+horn 3
+  rotate: true
+  xy: 208, 42
+  size: 75, 78
+  orig: 75, 78
+  offset: 0, 0
+  index: -1
+horn 4
+  rotate: true
+  xy: 61, 31
+  size: 78, 73
+  orig: 78, 73
+  offset: 0, 0
+  index: -1
+horn 5
+  rotate: 180
+  xy: 142, 4
+  size: 58, 50
+  orig: 58, 50
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 261, 202
+  size: 311, 120
+  orig: 323, 125
+  offset: 12, 0
+  index: -1
+nose top
+  rotate: false
+  xy: 62, 3
+  size: 57, 34
+  orig: 57, 34
+  offset: 0, 0
+  index: -1
+pupil
+  rotate: false
+  xy: 0, 433
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+tail
+  rotate: 180
+  xy: 0, 11
+  size: 67, 89
+  orig: 67, 89
+  offset: 0, 0
+  index: -1
+teeth
+  rotate: false
+  xy: 321, 504
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+tooth
+  rotate: false
+  xy: 0, 453
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1
+Слой 75
+  rotate: 180
+  xy: 254, 2
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+Слой 76
+  rotate: false
+  xy: 281, 517
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+Слой 77
+  rotate: false
+  xy: 286, 414
+  size: 25, 34
+  orig: 25, 34
+  offset: 0, 0
+  index: -1
+Слой 78
+  rotate: false
+  xy: 200, 2
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1

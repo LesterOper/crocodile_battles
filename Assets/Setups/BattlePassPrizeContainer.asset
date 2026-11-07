@@ -1,0 +1,1245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba3dddb489a4d87a90a71353bae454a, type: 3}
+  m_Name: BattlePassPrizeContainer
+  m_EditorClassIdentifier: 
+  prizeItems:
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 0
+    needBattles: 1
+    defaultPrize:
+      prizeType: 3
+      prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+      moneyPrizeItem:
+        counterType: 1
+        amount: 50
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 3
+      prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+      moneyPrizeItem:
+        counterType: 1
+        amount: 100
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 1
+    needBattles: 2
+    defaultPrize:
+      prizeType: 4
+      prizeIcon: {fileID: 21300000, guid: 18a4ab9fa16b2e246a92eb8efbb09fd6, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 08000000
+        amount: 1
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 5
+      prizeIcon: {fileID: 21300000, guid: c17de17e370cda040a4206328747cff4, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 17000000
+        amount: 1
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 1
+    bossBathType: 11
+    needDefaultPrize: 1
+    startAmountBattles: 3
+    needBattles: 2
+    defaultPrize:
+      prizeType: 1
+      prizeIcon: {fileID: 21300000, guid: dd1dec134c08701468b5c15878df0a25, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 3
+        amount: 1
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 5
+      prizeIcon: {fileID: 21300000, guid: 7e2c695fff4e7ff429c819233fb03588, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 0a000000
+        amount: 1
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 5
+    needBattles: 2
+    defaultPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: 42434b0ae0e52a649aea67e8cee456ce, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 1
+        amount: 2
+    vipPrize:
+      prizeType: 1
+      prizeIcon: {fileID: 21300000, guid: dd1dec134c08701468b5c15878df0a25, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 3
+        amount: 1
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 0
+    startAmountBattles: 7
+    needBattles: 2
+    defaultPrize:
+      prizeType: 0
+      prizeIcon: {fileID: 0}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 3
+      prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+      moneyPrizeItem:
+        counterType: 1
+        amount: 200
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 9
+    needBattles: 2
+    defaultPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: c2a05f7d410419b44a05f4807e0ad80b, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 2
+        amount: 2
+    vipPrize:
+      prizeType: 4
+      prizeIcon: {fileID: 21300000, guid: 2fae4f825c4f9d0499b8fa992d9c2fbe, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 06000000
+        amount: 1
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 1
+    bossBathType: 12
+    needDefaultPrize: 1
+    startAmountBattles: 11
+    needBattles: 2
+    defaultPrize:
+      prizeType: 1
+      prizeIcon: {fileID: 21300000, guid: 4d68369e1f93cec41bfee4f6485c3c68, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 4
+        amount: 1
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: c2a05f7d410419b44a05f4807e0ad80b, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 2
+        amount: 5
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 13
+    needBattles: 2
+    defaultPrize:
+      prizeType: 3
+      prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+      moneyPrizeItem:
+        counterType: 1
+        amount: 100
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 1
+      prizeIcon: {fileID: 21300000, guid: dd1dec134c08701468b5c15878df0a25, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 3
+        amount: 1
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 0
+    startAmountBattles: 15
+    needBattles: 2
+    defaultPrize:
+      prizeType: 0
+      prizeIcon: {fileID: 0}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 5
+      prizeIcon: {fileID: 21300000, guid: 92eac6e15fa28f74dbc69a28280a2623, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 07000000
+        amount: 1
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 17
+    needBattles: 3
+    defaultPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: 9a9bbaffd1490a74b938e0694e0bc04b, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 3
+        amount: 2
+    vipPrize:
+      prizeType: 5
+      prizeIcon: {fileID: 21300000, guid: 74f5c3981d8a1094ca41b26173693a08, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 08000000
+        amount: 1
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 0
+    startAmountBattles: 20
+    needBattles: 3
+    defaultPrize:
+      prizeType: 0
+      prizeIcon: {fileID: 0}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: 9a9bbaffd1490a74b938e0694e0bc04b, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 3
+        amount: 5
+  - isBoss: 1
+    bossBathType: 13
+    needDefaultPrize: 1
+    startAmountBattles: 23
+    needBattles: 3
+    defaultPrize:
+      prizeType: 1
+      prizeIcon: {fileID: 21300000, guid: 4d68369e1f93cec41bfee4f6485c3c68, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 4
+        amount: 1
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 3
+      prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+      moneyPrizeItem:
+        counterType: 1
+        amount: 500
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 26
+    needBattles: 5
+    defaultPrize:
+      prizeType: 3
+      prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+      moneyPrizeItem:
+        counterType: 1
+        amount: 300
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 1
+      prizeIcon: {fileID: 21300000, guid: dd1dec134c08701468b5c15878df0a25, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 3
+        amount: 1
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 31
+    needBattles: 5
+    defaultPrize:
+      prizeType: 4
+      prizeIcon: {fileID: 21300000, guid: 7b6e9a7a434ed384eb7257c830e0f4d2, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 04000000
+        amount: 1
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 5
+      prizeIcon: {fileID: 21300000, guid: 1be2d1c32b22b62449029cf9ede88e4c, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 05000000
+        amount: 1
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 0
+    startAmountBattles: 36
+    needBattles: 8
+    defaultPrize:
+      prizeType: 0
+      prizeIcon: {fileID: 0}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 1
+      prizeIcon: {fileID: 21300000, guid: 4d68369e1f93cec41bfee4f6485c3c68, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 4
+        amount: 1
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 44
+    needBattles: 8
+    defaultPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: 9a9bbaffd1490a74b938e0694e0bc04b, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 3
+        amount: 3
+    vipPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: 42434b0ae0e52a649aea67e8cee456ce, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 1
+        amount: 5
+  - isBoss: 1
+    bossBathType: 14
+    needDefaultPrize: 1
+    startAmountBattles: 52
+    needBattles: 10
+    defaultPrize:
+      prizeType: 1
+      prizeIcon: {fileID: 21300000, guid: 4d68369e1f93cec41bfee4f6485c3c68, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 4
+        amount: 1
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 3
+      prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+      moneyPrizeItem:
+        counterType: 1
+        amount: 1000
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 62
+    needBattles: 10
+    defaultPrize:
+      prizeType: 3
+      prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+      moneyPrizeItem:
+        counterType: 1
+        amount: 500
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 4
+      prizeIcon: {fileID: 21300000, guid: 3458262c82904c44293137e6a8d4a817, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 02000000
+        amount: 1
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 0
+    startAmountBattles: 72
+    needBattles: 10
+    defaultPrize:
+      prizeType: 0
+      prizeIcon: {fileID: 0}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 1
+      prizeIcon: {fileID: 21300000, guid: dd1dec134c08701468b5c15878df0a25, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 3
+        amount: 1
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 82
+    needBattles: 15
+    defaultPrize:
+      prizeType: 5
+      prizeIcon: {fileID: 21300000, guid: c17de17e370cda040a4206328747cff4, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 17000000
+        amount: 1
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: c2a05f7d410419b44a05f4807e0ad80b, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 2
+        amount: 5
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 97
+    needBattles: 15
+    defaultPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: c2a05f7d410419b44a05f4807e0ad80b, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 2
+        amount: 1
+    vipPrize:
+      prizeType: 3
+      prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+      moneyPrizeItem:
+        counterType: 1
+        amount: 700
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 0
+    startAmountBattles: 112
+    needBattles: 15
+    defaultPrize:
+      prizeType: 0
+      prizeIcon: {fileID: 0}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 5
+      prizeIcon: {fileID: 21300000, guid: dccb3d8706ab3f14ba2d2e6a255d4a7a, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 16000000
+        amount: 1
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 1
+    bossBathType: 15
+    needDefaultPrize: 1
+    startAmountBattles: 127
+    needBattles: 17
+    defaultPrize:
+      prizeType: 1
+      prizeIcon: {fileID: 21300000, guid: 4d68369e1f93cec41bfee4f6485c3c68, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 4
+        amount: 1
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 3
+      prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+      moneyPrizeItem:
+        counterType: 1
+        amount: 2000
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 144
+    needBattles: 17
+    defaultPrize:
+      prizeType: 3
+      prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+      moneyPrizeItem:
+        counterType: 1
+        amount: 500
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: 42434b0ae0e52a649aea67e8cee456ce, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 1
+        amount: 10
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 161
+    needBattles: 17
+    defaultPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: 42434b0ae0e52a649aea67e8cee456ce, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 1
+        amount: 3
+    vipPrize:
+      prizeType: 1
+      prizeIcon: {fileID: 21300000, guid: 4d68369e1f93cec41bfee4f6485c3c68, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 4
+        amount: 1
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 0
+    startAmountBattles: 178
+    needBattles: 20
+    defaultPrize:
+      prizeType: 0
+      prizeIcon: {fileID: 0}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: c2a05f7d410419b44a05f4807e0ad80b, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 2
+        amount: 10
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 198
+    needBattles: 20
+    defaultPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: 9a9bbaffd1490a74b938e0694e0bc04b, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 3
+        amount: 3
+    vipPrize:
+      prizeType: 4
+      prizeIcon: {fileID: 21300000, guid: 81d7a62f7d6899f448ff459373bf43c2, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 01000000
+        amount: 1
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 0
+    startAmountBattles: 218
+    needBattles: 20
+    defaultPrize:
+      prizeType: 0
+      prizeIcon: {fileID: 0}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 3
+      prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+      moneyPrizeItem:
+        counterType: 1
+        amount: 700
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+  - isBoss: 0
+    bossBathType: 0
+    needDefaultPrize: 1
+    startAmountBattles: 238
+    needBattles: 27
+    defaultPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: c2a05f7d410419b44a05f4807e0ad80b, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 2
+        amount: 3
+    vipPrize:
+      prizeType: 6
+      prizeIcon: {fileID: 21300000, guid: 9a9bbaffd1490a74b938e0694e0bc04b, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 3
+        amount: 10
+  - isBoss: 1
+    bossBathType: 16
+    needDefaultPrize: 1
+    startAmountBattles: 265
+    needBattles: 35
+    defaultPrize:
+      prizeType: 1
+      prizeIcon: {fileID: 21300000, guid: 4d68369e1f93cec41bfee4f6485c3c68, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 4
+        amount: 1
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 
+        amount: 0
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0
+    vipPrize:
+      prizeType: 5
+      prizeIcon: {fileID: 21300000, guid: dccb3d8706ab3f14ba2d2e6a255d4a7a, type: 3}
+      moneyPrizeItem:
+        counterType: 0
+        amount: 0
+      chestPrizeItem:
+        chestType: 0
+        amount: 0
+      bathCardsPrizeItem:
+        bathTypes: 
+        amount: 0
+      weaponsCardsPrizeItem:
+        weaponTypes: 16000000
+        amount: 1
+      boosterPrizeItem:
+        boosterType: 0
+        amount: 0

@@ -1,0 +1,146 @@
+
+skeleton.png
+size: 408,504
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 0, 88
+  size: 306, 414
+  orig: 319, 421
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: true
+  xy: 265, 33
+  size: 180, 115
+  orig: 180, 115
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 0, 16
+  size: 96, 99
+  orig: 103, 99
+  offset: 0, 0
+  index: -1
+handback1
+  rotate: false
+  xy: 257, 6
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+handback2
+  rotate: false
+  xy: 292, 363
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+handfront1
+  rotate: false
+  xy: 347, 9
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+handfront2
+  rotate: false
+  xy: 378, 58
+  size: 25, 34
+  orig: 25, 34
+  offset: 0, 0
+  index: -1
+horn1
+  rotate: false
+  xy: 147, 17
+  size: 109, 82
+  orig: 109, 82
+  offset: 0, 0
+  index: -1
+horn2
+  rotate: true
+  xy: 0, 442
+  size: 59, 48
+  orig: 59, 48
+  offset: 0, 0
+  index: -1
+horn3
+  rotate: false
+  xy: 261, 216
+  size: 47, 51
+  orig: 47, 51
+  offset: 0, 0
+  index: -1
+horn4
+  rotate: false
+  xy: 286, 465
+  size: 21, 36
+  orig: 21, 36
+  offset: 0, 0
+  index: -1
+horn5
+  rotate: false
+  xy: 0, 348
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+lock
+  rotate: false
+  xy: 0, 384
+  size: 38, 56
+  orig: 38, 56
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 67, 1
+  size: 101, 63
+  orig: 103, 63
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 260, 204
+  size: 230, 145
+  orig: 236, 158
+  offset: 0, 9
+  index: -1
+nosetop
+  rotate: false
+  xy: 300, 1
+  size: 44, 30
+  orig: 44, 30
+  offset: 0, 0
+  index: -1
+pupil
+  rotate: false
+  xy: 303, 428
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 309, 401
+  size: 93, 89
+  orig: 93, 89
+  offset: 0, 0
+  index: -1
+tooth
+  rotate: false
+  xy: 0, 130
+  size: 25, 33
+  orig: 25, 33
+  offset: 0, 0
+  index: -1
+tooth2copy2
+  rotate: false
+  xy: 300, 392
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1

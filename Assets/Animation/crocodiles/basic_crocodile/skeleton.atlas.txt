@@ -1,0 +1,132 @@
+
+skeleton.png
+size: 428,424
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 0, 13
+  size: 302, 412
+  orig: 302, 420
+  offset: 0, 0
+  index: -1
+eye_middle
+  rotate: false
+  xy: 59, 4
+  size: 44, 30
+  orig: 44, 30
+  offset: 0, 0
+  index: -1
+hand1
+  rotate: true
+  xy: 0, 16
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 216, 1
+  size: 61, 34
+  orig: 61, 34
+  offset: 0, 0
+  index: -1
+head
+  rotate: 270
+  xy: 324, 353
+  size: 71, 76
+  orig: 71, 76
+  offset: 0, 0
+  index: -1
+left-eye
+  rotate: 180
+  xy: 329, 120
+  size: 98, 99
+  orig: 103, 99
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 267, 194
+  size: 192, 92
+  orig: 192, 92
+  offset: 0, 0
+  index: -1
+pupil
+  rotate: false
+  xy: 0, 84
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+right-eye
+  rotate: true
+  xy: 255, 12
+  size: 179, 114
+  orig: 179, 114
+  offset: 0, 0
+  index: -1
+rot
+  rotate: 270
+  xy: 370, 11
+  size: 109, 55
+  orig: 110, 58
+  offset: 0, 3
+  index: -1
+spine1
+  rotate: false
+  xy: 361, 221
+  size: 57, 48
+  orig: 57, 48
+  offset: 0, 0
+  index: -1
+spine2
+  rotate: false
+  xy: 355, 3
+  size: 46, 51
+  orig: 46, 51
+  offset: 0, 0
+  index: -1
+spine3
+  rotate: false
+  xy: 0, 296
+  size: 21, 36
+  orig: 21, 36
+  offset: 0, 0
+  index: -1
+spine4
+  rotate: false
+  xy: 23, 344
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 333, 274
+  size: 93, 81
+  orig: 93, 81
+  offset: 0, 0
+  index: -1
+tooth
+  rotate: false
+  xy: 289, 393
+  size: 26, 32
+  orig: 26, 32
+  offset: 0, 0
+  index: -1
+tooth2
+  rotate: false
+  xy: 0, 334
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1
+zip
+  rotate: false
+  xy: 0, 368
+  size: 38, 56
+  orig: 38, 56
+  offset: 0, 0
+  index: -1

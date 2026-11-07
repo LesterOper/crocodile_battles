@@ -1,0 +1,415 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70872ff04a4048e8a6c49db0315507c2, type: 3}
+  m_Name: deck_setup
+  m_EditorClassIdentifier: 
+  decks:
+  - _isBossDeck: 0
+    _bathType: 0
+    _cards:
+    - _weaponType: 1
+    - _weaponType: 2
+    - _weaponType: 4
+    - _weaponType: 11
+    - _weaponType: 16
+    - _weaponType: 6
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.7
+    - _cardsAmount: 2
+      _propability: 0.3
+    cardsLevelPropabilities:
+    - _cardLevel: 1
+      _propability: 0.5
+    - _cardLevel: 2
+      _propability: 0.5
+    playerWinAmount: 5
+  - _isBossDeck: 0
+    _bathType: 0
+    _cards:
+    - _weaponType: 2
+    - _weaponType: 3
+    - _weaponType: 4
+    - _weaponType: 12
+    - _weaponType: 18
+    - _weaponType: 1
+    - _weaponType: 11
+    - _weaponType: 17
+    - _weaponType: 7
+    - _weaponType: 21
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.5
+    - _cardsAmount: 2
+      _propability: 0.5
+    cardsLevelPropabilities:
+    - _cardLevel: 1
+      _propability: 0.3
+    - _cardLevel: 2
+      _propability: 0.7
+    playerWinAmount: 10
+  - _isBossDeck: 0
+    _bathType: 0
+    _cards:
+    - _weaponType: 11
+    - _weaponType: 1
+    - _weaponType: 22
+    - _weaponType: 12
+    - _weaponType: 16
+    - _weaponType: 17
+    - _weaponType: 18
+    - _weaponType: 21
+    - _weaponType: 23
+    - _weaponType: 7
+    - _weaponType: 10
+    - _weaponType: 3
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.4
+    - _cardsAmount: 2
+      _propability: 0.5
+    - _cardsAmount: 3
+      _propability: 0.1
+    cardsLevelPropabilities:
+    - _cardLevel: 1
+      _propability: 0.2
+    - _cardLevel: 2
+      _propability: 0.7
+    - _cardLevel: 3
+      _propability: 0.1
+    playerWinAmount: 20
+  - _isBossDeck: 0
+    _bathType: 0
+    _cards:
+    - _weaponType: 11
+    - _weaponType: 1
+    - _weaponType: 22
+    - _weaponType: 12
+    - _weaponType: 16
+    - _weaponType: 17
+    - _weaponType: 18
+    - _weaponType: 21
+    - _weaponType: 23
+    - _weaponType: 7
+    - _weaponType: 10
+    - _weaponType: 8
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.3
+    - _cardsAmount: 2
+      _propability: 0.6
+    - _cardsAmount: 3
+      _propability: 0.1
+    cardsLevelPropabilities:
+    - _cardLevel: 1
+      _propability: 0.05
+    - _cardLevel: 2
+      _propability: 0.8
+    - _cardLevel: 3
+      _propability: 0.15
+    playerWinAmount: 35
+  - _isBossDeck: 0
+    _bathType: 0
+    _cards:
+    - _weaponType: 11
+    - _weaponType: 1
+    - _weaponType: 22
+    - _weaponType: 10
+    - _weaponType: 8
+    - _weaponType: 9
+    - _weaponType: 5
+    - _weaponType: 12
+    - _weaponType: 13
+    - _weaponType: 17
+    - _weaponType: 18
+    - _weaponType: 3
+    - _weaponType: 21
+    - _weaponType: 23
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.2
+    - _cardsAmount: 2
+      _propability: 0.6
+    - _cardsAmount: 3
+      _propability: 0.2
+    cardsLevelPropabilities:
+    - _cardLevel: 2
+      _propability: 0.4
+    - _cardLevel: 3
+      _propability: 0.4
+    - _cardLevel: 4
+      _propability: 0.2
+    playerWinAmount: 50
+  - _isBossDeck: 0
+    _bathType: 0
+    _cards:
+    - _weaponType: 2
+    - _weaponType: 11
+    - _weaponType: 1
+    - _weaponType: 22
+    - _weaponType: 7
+    - _weaponType: 10
+    - _weaponType: 8
+    - _weaponType: 9
+    - _weaponType: 5
+    - _weaponType: 12
+    - _weaponType: 13
+    - _weaponType: 16
+    - _weaponType: 17
+    - _weaponType: 18
+    - _weaponType: 21
+    - _weaponType: 23
+    - _weaponType: 3
+    - _weaponType: 4
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.05
+    - _cardsAmount: 2
+      _propability: 0.6
+    - _cardsAmount: 3
+      _propability: 0.35
+    cardsLevelPropabilities:
+    - _cardLevel: 2
+      _propability: 0.1
+    - _cardLevel: 3
+      _propability: 0.2
+    - _cardLevel: 4
+      _propability: 0.3
+    - _cardLevel: 5
+      _propability: 0.3
+    - _cardLevel: 6
+      _propability: 0.1
+    playerWinAmount: 100
+  - _isBossDeck: 0
+    _bathType: 0
+    _cards:
+    - _weaponType: 2
+    - _weaponType: 11
+    - _weaponType: 1
+    - _weaponType: 22
+    - _weaponType: 7
+    - _weaponType: 10
+    - _weaponType: 8
+    - _weaponType: 9
+    - _weaponType: 5
+    - _weaponType: 12
+    - _weaponType: 13
+    - _weaponType: 16
+    - _weaponType: 17
+    - _weaponType: 18
+    - _weaponType: 3
+    - _weaponType: 21
+    - _weaponType: 23
+    - _weaponType: 4
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.02
+    - _cardsAmount: 2
+      _propability: 0.6
+    - _cardsAmount: 3
+      _propability: 0.38
+    cardsLevelPropabilities:
+    - _cardLevel: 4
+      _propability: 0.1
+    - _cardLevel: 5
+      _propability: 0.2
+    - _cardLevel: 6
+      _propability: 0.3
+    - _cardLevel: 7
+      _propability: 0.3
+    - _cardLevel: 8
+      _propability: 0.1
+    playerWinAmount: 500
+  - _isBossDeck: 1
+    _bathType: 11
+    _cards:
+    - _weaponType: 1
+    - _weaponType: 2
+    - _weaponType: 11
+    - _weaponType: 4
+    - _weaponType: 7
+    - _weaponType: 12
+    - _weaponType: 16
+    - _weaponType: 17
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.5
+    - _cardsAmount: 2
+      _propability: 0.5
+    cardsLevelPropabilities:
+    - _cardLevel: 1
+      _propability: 0.3
+    - _cardLevel: 2
+      _propability: 0.7
+    playerWinAmount: 0
+  - _isBossDeck: 1
+    _bathType: 12
+    _cards:
+    - _weaponType: 1
+    - _weaponType: 22
+    - _weaponType: 12
+    - _weaponType: 13
+    - _weaponType: 17
+    - _weaponType: 18
+    - _weaponType: 3
+    - _weaponType: 21
+    - _weaponType: 23
+    - _weaponType: 10
+    - _weaponType: 8
+    - _weaponType: 5
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.3
+    - _cardsAmount: 2
+      _propability: 0.7
+    cardsLevelPropabilities:
+    - _cardLevel: 1
+      _propability: 0.6
+    - _cardLevel: 2
+      _propability: 0.35
+    - _cardLevel: 3
+      _propability: 0.05
+    playerWinAmount: 0
+  - _isBossDeck: 1
+    _bathType: 13
+    _cards:
+    - _weaponType: 1
+    - _weaponType: 22
+    - _weaponType: 12
+    - _weaponType: 13
+    - _weaponType: 17
+    - _weaponType: 18
+    - _weaponType: 4
+    - _weaponType: 21
+    - _weaponType: 23
+    - _weaponType: 8
+    - _weaponType: 5
+    - _weaponType: 9
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.05
+    - _cardsAmount: 2
+      _propability: 0.6
+    - _cardsAmount: 3
+      _propability: 0.35
+    cardsLevelPropabilities:
+    - _cardLevel: 3
+      _propability: 0.4
+    - _cardLevel: 4
+      _propability: 0.5
+    - _cardLevel: 5
+      _propability: 0.1
+    playerWinAmount: 0
+  - _isBossDeck: 1
+    _bathType: 14
+    _cards:
+    - _weaponType: 11
+    - _weaponType: 1
+    - _weaponType: 22
+    - _weaponType: 10
+    - _weaponType: 8
+    - _weaponType: 9
+    - _weaponType: 5
+    - _weaponType: 12
+    - _weaponType: 13
+    - _weaponType: 17
+    - _weaponType: 18
+    - _weaponType: 3
+    - _weaponType: 21
+    - _weaponType: 23
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.02
+    - _cardsAmount: 2
+      _propability: 0.6
+    - _cardsAmount: 3
+      _propability: 0.38
+    cardsLevelPropabilities:
+    - _cardLevel: 5
+      _propability: 0.3
+    - _cardLevel: 6
+      _propability: 0.4
+    - _cardLevel: 7
+      _propability: 0.3
+    playerWinAmount: 0
+  - _isBossDeck: 1
+    _bathType: 15
+    _cards:
+    - _weaponType: 11
+    - _weaponType: 1
+    - _weaponType: 22
+    - _weaponType: 10
+    - _weaponType: 8
+    - _weaponType: 9
+    - _weaponType: 5
+    - _weaponType: 12
+    - _weaponType: 13
+    - _weaponType: 17
+    - _weaponType: 18
+    - _weaponType: 3
+    - _weaponType: 21
+    - _weaponType: 23
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.02
+    - _cardsAmount: 2
+      _propability: 0.6
+    - _cardsAmount: 3
+      _propability: 0.38
+    cardsLevelPropabilities:
+    - _cardLevel: 6
+      _propability: 0.1
+    - _cardLevel: 7
+      _propability: 0.2
+    - _cardLevel: 8
+      _propability: 0.3
+    - _cardLevel: 9
+      _propability: 0.3
+    - _cardLevel: 10
+      _propability: 0.1
+    playerWinAmount: 0
+  - _isBossDeck: 1
+    _bathType: 16
+    _cards:
+    - _weaponType: 11
+    - _weaponType: 1
+    - _weaponType: 22
+    - _weaponType: 10
+    - _weaponType: 8
+    - _weaponType: 9
+    - _weaponType: 5
+    - _weaponType: 12
+    - _weaponType: 13
+    - _weaponType: 17
+    - _weaponType: 18
+    - _weaponType: 3
+    - _weaponType: 21
+    - _weaponType: 23
+    cardsAmountPropabilities:
+    - _cardsAmount: 1
+      _propability: 0.01
+    - _cardsAmount: 2
+      _propability: 0.55
+    - _cardsAmount: 3
+      _propability: 0.44
+    cardsLevelPropabilities:
+    - _cardLevel: 6
+      _propability: 0.05
+    - _cardLevel: 7
+      _propability: 0.1
+    - _cardLevel: 8
+      _propability: 0.3
+    - _cardLevel: 9
+      _propability: 0.35
+    - _cardLevel: 10
+      _propability: 0.2
+    playerWinAmount: 0

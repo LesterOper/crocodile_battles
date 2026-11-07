@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: main_scene
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: eefa1c22254eaaa4b9dc58e5e923d768, type: 3}
+    - {fileID: 102900000, guid: 5250767d394044441a19e9302b106188, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 49e64920b5cd38e46aa5d25b6728765a, type: 3}
+  - {fileID: 21300000, guid: eade6a30f55dadd4d8a37cfee3d1de09, type: 3}
+  - {fileID: 21300000, guid: 94e04c808e610be44b8edd6eff22f8f2, type: 3}
+  - {fileID: 21300000, guid: ae1dae903c1a64e40bbd0727f85e96cd, type: 3}
+  - {fileID: 21300000, guid: 3e7d62c010524d14f8b49f3977eb490b, type: 3}
+  - {fileID: 21300000, guid: 52eeddf0c3ef0ce41a4fa5b125be7ceb, type: 3}
+  - {fileID: 21300000, guid: 72e979419ccc38f4d898a82d2b6af56e, type: 3}
+  - {fileID: 21300000, guid: f3a46f5165a89c54d936f645137387bd, type: 3}
+  - {fileID: 21300000, guid: 4097fed11acc3844ea59d9d5cdbabf0b, type: 3}
+  - {fileID: 21300000, guid: a6ea5752a0c76d14b87257ae0bc208bb, type: 3}
+  - {fileID: 21300000, guid: a45d9b62c6e932540beb38b1435bb585, type: 3}
+  - {fileID: 21300000, guid: b4a8fee208eef2b44bc0137fddd3ba7c, type: 3}
+  - {fileID: 21300000, guid: dd1dec134c08701468b5c15878df0a25, type: 3}
+  - {fileID: 21300000, guid: b5799ad3a6e4d5942a0925be7c1f88c9, type: 3}
+  - {fileID: 21300000, guid: 850886e37714d6f4f86bbb5da54af675, type: 3}
+  - {fileID: 21300000, guid: d9464d24bb23f524992e6a6c2aa123e2, type: 3}
+  - {fileID: 21300000, guid: 242de284ddd8c1647b8b0c046305dfde, type: 3}
+  - {fileID: 21300000, guid: 6a0771b46f8550a45bcadf88278411b1, type: 3}
+  - {fileID: 21300000, guid: 9ed3fdc4df7402d4186cc6ef276feea5, type: 3}
+  - {fileID: 21300000, guid: de718df47ee9d2940ba89551b9835760, type: 3}
+  - {fileID: 21300000, guid: 89270e65da2b8f644b1c71023ecaba92, type: 3}
+  - {fileID: 21300000, guid: ccc330a508dcbdb41869eb8128c9d06b, type: 3}
+  - {fileID: 21300000, guid: ab749216405f6764cadfe0043cd1ce4f, type: 3}
+  - {fileID: 21300000, guid: c4817fc6f19e8794e939a68ce3ffc960, type: 3}
+  - {fileID: 21300000, guid: aad49af61d1ae614b885e4f91ca176b5, type: 3}
+  - {fileID: 21300000, guid: 222c6c0708e704049b3de063d42d5e8c, type: 3}
+  - {fileID: 21300000, guid: fee76427d76f9cf47b14fa87182fecb5, type: 3}
+  - {fileID: 21300000, guid: 0ccb5d678c8433b48aa513bacb8a97a6, type: 3}
+  - {fileID: 21300000, guid: 6489afb8d1b469e479a7b02939f0739a, type: 3}
+  - {fileID: 21300000, guid: e10ff3e87a045124c8d63ed9452a00db, type: 3}
+  - {fileID: 21300000, guid: fb4993f82a1167d4b9049490da01872b, type: 3}
+  - {fileID: 21300000, guid: e8e18e89270eefb45ae943de8f976ab3, type: 3}
+  - {fileID: 21300000, guid: 25fcc02a70f7213469d551dc6e0f34c2, type: 3}
+  - {fileID: 21300000, guid: f038354ac315287458bd9d9ab44407e7, type: 3}
+  - {fileID: 21300000, guid: 5d717c6a63ad490418e37343fb62ea44, type: 3}
+  - {fileID: 21300000, guid: 6f7b44ead52034942aa215121992da1e, type: 3}
+  - {fileID: 21300000, guid: 94de355cc00772f4197a3bf6bb3cc0ab, type: 3}
+  - {fileID: 21300000, guid: 78575d6c7007ef149bab182bd11f2718, type: 3}
+  - {fileID: 21300000, guid: 94e9788c7360ba5478112d7709881be4, type: 3}
+  - {fileID: 21300000, guid: e8e661dc1001967449def67ddc436ac7, type: 3}
+  - {fileID: 21300000, guid: 1c28100d50c25ca4c97ac2d08d14a94a, type: 3}
+  - {fileID: 21300000, guid: 0179089db67a1aa4aad826ad5d60c819, type: 3}
+  - {fileID: 21300000, guid: 46654b2e4a7d2814596f45b7c4a69b32, type: 3}
+  - {fileID: 21300000, guid: d45fa83e73e74704b8c92d1c21e2e412, type: 3}
+  - {fileID: 21300000, guid: 7726824ebe21ac942b5cad1b44b88173, type: 3}
+  - {fileID: 21300000, guid: ecf51a8e124b0ab439839a03e33a8890, type: 3}
+  - {fileID: 21300000, guid: 4d68369e1f93cec41bfee4f6485c3c68, type: 3}
+  - {fileID: 21300000, guid: 243d305f4da2e0f4b9a630f2c2eedf32, type: 3}
+  - {fileID: 21300000, guid: 0dddcb5f9817dea4784e3790ebed142e, type: 3}
+  - {fileID: 21300000, guid: dc44df7f5b2fb3a489e2b0fcc61f88c5, type: 3}
+  - {fileID: 21300000, guid: 70c633af811b7fd459dafd41bc0baa4a, type: 3}
+  - {fileID: 21300000, guid: caf83bafd2f35754d826972258c46f60, type: 3}
+  - {fileID: 21300000, guid: 96e127bf13a4f6d4a8b8e28c3d2a5b3b, type: 3}
+  - {fileID: 21300000, guid: 87b870dfa4b8e34479b5c1fd21cb0b4a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - R
+  - mrsecrettoiletlover
+  - bath_2
+  - chest basement
+  - "Layer 638 copy \u043A\u043E\u043F\u0438\u044F 2"
+  - water
+  - "\u04411"
+  - 1070241
+  - "\u0442\u0435\u043D\u044C \u043E\u0442 R"
+  - auto bath
+  - seaweed-1
+  - O2
+  - chest 3
+  - pipe_top
+  - "\u0421\u043B\u043E\u0439 1135"
+  - tube 1
+  - "Layer 638 copy 4 \u043A\u043E\u043F\u0438\u044F"
+  - tube
+  - 2022-01-04_09-55-58
+  - AlexPlay.net copy
+  - "Layer 638 copy \u043A\u043E\u043F\u0438\u044F"
+  - Layer 3170
+  - behind_door-bg
+  - Layer 638 copy 4
+  - "\u0421\u043B\u043E\u0439 1136 \u043A\u043E\u043F\u0438\u044F"
+  - pirs
+  - seaweed
+  - waves
+  - bg
+  - pupil
+  - Layer 638 copy 5
+  - pipe_bg
+  - "\u0442\u0435\u043D\u044C \u043E\u0442 \u04211"
+  - light on
+  - "Layer 638 copy 5 \u043A\u043E\u043F\u0438\u044F"
+  - "\u0421\u043B\u043E\u0439 1134"
+  - chest 4
+  - "\u0442\u0435\u043D\u044C croc"
+  - seaweed-2
+  - aumosphere
+  - bath_basic
+  - water front
+  - "\u0442\u0435\u043D\u044C \u043E\u0442 \u041E2"
+  - "\u0421\u043B\u043E\u0439 1136"
+  - add chest
+  - C2
+  - chest 2
+  - water front from fight location
+  - chest _daily
+  - chest 1
+  - tube 1-1
+  - light off
+  - water_circles
+  - bath_shadow
+  m_RenderDataMap: {}
+  m_Tag: main_scene
+  m_IsVariant: 0

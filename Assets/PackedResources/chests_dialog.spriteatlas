@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: chests_dialog
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 7792169d903ac824bad484650e9811d9, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: dfc3f51068297f449af5dbac916c7148, type: 3}
+  - {fileID: 21300000, guid: 1ebb7c50dc37a2746a17e0ea90864063, type: 3}
+  - {fileID: 21300000, guid: 304ce2c08ed0823488e2781600e090da, type: 3}
+  - {fileID: 21300000, guid: 013607c0413385f48be6d211c3a1e332, type: 3}
+  - {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+  - {fileID: 21300000, guid: f110e751e5a98564596ab2012e213903, type: 3}
+  - {fileID: 21300000, guid: 4c45db327dc5f354b9f2f8959a0ecc41, type: 3}
+  - {fileID: 21300000, guid: 5abeafe286484bc4db4ada8bf0df4216, type: 3}
+  - {fileID: 21300000, guid: 794792738e913cb4ab2043331f5c93a1, type: 3}
+  - {fileID: 21300000, guid: de6d5f9337c012742a3b7157798e4702, type: 3}
+  - {fileID: 21300000, guid: d2ac69a37e032834e8869e96b6c4d45d, type: 3}
+  - {fileID: 21300000, guid: 7829943402767974eb34dc7557226f31, type: 3}
+  - {fileID: 21300000, guid: eb9499f46b3752d4da7755363f7353e2, type: 3}
+  - {fileID: 21300000, guid: 89cdba55f4ae15949a7f69408da4a0c4, type: 3}
+  - {fileID: 21300000, guid: 873505c52125e1d44af2258aafe6b57a, type: 3}
+  - {fileID: 21300000, guid: 4963f6d5d651c9640a3d27fe030dd2d8, type: 3}
+  - {fileID: 21300000, guid: 37e337467bc35d74b986ff2a17281cc5, type: 3}
+  - {fileID: 21300000, guid: 950d3c76d1f9dc94a909da569dc647bc, type: 3}
+  - {fileID: 21300000, guid: afabc786ce9301e43b5f7780ded262b4, type: 3}
+  - {fileID: 21300000, guid: 27d9b9f6c4c4000418dff07b3d426a3b, type: 3}
+  - {fileID: 21300000, guid: f20c86770aaf0454ab65cd5de6980a58, type: 3}
+  - {fileID: 21300000, guid: 5ddda0d7764de3e419ec13134856410c, type: 3}
+  - {fileID: 21300000, guid: f14818e7ececc7e46be83813ec5c3ece, type: 3}
+  - {fileID: 21300000, guid: 9d083838878bbdc47b9f15e1f915bf10, type: 3}
+  - {fileID: 21300000, guid: 142f617818faffb47b15e95c4898df1b, type: 3}
+  - {fileID: 21300000, guid: 445e5a19b271b0446bab8aa007e15183, type: 3}
+  - {fileID: 21300000, guid: dbc7ba89855363d448c89db8d2a9e2fb, type: 3}
+  - {fileID: 21300000, guid: bffa02d9829ff6d488b9dbc76b433932, type: 3}
+  - {fileID: 21300000, guid: ab65194a5913edc4c8bbd470398433ae, type: 3}
+  - {fileID: 21300000, guid: 20b5367a971bd29428739b3338cced0c, type: 3}
+  - {fileID: 21300000, guid: 70e451ba1fce4104895a0d921fd22569, type: 3}
+  - {fileID: 21300000, guid: 641e11da972906f4092e8ee07099da57, type: 3}
+  - {fileID: 21300000, guid: 527291faffb4e8148ba96f36989b00e8, type: 3}
+  - {fileID: 21300000, guid: 737c121b4eed70d46a69d3a3af5dba74, type: 3}
+  - {fileID: 21300000, guid: 9cdf732b86f639840a51dd827a384b10, type: 3}
+  - {fileID: 21300000, guid: 3ea40c9bf9a4e7e45842357f1c0dc4d3, type: 3}
+  - {fileID: 21300000, guid: 52da464c5e7214342bc2e801c6139a09, type: 3}
+  - {fileID: 21300000, guid: daebde4c996f92d49b4d2384bc852bd7, type: 3}
+  - {fileID: 21300000, guid: 6b07115cb3bcb5c4481d8ea90433a9a5, type: 3}
+  - {fileID: 21300000, guid: ff6a4d7cfcaf1e348931124c44655472, type: 3}
+  - {fileID: 21300000, guid: 22cd05cc203f142489c7d27ce175917f, type: 3}
+  - {fileID: 21300000, guid: 7d5f633d849e3654d9b4509334e54f4c, type: 3}
+  - {fileID: 21300000, guid: 71271c5ddf6283c458156e3d007d6a44, type: 3}
+  - {fileID: 21300000, guid: 3204ea4e9effdaa4ea3debd396e4fc4a, type: 3}
+  - {fileID: 21300000, guid: 7ff2718efde2c9141867cd90ef62d22e, type: 3}
+  - {fileID: 21300000, guid: a7588ede3f38eb2489889bcffb642527, type: 3}
+  - {fileID: 21300000, guid: 3eb7beee5b3d1764d8b7db6b30ab472c, type: 3}
+  - {fileID: 21300000, guid: 5c94042f96ff8d840a0cdb519e7304a3, type: 3}
+  - {fileID: 21300000, guid: f267573f6b03cf047bd3de1762fcc97b, type: 3}
+  - {fileID: 21300000, guid: fb4b88af5bf9bf7418f34ae95d5a3395, type: 3}
+  - {fileID: 21300000, guid: a69590cf81963c546ad84043e467e24d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - special box cap
+  - big box
+  - time icon
+  - small box body
+  - basic money
+  - unique box cap
+  - bg dialog
+  - small box cap_
+  - ad box ad
+  - bar empty
+  - bg dialog small
+  - soon 1
+  - green btn small
+  - "\u041F\u0440\u044F\u043C\u043E\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A
+    1479 \u043A\u043E\u043F\u0438\u044F 3 copy"
+  - ad box shadow
+  - ad box cap
+  - special box
+  - number of chests
+  - cards icon
+  - gold btn
+  - special box back
+  - ad box btn
+  - unique box shadow
+  - bar full
+  - small box shadow
+  - green btn
+  - open chest icon
+  - gold btn small
+  - big box shadow
+  - big box body
+  - light
+  - bg dialog medium
+  - small box
+  - line sep v
+  - special box body
+  - big box bg
+  - ok btn
+  - unique box_
+  - close
+  - big box cap
+  - ad icon
+  - unique box back
+  - number 0 of chest
+  - small box btn
+  - battle icon
+  - unique box body
+  - special box shadow
+  - prem money
+  - add chest icon
+  - timer
+  - ad box body
+  m_RenderDataMap: {}
+  m_Tag: chests_dialog
+  m_IsVariant: 0

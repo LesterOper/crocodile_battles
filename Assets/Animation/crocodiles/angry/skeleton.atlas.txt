@@ -1,0 +1,139 @@
+
+skeleton.png
+size: 536,424
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 0, 1
+  size: 379, 424
+  orig: 379, 434
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: true
+  xy: 413, 12
+  size: 212, 116
+  orig: 212, 116
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 0, 4
+  size: 97, 97
+  orig: 103, 97
+  offset: 0, 0
+  index: -1
+handback1
+  rotate: false
+  xy: 484, 211
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+handback2
+  rotate: false
+  xy: 0, 185
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+handfront1
+  rotate: false
+  xy: 475, 341
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+handfront2
+  rotate: false
+  xy: 0, 390
+  size: 25, 34
+  orig: 25, 34
+  offset: 0, 0
+  index: -1
+horn
+  rotate: false
+  xy: 355, 10
+  size: 61, 86
+  orig: 61, 86
+  offset: 0, 0
+  index: -1
+horn2
+  rotate: false
+  xy: 0, 105
+  size: 43, 77
+  orig: 43, 100
+  offset: 0, 23
+  index: -1
+horn3
+  rotate: false
+  xy: 337, 331
+  size: 52, 72
+  orig: 52, 72
+  offset: 0, 0
+  index: -1
+horn4
+  rotate: 270
+  xy: 488, 109
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: -1
+horn5
+  rotate: false
+  xy: 20, 102
+  size: 48, 35
+  orig: 48, 35
+  offset: 0, 0
+  index: -1
+horn6
+  rotate: false
+  xy: 84, 5
+  size: 47, 30
+  orig: 47, 30
+  offset: 0, 0
+  index: -1
+lock
+  rotate: false
+  xy: 321, 368
+  size: 38, 56
+  orig: 38, 56
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 305, 131
+  size: 268, 150
+  orig: 287, 181
+  offset: 19, 22
+  index: -1
+nosetop
+  rotate: false
+  xy: 339, 3
+  size: 57, 31
+  orig: 57, 31
+  offset: 0, 0
+  index: -1
+pupil
+  rotate: false
+  xy: 27, 406
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 428, 253
+  size: 93, 89
+  orig: 93, 89
+  offset: 0, 0
+  index: -1
+tooth
+  rotate: false
+  xy: 289, 404
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1

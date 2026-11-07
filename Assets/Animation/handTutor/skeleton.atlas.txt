@@ -1,0 +1,20 @@
+
+skeleton.png
+size: 160,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hand tutor
+  rotate: true
+  xy: 0, 0
+  size: 84, 98
+  orig: 84, 98
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 0, 86
+  size: 159, 185
+  orig: 159, 185
+  offset: 0, 0
+  index: -1

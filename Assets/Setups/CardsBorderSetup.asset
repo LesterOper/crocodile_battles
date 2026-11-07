@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a683680eb1f51a942a78cf365cacfc26, type: 3}
+  m_Name: CardsBorderSetup
+  m_EditorClassIdentifier: 
+  bathBorders:
+  - level: 1
+    border: {fileID: 21300000, guid: 3763a4d39bb8ef24b8a46efe63a674d4, type: 3}
+  - level: 2
+    border: {fileID: 21300000, guid: a0bdb1b5aef00f7449f9741bc0f9c986, type: 3}
+  - level: 3
+    border: {fileID: 21300000, guid: 896d5a8b703094e4eae75b31a4e49107, type: 3}
+  - level: 4
+    border: {fileID: 21300000, guid: e09a6a114d9e4a14c8bd44c569a94640, type: 3}
+  - level: 5
+    border: {fileID: 21300000, guid: 3e1470e76950f0947b97d39aa4581395, type: 3}
+  - level: 6
+    border: {fileID: 21300000, guid: 39f4aae8617b5294fb05af297c06844a, type: 3}
+  - level: 7
+    border: {fileID: 21300000, guid: fef821ddbb098214cbeafa3d0c6fa970, type: 3}
+  - level: 8
+    border: {fileID: 21300000, guid: c3f0c89eba4f101409003ba58324a92c, type: 3}
+  - level: 9
+    border: {fileID: 21300000, guid: d85990e1a66dc19479a726ededaa180b, type: 3}
+  - level: 10
+    border: {fileID: 21300000, guid: 1788d03d4700576428f16f93bd8c7f50, type: 3}
+  basicCardBorders:
+  - level: 1
+    border: {fileID: 21300000, guid: 29ea913d935a99642bdba2faa85e5663, type: 3}
+  - level: 2
+    border: {fileID: 21300000, guid: c2bfb60666bd2ac48971ba1d343bbd18, type: 3}
+  - level: 3
+    border: {fileID: 21300000, guid: 23c75f3df8bc8ab4f9dea116b5c6d4e2, type: 3}
+  - level: 4
+    border: {fileID: 21300000, guid: d5ad4954bfc159549ad1565c7c8089e2, type: 3}
+  - level: 5
+    border: {fileID: 21300000, guid: 90e7c533c24226c4d8fad953732f35b2, type: 3}
+  - level: 6
+    border: {fileID: 21300000, guid: b88dadc3c45979a4f815ed6ac95fbb64, type: 3}
+  - level: 7
+    border: {fileID: 21300000, guid: ef88e3b9d447ae842918871e81f9c391, type: 3}
+  - level: 8
+    border: {fileID: 21300000, guid: 5bcee3205d6f75643a1fa7bcc323118c, type: 3}
+  - level: 9
+    border: {fileID: 21300000, guid: 62adb8a41e6fcc04582e62c110c6a65e, type: 3}
+  - level: 10
+    border: {fileID: 21300000, guid: bad68669c599d8c4db1495031ff2064a, type: 3}

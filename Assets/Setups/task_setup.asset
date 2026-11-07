@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f7fdb8de2d4527954840593b4d3238, type: 3}
+  m_Name: task_setup
+  m_EditorClassIdentifier: 
+  tasks:
+  - _taskGroup: 1
+    _type: 1
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 1
+      _amount: 10
+      _prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+    _startCompleteValue: 3
+    _descriptionKey: achiev_battles_player
+    _taskIcon: {fileID: 21300000, guid: f60c66a95d76ae544b2cd1339e8b6aad, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 2
+    _prizeAmountCoefficient: 5
+  - _taskGroup: 1
+    _type: 2
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 1
+      _amount: 50
+      _prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+    _startCompleteValue: 3
+    _descriptionKey: achiev_battles_win
+    _taskIcon: {fileID: 21300000, guid: 5a3af7d0d6a90f8488125a7cb65fb3c6, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 10
+  - _taskGroup: 5
+    _type: 3
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 1
+      _amount: 20
+      _prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_cards_opened
+    _taskIcon: {fileID: 21300000, guid: 665919e7e9f630444aba57730e23cd2a, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 10
+  - _taskGroup: 3
+    _type: 4
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 1
+      _amount: 10
+      _prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+    _startCompleteValue: 2
+    _descriptionKey: achiev_cards_merged
+    _taskIcon: {fileID: 21300000, guid: 26e0444a9bc70ff4ca8719aa70b93026, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 10
+  - _taskGroup: 1
+    _type: 5
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 1
+      _amount: 50
+      _prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_win_bosses
+    _taskIcon: {fileID: 21300000, guid: b2d51e1606f280a40ab734026c69ab04, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 50
+  - _taskGroup: 2
+    _type: 6
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 1
+      _amount: 50
+      _prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_open_small_chest
+    _taskIcon: {fileID: 21300000, guid: 421c5a273b00f444ea079beb38dfa292, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 20
+  - _taskGroup: 2
+    _type: 7
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 6
+      _amount: 1
+      _prizeIcon: {fileID: 21300000, guid: 42434b0ae0e52a649aea67e8cee456ce, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_open_medium_chest
+    _taskIcon: {fileID: 21300000, guid: 394a391b55844bb42a26703940ae0c57, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 2
+    _type: 8
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 7
+      _amount: 1
+      _prizeIcon: {fileID: 21300000, guid: c2a05f7d410419b44a05f4807e0ad80b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_open_mege_chest
+    _taskIcon: {fileID: 21300000, guid: 8cd9cfa31fb7d0e4aaf087c9db46e048, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 2
+    _type: 9
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 8
+      _amount: 1
+      _prizeIcon: {fileID: 21300000, guid: 9a9bbaffd1490a74b938e0694e0bc04b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_open_giga_chest
+    _taskIcon: {fileID: 21300000, guid: 9bbeb85993189ff4d85987aa01371df3, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 5
+    _type: 11
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 6
+      _amount: 1
+      _prizeIcon: {fileID: 21300000, guid: 42434b0ae0e52a649aea67e8cee456ce, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_take_card_rank_2
+    _taskIcon: {fileID: 21300000, guid: 08127bdfb750f414db9dc2f758ef9478, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 5
+    _type: 12
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 6
+      _amount: 1
+      _prizeIcon: {fileID: 21300000, guid: 42434b0ae0e52a649aea67e8cee456ce, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_take_card_rank_3
+    _taskIcon: {fileID: 21300000, guid: 858070476d3fab848946657b1531c975, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 5
+    _type: 13
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 6
+      _amount: 1
+      _prizeIcon: {fileID: 21300000, guid: 42434b0ae0e52a649aea67e8cee456ce, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_take_card_rank_4
+    _taskIcon: {fileID: 21300000, guid: dfaa6b9216170d145b10ae078c969fa9, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 5
+    _type: 14
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 7
+      _amount: 1
+      _prizeIcon: {fileID: 21300000, guid: c2a05f7d410419b44a05f4807e0ad80b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_take_card_rank_5
+    _taskIcon: {fileID: 21300000, guid: c429e6c073eef9e40947691be7683c93, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 5
+    _type: 15
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 7
+      _amount: 1
+      _prizeIcon: {fileID: 21300000, guid: c2a05f7d410419b44a05f4807e0ad80b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_take_card_rank_6
+    _taskIcon: {fileID: 21300000, guid: 7dabe201227e6bf41869dd4cbb5b0d76, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 5
+    _type: 16
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 7
+      _amount: 1
+      _prizeIcon: {fileID: 21300000, guid: c2a05f7d410419b44a05f4807e0ad80b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_take_card_rank_7
+    _taskIcon: {fileID: 21300000, guid: 723f6912746bb02429e1d56fa89f725f, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 5
+    _type: 17
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 8
+      _amount: 1
+      _prizeIcon: {fileID: 21300000, guid: 9a9bbaffd1490a74b938e0694e0bc04b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_take_card_rank_8
+    _taskIcon: {fileID: 21300000, guid: 2af9e8cbdccc21d4a88eb48574e1519e, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 5
+    _type: 18
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 8
+      _amount: 1
+      _prizeIcon: {fileID: 21300000, guid: 9a9bbaffd1490a74b938e0694e0bc04b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_take_card_rank_9
+    _taskIcon: {fileID: 21300000, guid: 76fd008ea3ea56a40bf729cbd539c29e, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 5
+    _type: 19
+    _timeSpan: 2
+    _defaultPrize:
+    - _prize: 8
+      _amount: 1
+      _prizeIcon: {fileID: 21300000, guid: 9a9bbaffd1490a74b938e0694e0bc04b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_take_card_rank_10
+    _taskIcon: {fileID: 21300000, guid: d6e590d4aacf5e1498bf904e52972276, type: 3}
+    _taskPropability: 0
+    _completeValueCoefficient: 1
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 1
+    _type: 20
+    _timeSpan: 1
+    _defaultPrize:
+    - _prize: 1
+      _amount: 20
+      _prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_win_one_battle
+    _taskIcon: {fileID: 21300000, guid: 83af7f14d0a037347a7fa5ca291d4262, type: 3}
+    _taskPropability: 0.18
+    _completeValueCoefficient: 0
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 2
+    _type: 21
+    _timeSpan: 1
+    _defaultPrize:
+    - _prize: 1
+      _amount: 20
+      _prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_open_one_chest
+    _taskIcon: {fileID: 21300000, guid: 3d50857d1b265c144a6d80b9ae9f8a70, type: 3}
+    _taskPropability: 0.18
+    _completeValueCoefficient: 0
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 5
+    _type: 22
+    _timeSpan: 1
+    _defaultPrize:
+    - _prize: 1
+      _amount: 20
+      _prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+    _startCompleteValue: 2
+    _descriptionKey: achiev_merge_two_cards
+    _taskIcon: {fileID: 21300000, guid: f4f066ddbe825084ea78a70c605880e2, type: 3}
+    _taskPropability: 0.18
+    _completeValueCoefficient: 0
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 1
+    _type: 23
+    _timeSpan: 1
+    _defaultPrize:
+    - _prize: 1
+      _amount: 50
+      _prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+    _startCompleteValue: 3
+    _descriptionKey: achiev_play_three_battle
+    _taskIcon: {fileID: 21300000, guid: dc4d0db1ac5d05d4dbcce363e6028213, type: 3}
+    _taskPropability: 0.18
+    _completeValueCoefficient: 0
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 3
+    _type: 24
+    _timeSpan: 1
+    _defaultPrize:
+    - _prize: 1
+      _amount: 20
+      _prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+    _startCompleteValue: 1
+    _descriptionKey: achiev_take_chest
+    _taskIcon: {fileID: 21300000, guid: 97cf2d6f4c87bee44b4e29ce4bf39428, type: 3}
+    _taskPropability: 0.18
+    _completeValueCoefficient: 0
+    _prizeAmountCoefficient: 0
+  - _taskGroup: 1
+    _type: 25
+    _timeSpan: 1
+    _defaultPrize:
+    - _prize: 1
+      _amount: 50
+      _prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+    _startCompleteValue: 3
+    _descriptionKey: achiev_win_three_battle
+    _taskIcon: {fileID: 21300000, guid: 428fab85f21620a40bf08f0aa2bebd62, type: 3}
+    _taskPropability: 0.1
+    _completeValueCoefficient: 0
+    _prizeAmountCoefficient: 0

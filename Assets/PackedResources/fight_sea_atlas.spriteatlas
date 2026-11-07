@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fight_sea_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: e8eec9a491dd99446b8fc5319da9e730, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 98d65840ab1e5354c9608ae99e7f522b, type: 3}
+  - {fileID: 21300000, guid: 5055f07004526c348862e4befed7d534, type: 3}
+  - {fileID: 21300000, guid: 40b441a044aaf8f4d8ce1a4f7289c299, type: 3}
+  - {fileID: 21300000, guid: a098f6c04c98602478ad16556c232ffb, type: 3}
+  - {fileID: 21300000, guid: 85927b415aebb10428930916e492b276, type: 3}
+  - {fileID: 21300000, guid: c440a4f2f7cf93c4ba3b5918757e6296, type: 3}
+  - {fileID: 21300000, guid: 2b7a9d93b8e739e44818b237c42a12be, type: 3}
+  - {fileID: 21300000, guid: c44a66b3d753f8d4c90ac80d6771ce4c, type: 3}
+  - {fileID: 21300000, guid: 188b5cd3426055b40a60672d47086234, type: 3}
+  - {fileID: 21300000, guid: 113abbe3d8d57054badd28b7e1425e09, type: 3}
+  - {fileID: 21300000, guid: a17bc274ace88b24a8e46754f7efbf2b, type: 3}
+  - {fileID: 21300000, guid: 18cb183557d55454daa22b50a131fc66, type: 3}
+  - {fileID: 21300000, guid: 3a5f39955d260a84aaf1471926e4bdd5, type: 3}
+  - {fileID: 21300000, guid: 6f9305168ceddd94ba183a1c69ecf52e, type: 3}
+  - {fileID: 21300000, guid: a24b4886cc36e684c9271168e09cc17e, type: 3}
+  - {fileID: 21300000, guid: 7b8fcd968bc07e34a97ec46d79cd5c9e, type: 3}
+  - {fileID: 21300000, guid: d92250b6fd6e1e24d9ff1fd30d7bd8a7, type: 3}
+  - {fileID: 21300000, guid: 70c89837670de8641b6f0d88481fbccb, type: 3}
+  - {fileID: 21300000, guid: c63af508117f08248a6edf1245e2f26a, type: 3}
+  - {fileID: 21300000, guid: 5df09e08b256d6a45b7eac6940695d74, type: 3}
+  - {fileID: 21300000, guid: e5dbef88a97f68f4789682f655141053, type: 3}
+  - {fileID: 21300000, guid: 938197a89efe2a74d8219f33a106e08d, type: 3}
+  - {fileID: 21300000, guid: 2a18bbba0552bec45b8b05496ec66a6c, type: 3}
+  - {fileID: 21300000, guid: 74d557ca91f324c4e8c1ee61ea75a95c, type: 3}
+  - {fileID: 21300000, guid: ca9c4b2b6dabbbf40b7d6155786f675b, type: 3}
+  - {fileID: 21300000, guid: f6d64c6bb30150146998de162ee5dba5, type: 3}
+  - {fileID: 21300000, guid: 8f3e3e6b38e2f59499de960042ac0789, type: 3}
+  - {fileID: 21300000, guid: 50d1c4fbbe8f01e49ad20500d199dd6c, type: 3}
+  - {fileID: 21300000, guid: 0defa82cb18f6504d84c798f34e3e965, type: 3}
+  - {fileID: 21300000, guid: e7e00c5d0b211f84381441130a5ed5a4, type: 3}
+  - {fileID: 21300000, guid: 13a035cea1212bb4183938b0ba5527ef, type: 3}
+  - {fileID: 21300000, guid: 8f9c043f510a93c47a9aa29887554429, type: 3}
+  - {fileID: 21300000, guid: 262c39ff08ea9f14fb831ee1087d9c72, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - water
+  - drop 1
+  - Layer 59
+  - Layer 1738
+  - flag 2
+  - Layer 578 copy
+  - Layer 582 copy 4
+  - light
+  - mountain
+  - chain
+  - Group 35 copy 1
+  - PUPIL
+  - EYE
+  - Layer 578 copy
+  - bg
+  - front line 1
+  - Layer 582 copy 4
+  - central lamp
+  - water 2
+  - bg copy
+  - lamp
+  - water
+  - bg
+  - flag
+  - lamp lights
+  - bg_fight1
+  - light_lighthouse
+  - crane 1
+  - lamp
+  - central lamp ligth
+  - Layer 1342
+  - side light 1
+  - bg
+  m_RenderDataMap: {}
+  m_Tag: fight_sea_atlas
+  m_IsVariant: 0

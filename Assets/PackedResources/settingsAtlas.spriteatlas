@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: settingsAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 51073a9dda70b0a4982f54bb77a3ac40, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: cf71ab0261b0d7641bfb182d59dfe4f1, type: 3}
+  - {fileID: 21300000, guid: bc217f742e3bd67428670698623644b0, type: 3}
+  - {fileID: 21300000, guid: 65614ab4e14e2824284cee35082aaecc, type: 3}
+  - {fileID: 21300000, guid: 4fd01b56d8aeaf24cb21266803c272ce, type: 3}
+  - {fileID: 21300000, guid: ef99e42786241474b867c45410539e8e, type: 3}
+  - {fileID: 21300000, guid: 50fd8cc8731ae7242b9772f62dafeabc, type: 3}
+  - {fileID: 21300000, guid: 1f312cb9f9cc18048b4bbe11eebc994f, type: 3}
+  - {fileID: 21300000, guid: 88a1394bca3b2ac4aa9926dae12dc557, type: 3}
+  - {fileID: 21300000, guid: e74a6c5b75fde4a4f99f8e00a0bc8dc7, type: 3}
+  - {fileID: 21300000, guid: f066cafbbd2e2ab429d6a4d0dd07b761, type: 3}
+  - {fileID: 21300000, guid: 2da47b7c167b7664c85445e1fa3f9700, type: 3}
+  - {fileID: 21300000, guid: cd6aeb9d12ddc5147895b139527b289c, type: 3}
+  - {fileID: 21300000, guid: a0e4022ef1d2baa4b84381a3a9a15d25, type: 3}
+  - {fileID: 21300000, guid: 7126d03e7e8d447488ddbce2bbad33a7, type: 3}
+  - {fileID: 21300000, guid: 42c2fc0fbeac5a4429fdc1772b390fcc, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - mail
+  - restore purchase
+  - utube
+  - save
+  - Vector Smart Object copy 7
+  - lang
+  - insta
+  - sep
+  - sound off
+  - next
+  - sound on
+  - fb
+  - load
+  - vk
+  - switch
+  m_RenderDataMap: {}
+  m_Tag: settingsAtlas
+  m_IsVariant: 0

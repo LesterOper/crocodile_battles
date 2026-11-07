@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &142238999196077217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5044022432363152859}
+  - component: {fileID: 4865432379978047277}
+  - component: {fileID: 5674876908655788741}
+  m_Layer: 0
+  m_Name: ProjectContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5044022432363152859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142238999196077217}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4865432379978047277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142238999196077217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e6589720da476459dc6dd71624b071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers:
+  - {fileID: 11400000, guid: 5cf242ae5400eeb4ea1c08ecd7e09c7f, type: 2}
+  _monoInstallers:
+  - {fileID: 5674876908655788741}
+  _installerPrefabs: []
+  _parentNewObjectsUnderContext: 0
+  _editorReflectionBakingCoverageMode: 0
+  _buildsReflectionBakingCoverageMode: 0
+  _settings:
+    _ensureDeterministicDestructionOrderOnApplicationQuit: 0
+    _displayWarningWhenResolvingDuringInstall: 1
+    _validationRootResolveMethod: 0
+    _validationErrorResponse: 0
+    _signalSettings:
+      _defaultSyncMode: 0
+      _missingHandlerDefaultResponse: 2
+      _requireStrictUnsubscribe: 0
+      _defaultAsyncTickPriority: 1
+--- !u!114 &5674876908655788741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142238999196077217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a20e302c0a7f24fab9fe4a5cbec3ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerController: {fileID: 3481748878109338854, guid: 350d89e46e1033145887ec1b3225f083,
+    type: 3}
+  musicPlayer: {fileID: 7599116766915337619, guid: d7ce78a243772e04cb8664781c96f227,
+    type: 3}
+  soundPlayer: {fileID: 717233700574896492, guid: 5181a738134fad448b2262fefac4c77e,
+    type: 3}
+  bootstrapper: {fileID: 256233501945411628, guid: c202df0e266fe354293568d59dff3ba8,
+    type: 3}
+  localeHelper: {fileID: 8342557583227546393, guid: a5fb76e45a0252a4e9f4509de61f92f8,
+    type: 3}
+  purchaseHelper: {fileID: 2001666608421341077, guid: de10f56057190c049a6bfcdc1614f7f6,
+    type: 3}
+  _purchasesSetup: {fileID: 11400000, guid: 595263920fb8c22428887fac4658091b, type: 2}
+  _purchasesInfo: {fileID: 11400000, guid: 3077134282521cb45b3325bc26452832, type: 2}

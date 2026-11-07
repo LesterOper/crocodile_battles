@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b84c54ba512748f1b4f803d7aa6258c9, type: 3}
+  m_Name: merge_cost_setup
+  m_EditorClassIdentifier: 
+  mergeCostValues:
+  - _cardLevel: 2
+    _costValue: 20
+  - _cardLevel: 3
+    _costValue: 40
+  - _cardLevel: 4
+    _costValue: 80
+  - _cardLevel: 5
+    _costValue: 160
+  - _cardLevel: 6
+    _costValue: 320
+  - _cardLevel: 7
+    _costValue: 640
+  - _cardLevel: 8
+    _costValue: 1000
+  - _cardLevel: 9
+    _costValue: 2000
+  - _cardLevel: 10
+    _costValue: 4000

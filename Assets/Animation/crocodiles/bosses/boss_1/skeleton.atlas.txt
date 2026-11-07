@@ -1,0 +1,97 @@
+
+skeleton.png
+size: 584,652
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 51
+  rotate: false
+  xy: 65, 42
+  size: 76, 60
+  orig: 76, 60
+  offset: 0, 0
+  index: -1
+Layer 52
+  rotate: false
+  xy: 0, 21
+  size: 84, 63
+  orig: 84, 63
+  offset: 0, 0
+  index: -1
+Layer 53
+  rotate: false
+  xy: 143, 34
+  size: 46, 52
+  orig: 64, 52
+  offset: 18, 0
+  index: -1
+body
+  rotate: false
+  xy: 0, 102
+  size: 461, 548
+  orig: 466, 548
+  offset: 5, 0
+  index: -1
+hand 1
+  rotate: false
+  xy: 0, 86
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+hand 11
+  rotate: false
+  xy: 0, 227
+  size: 42, 56
+  orig: 42, 56
+  offset: 0, 0
+  index: -1
+hand 2
+  rotate: false
+  xy: 0, 284
+  size: 64, 53
+  orig: 64, 53
+  offset: 0, 0
+  index: -1
+hand 22
+  rotate: false
+  xy: 0, 608
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 252, 2
+  size: 273, 285
+  orig: 283, 294
+  offset: 10, 9
+  index: -1
+helmet back
+  rotate: false
+  xy: 199, 4
+  size: 67, 118
+  orig: 67, 118
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 414, 231
+  size: 288, 167
+  orig: 293, 175
+  offset: 0, 0
+  index: -1
+tooth
+  rotate: false
+  xy: 0, 196
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1
+Слой 677
+  rotate: false
+  xy: 0, 363
+  size: 25, 45
+  orig: 25, 45
+  offset: 0, 0
+  index: -1

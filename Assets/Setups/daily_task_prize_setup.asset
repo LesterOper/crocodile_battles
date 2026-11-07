@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84aa19f37bb44bdfa1e4c62d5c3b35d6, type: 3}
+  m_Name: daily_task_prize_setup
+  m_EditorClassIdentifier: 
+  taskPrizes:
+  - prizeType: 1
+    prizeAmount: 200
+    prizeIcon: {fileID: 21300000, guid: e71286f050d34ec488a46b97afd2049b, type: 3}
+  - prizeType: 6
+    prizeAmount: 1
+    prizeIcon: {fileID: 21300000, guid: 42434b0ae0e52a649aea67e8cee456ce, type: 3}
+  - prizeType: 7
+    prizeAmount: 1
+    prizeIcon: {fileID: 21300000, guid: c2a05f7d410419b44a05f4807e0ad80b, type: 3}
+  - prizeType: 8
+    prizeAmount: 2
+    prizeIcon: {fileID: 21300000, guid: 9a9bbaffd1490a74b938e0694e0bc04b, type: 3}
+  - prizeType: 6
+    prizeAmount: 2
+    prizeIcon: {fileID: 21300000, guid: 42434b0ae0e52a649aea67e8cee456ce, type: 3}
+  - prizeType: 7
+    prizeAmount: 2
+    prizeIcon: {fileID: 21300000, guid: c2a05f7d410419b44a05f4807e0ad80b, type: 3}

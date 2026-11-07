@@ -1,0 +1,2157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: '-'
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0410 \u0435\u0449\u0435 \u0442\u044B \u043D\u0430\u0431\u0440\u0430\u043B
+        400 \u043E\u0447\u043A\u043E\u0432"
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: ACTIVATE
+      TermType: 0
+      Description: 
+      Languages:
+      - Activate
+      - "\u0410\u043A\u0442\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u0442\u044C"
+      - Aktivieren Sie
+      - Attivare
+      - Activer
+      - Aktywuj
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: ACTIVATED
+      TermType: 0
+      Description: 
+      Languages:
+      - Activated
+      - "\u0410\u043A\u0442\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u043D"
+      - Aktiviert
+      - Attivato
+      - "Activ\xE9"
+      - Aktywowany
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: AFTER_WIN
+      TermType: 0
+      Description: 
+      Languages:
+      - Here is the fight! Thanks for changing me. You have proven yourself worthy
+        to fight in the arena
+      - "\u0412\u043E\u0442 \u044D\u0442\u043E \u0431\u043E\u0439! \u0421\u043F\u0430\u0441\u0438\u0431\u043E,
+        \u0447\u0442\u043E \u043F\u043E\u0434\u043C\u0435\u043D\u0438\u043B \u043C\u0435\u043D\u044F.
+        \u0422\u044B \u0434\u043E\u043A\u0430\u0437\u0430\u043B, \u0447\u0442\u043E
+        \u0434\u043E\u0441\u0442\u043E\u0438\u043D \u0441\u0440\u0430\u0436\u0430\u0442\u044C\u0441\u044F
+        \u043D\u0430 \u0430\u0440\u0435\u043D\u0435"
+      - "Hier ist der Kampf! Danke, dass du mich ge\xE4ndert hast. Du hast dich als
+        w\xFCrdig erwiesen, in der Arena zu k\xE4mpfen"
+      - Ecco la lotta! Grazie per avermi cambiato. Ti sei dimostrato degno di combattere
+        nell'arena
+      - "Voici le combat ! Merci de m'avoir chang\xE9. Vous avez prouv\xE9 que vous
+        \xE9tiez digne de combattre dans l'ar\xE8ne"
+      - "Oto walka! Dzi\u0119ki za zmian\u0119 mnie. Udowodni\u0142e\u015B, \u017Ce
+        jeste\u015B godny walki na arenie"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: AUTO_BATTLES
+      TermType: 0
+      Description: 
+      Languages:
+      - autofights
+      - "\u0430\u0432\u0442\u043E\u0431\u043E\u0438"
+      - "Autok\xE4mpfe"
+      - combattimenti automatici
+      - combats automatiques
+      - automatyczne walki
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: AUTO_BUILD_HELP
+      TermType: 0
+      Description: 
+      Languages:
+      - Press the auto button to quickly send all cards to the deck
+      - "\u041D\u0430\u0436\u043C\u0438 \u043A\u043D\u043E\u043F\u043A\u0443 \u0430\u0432\u0442\u043E,
+        \u0447\u0442\u043E\u0431\u044B \u0431\u044B\u0441\u0442\u0440\u043E \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C
+        \u0432\u0441\u0435 \u043A\u0430\u0440\u0442\u044B \u0432 \u043A\u043E\u043B\u043E\u0434\u0443"
+      - "Dr\xFCcken Sie die Auto-Taste, um schnell alle Karten an das Deck zu senden"
+      - Premi il pulsante automatico per inviare rapidamente tutte le carte al mazzo
+      - Appuyez sur le bouton automatique pour envoyer rapidement toutes les cartes
+        au jeu
+      - "Naci\u015Bnij przycisk auto, aby szybko wys\u0142a\u0107 wszystkie karty
+        do talii"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Achievements
+      TermType: 0
+      Description: 
+      Languages:
+      - Achievements
+      - "\u0414\u043E\u0441\u0442\u0438\u0436\u0435\u043D\u0438\u044F"
+      - Erfolge
+      - Conquiste
+      - "R\xE9alisations"
+      - "Osi\u0105gni\u0119cia"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BOMB_HELP
+      TermType: 0
+      Description: 
+      Languages:
+      - New card! Of course! There are always 4 of them for a new round. Use it!
+      - "\u041D\u043E\u0432\u0430\u044F \u043A\u0430\u0440\u0442\u0430! \u041A\u043E\u043D\u0435\u0447\u043D\u043E!
+        \u0418\u0445 \u0432\u0441\u0435\u0433\u0434\u0430 4 \u043A \u043D\u043E\u0432\u043E\u043C\u0443
+        \u0440\u0430\u0443\u043D\u0434\u0443. \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439
+        \u0435\u0451!"
+      - "Neue Karte! Na sicher! Davon gibt es immer 4 f\xFCr eine neue Runde. Benutze
+        sie!"
+      - Nuova mappa! Certamente! Ce ne sono sempre 4 per un nuovo round. Usala!
+      - "Nouvelle carte ! Bien s\xFBr! Il y en a toujours 4 pour un nouveau tour.
+        Utilisez-la !"
+      - "Nowa mapa! Oczywi\u015Bcie! Na now\u0105 rund\u0119 zawsze s\u0105 ich 4.
+        U\u017Cyj jej!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BOSS_DIALOG_LOOSE_TEXT
+      TermType: 0
+      Description: 
+      Languages:
+      - "Gain strength \nto win next time"
+      - "\u041D\u0430\u0431\u0438\u0440\u0430\u0439\u0441\u044F \u0441\u0438\u043B
+        \n\u0434\u043B\u044F \u043F\u043E\u0431\u0435\u0434\u044B \u0432 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439
+        \u0440\u0430\u0437"
+      - "Sch\xF6pfen Sie Kraft, \num das n\xE4chste Mal zu gewinnen"
+      - "Guadagna forza \nper vincere la prossima volta"
+      - "Gagner en force \npour gagner la prochaine fois"
+      - "Zyskaj si\u0142\u0119, aby \nnast\u0119pnym razem wygra\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BOSS_DIALOG_TEXT
+      TermType: 0
+      Description: 
+      Languages:
+      - 'And you also get:'
+      - "\u0410 \u0435\u0449\u0435 \u0442\u044B \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0448\u044C:"
+      - "Und Sie erhalten au\xDFerdem:"
+      - 'E ottieni anche:'
+      - "Et vous obtenez \xE9galement :"
+      - "A tak\u017Ce otrzymujesz:"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BOSS_OPEN
+      TermType: 0
+      Description: 
+      Languages:
+      - Your victories were noticed by the local leader. He is waiting for you in
+        the arena
+      - "\u0422\u0432\u043E\u0438 \u043F\u043E\u0431\u0435\u0434\u044B \u0437\u0430\u043C\u0435\u0442\u0438\u043B
+        \u043C\u0435\u0441\u0442\u043D\u044B\u0439 \u0433\u043B\u0430\u0432\u0430\u0440\u044C.
+        \u041E\u043D \u0436\u0434\u0435\u0442 \u0442\u0435\u0431\u044F \u043D\u0430
+        \u0430\u0440\u0435\u043D\u0435"
+      - "Ihre Siege wurden vom \xF6rtlichen Anf\xFChrer bemerkt. Er wartet in der
+        Arena auf dich"
+      - Le tue vittorie sono state notate dal leader locale. Ti sta aspettando nell'arena
+      - "Vos victoires ont \xE9t\xE9 remarqu\xE9es par le chef local. Il t'attend
+        dans l'ar\xE8ne"
+      - "Twoje zwyci\u0119stwa zosta\u0142y zauwa\u017Cone przez lokalnego lidera.
+        Czeka na ciebie na arenie"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BRUSH_HELP
+      TermType: 0
+      Description: 
+      Languages:
+      - We have energy left. Let's hit melee.
+      - "\u0423 \u043D\u0430\u0441 \u043E\u0441\u0442\u0430\u043B\u0430\u0441\u044C
+        \u044D\u043D\u0435\u0440\u0433\u0438\u044F. \u0414\u0430\u0432\u0430\u0439
+        \u0443\u0434\u0430\u0440\u0438\u043C \u0431\u043B\u0438\u0436\u043D\u0438\u043C
+        \u0431\u043E\u0435\u043C."
+      - Wir haben noch Energie. Schlagen wir Nahkampf.
+      - "Ci \xE8 rimasta energia. Colpiamo in mischia."
+      - "Il nous reste de l'\xE9nergie. Frappons au corps \xE0 corps."
+      - "Pozosta\u0142a nam energia. Uderzmy w zwarcie."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: CHEST_DELIVERED
+      TermType: 0
+      Description: 
+      Languages:
+      - Chest delivered to storage
+      - "\u0421\u0443\u043D\u0434\u0443\u043A \u0434\u043E\u0441\u0442\u0430\u0432\u043B\u0435\u043D
+        \u0432 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435"
+      - Truhe zum Lager geliefert
+      - Cassa consegnata in deposito
+      - "Coffre livr\xE9 au stockage"
+      - Skrzynia dostarczona do magazynu
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: CHOOSE_CARD
+      TermType: 0
+      Description: 
+      Languages:
+      - Choose card
+      - "\u0412\u044B\u0431\u0435\u0440\u0438 \u043A\u0430\u0440\u0442\u0443"
+      - "Karte ausw\xE4hlen"
+      - Scegli carta
+      - Choisissez la carte
+      - "Wybierz kart\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: DAILY_CHEST
+      TermType: 0
+      Description: 
+      Languages:
+      - Daily box
+      - "\u0415\u0436\u0435\u0434\u043D\u0435\u0432\u043D\u044B\u0439 \u044F\u0449\u0438\u043A"
+      - Tagesbox
+      - Scatola giornaliera
+      - "Bo\xEEte journali\xE8re"
+      - "Pude\u0142ko dzienne"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: DEFEATE_HIM
+      TermType: 0
+      Description: 
+      Languages:
+      - Get him!
+      - "\u0414\u043E\u0431\u0438\u0432\u0430\u0439 \u0435\u0433\u043E!"
+      - Hol ihn dir!
+      - Prendilo!
+      - Attrape le!
+      - Dorwij go!
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: DEFEATS
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Defeats:'
+      - "\u041F\u043E\u0440\u0430\u0436\u0435\u043D\u0438\u044F:"
+      - 'Niederlagen:'
+      - 'Sconfitte:'
+      - "D\xE9faites\_:"
+      - "Pora\u017Cki:"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: DRAW
+      TermType: 0
+      Description: 
+      Languages:
+      - Draw!
+      - "\u041D\u0438\u0447\u044C\u044F!"
+      - Zeichnen!
+      - Disegnare!
+      - Dessiner!
+      - "Rysowa\u0107!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: EQUIP_PREBATTLE
+      TermType: 0
+      Description: 
+      Languages:
+      - Here you can change weapons and baths for combat
+      - "\u0417\u0434\u0435\u0441\u044C \u0442\u044B \u043C\u043E\u0436\u0435\u0448\u044C
+        \u043C\u0435\u043D\u044F\u0442\u044C \u043E\u0440\u0443\u0436\u0438\u0435
+        \u0438 \u0432\u0430\u043D\u043D\u044B \u0434\u043B\u044F \u0431\u043E\u044F"
+      - "Hier k\xF6nnen Sie Waffen und B\xE4der f\xFCr den Kampf wechseln"
+      - Qui puoi cambiare armi e bagni per il combattimento
+      - Ici, vous pouvez changer d'armes et de bains pour le combat
+      - "Tutaj mo\u017Cesz zmieni\u0107 bro\u0144 i \u0142a\u017Anie do walki"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FIGHT
+      TermType: 0
+      Description: 
+      Languages:
+      - Fight
+      - "\u0411\u0438\u0442\u0432\u0430"
+      - "K\xE4mpfen"
+      - Combattimento
+      - Lutte
+      - Walka
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FINISH_HIM
+      TermType: 0
+      Description: 
+      Languages:
+      - Get him!
+      - "\u0414\u043E\u0431\u0438\u0432\u0430\u0439 \u0435\u0433\u043E!"
+      - Hol ihn dir!
+      - Prendilo!
+      - Attrape le!
+      - Dorwij go!
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FIRST_BATTLE_CHEST_HELP
+      TermType: 0
+      Description: 
+      Languages:
+      - You have collected your first chest, it is already in your storage, but there
+        are better chests!
+      - "\u0422\u044B \u0441\u043E\u0431\u0440\u0430\u043B \u0441\u0432\u043E\u0439
+        \u043F\u0435\u0440\u0432\u044B\u0439 \u0441\u0443\u043D\u0434\u0443\u043A,
+        \u043E\u043D \u0443\u0436\u0435 \u0443 \u0442\u0435\u0431\u044F \u0432 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435,
+        \u043D\u043E \u0435\u0441\u0442\u044C \u0441\u0443\u043D\u0434\u0443\u043A\u0438
+        \u0438 \u043B\u0443\u0447\u0448\u0435!"
+      - Du hast deine erste Truhe eingesammelt, sie befindet sich bereits in deinem
+        Lager, aber es gibt bessere Truhen!
+      - "Hai raccolto il tuo primo forziere, \xE8 gi\xE0 nel tuo deposito, ma ci
+        sono forzieri migliori!"
+      - "Vous avez r\xE9cup\xE9r\xE9 votre premier coffre, il est d\xE9j\xE0 dans
+        votre r\xE9serve, mais il existe de meilleurs coffres !"
+      - "Zebra\u0142e\u015B swoj\u0105 pierwsz\u0105 skrzyni\u0119, jest ju\u017C
+        w twoim magazynie, ale s\u0105 lepsze skrzynie!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FIRST_BATTLE_MIDDLE_CHEST_HELP
+      TermType: 0
+      Description: 
+      Languages:
+      - You can take the big box now or fight for the special box!
+      - "\u0422\u044B \u043C\u043E\u0436\u0435\u0448\u044C \u0437\u0430\u0431\u0440\u0430\u0442\u044C
+        \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u044F\u0449\u0438\u043A \u0441\u0435\u0439\u0447\u0430\u0441
+        \u043B\u0438\u0431\u043E \u0431\u043E\u0440\u043E\u0442\u044C\u0441\u044F
+        \u0437\u0430 \u043E\u0441\u043E\u0431\u044B\u0439 \u044F\u0449\u0438\u043A!"
+      - "Du kannst jetzt die gro\xDFe Kiste nehmen oder um die Spezialkiste k\xE4mpfen!"
+      - Puoi prendere la scatola grande ora o lottare per la scatola speciale!
+      - "Vous pouvez prendre la grosse bo\xEEte maintenant ou vous battre pour la
+        bo\xEEte sp\xE9ciale\_!"
+      - "Mo\u017Cesz teraz wzi\u0105\u0107 du\u017Ce pude\u0142ko lub walczy\u0107
+        o specjalne pude\u0142ko!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FIRST_CHEST
+      TermType: 0
+      Description: 
+      Languages:
+      - But you need your own weapon collection. Grab the gift and get ready for
+        battle!
+      - "\u041D\u043E \u0442\u0435\u0431\u0435 \u043D\u0443\u0436\u043D\u0430 \u0441\u043E\u0431\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F
+        \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u044F \u043E\u0440\u0443\u0436\u0438\u044F.
+        \u041B\u043E\u0432\u0438 \u043F\u043E\u0434\u0430\u0440\u043E\u043A \u0438
+        \u0433\u043E\u0442\u043E\u0432\u044C\u0441\u044F \u043A \u0431\u043E\u044E!"
+      - "Aber Sie brauchen eine eigene Waffensammlung. Schnapp dir das Geschenk und
+        mach dich bereit f\xFCr den Kampf!"
+      - Ma hai bisogno della tua collezione di armi. Prendi il regalo e preparati
+        per la battaglia!
+      - "Mais vous avez besoin de votre propre collection d'armes. Prenez le cadeau
+        et pr\xE9parez-vous pour la bataille\_!"
+      - "Ale potrzebujesz w\u0142asnej kolekcji broni. Chwy\u0107 prezent i przygotuj
+        si\u0119 do bitwy!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FREE
+      TermType: 0
+      Description: 
+      Languages:
+      - Is Free
+      - "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E"
+      - Ist Gratis
+      - "\xC8 Libero"
+      - Est Libre
+      - Jest Wolny
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GDPR_ACCEPT
+      TermType: 0
+      Description: 
+      Languages:
+      - Accept
+      - "\u041F\u0440\u0438\u043D\u044F\u0442\u044C"
+      - Akzeptieren
+      - Accettare
+      - Accepter
+      - "Akceptowa\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GDPR_AND_ARTICLE
+      TermType: 0
+      Description: 
+      Languages:
+      - and
+      - "\u0438"
+      - und
+      - e
+      - et
+      - oraz
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GDPR_DECLINE
+      TermType: 0
+      Description: 
+      Languages:
+      - Do not allow
+      - "\u041D\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0430\u0442\u044C"
+      - Nicht zulassen
+      - Non permettere
+      - Ne permettent pas
+      - Nie pozwalaj
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GDPR_DESCRIPTION
+      TermType: 0
+      Description: 
+      Languages:
+      - By clicking on the "Accept" button, you confirm that you have carefully read
+        and agree to our
+      - "\u041D\u0430\u0436\u0430\u0432 \u043D\u0430 \u043A\u043D\u043E\u043F\u043A\u0443
+        \"\u041F\u0440\u0438\u043D\u044F\u0442\u044C\", \u0432\u044B \u043F\u043E\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442\u0435,
+        \u0447\u0442\u043E \u0432\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u043E
+        \u043F\u0440\u043E\u0447\u043B\u0438 \u0438 \u0441\u043E\u0433\u043B\u0430\u0448\u0430\u0435\u0442\u0435\u0441\u044C
+        \u0441 \u043D\u0430\u0448\u0438\u043C\u0438"
+      - "Indem Sie auf die Schaltfl\xE4che \u201EAkzeptieren\u201C klicken, best\xE4tigen
+        Sie, dass Sie unsere Datenschutzbestimmungen sorgf\xE4ltig gelesen haben
+        und ihnen zustimmen"
+      - Cliccando sul pulsante "Accetto", confermi di aver letto attentamente e di
+        accettare il ns
+      - "En cliquant sur le bouton \"Accepter\", vous confirmez avoir lu attentivement
+        et accept\xE9 nos"
+      - "Klikaj\u0105c przycisk \u201EAkceptuj\u0119\u201D, potwierdzasz, \u017Ce
+        dok\u0142adnie przeczyta\u0142e\u015B i zgadzasz si\u0119 z naszymi"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GDPR_OFF
+      TermType: 0
+      Description: 
+      Languages:
+      - gdpr off
+      - "\u0433\u0434\u043F\u0440 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D"
+      - gdpr aus
+      - gdpr spento
+      - "RGPD d\xE9sactiv\xE9"
+      - "PKB wy\u0142\u0105czony"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GDPR_ON
+      TermType: 0
+      Description: 
+      Languages:
+      - gdpr on
+      - "gdpr \u0432\u043A\u043B\u044E\u0447\u0435\u043D"
+      - DSGVO ein
+      - gdpr acceso
+      - RGPD sur
+      - "PKB w\u0142."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GDPR_POLICY_LINK
+      TermType: 0
+      Description: 
+      Languages:
+      - Privacy Policy.
+      - "\u041F\u043E\u043B\u0438\u0442\u0438\u043A\u043E\u0439 \u043A\u043E\u043D\u0444\u0438\u0434\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0438."
+      - Datenschutz-Bestimmungen.
+      - Politica sulla riservatezza.
+      - "Politique de confidentialit\xE9."
+      - "Polityka prywatno\u015Bci."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GDPR_TITLE
+      TermType: 0
+      Description: 
+      Languages:
+      - Terms of Use and Privacy Policy
+      - "\u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F
+        \u0438 \u041F\u043E\u043B\u0438\u0442\u0438\u043A\u0430 \u043A\u043E\u043D\u0444\u0438\u0434\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0438"
+      - Nutzungsbedingungen und Datenschutzrichtlinie
+      - Condizioni d'uso e Informativa sulla privacy
+      - "Conditions d'utilisation et politique de confidentialit\xE9"
+      - "Warunki u\u017Cytkowania i polityka prywatno\u015Bci"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GDPR_USING_LINK
+      TermType: 0
+      Description: 
+      Languages:
+      - Terms of Use
+      - "\u0423\u0441\u043B\u043E\u0432\u0438\u044F\u043C\u0438 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F"
+      - Nutzungsbedingungen
+      - Termini di utilizzo
+      - Conditions d'utilisation
+      - Warunki korzystania
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GIGA_CHEST
+      TermType: 0
+      Description: 
+      Languages:
+      - "\rCool box"
+      - "\u041A\u0440\u0443\u0442\u044F\u0446\u043A\u0438\u0439 \u044F\u0449\u0438\u043A"
+      - "\rK\xFChlbox"
+      - "\rBella scatola"
+      - "\rGlaci\xE8re"
+      - "\rFajne pude\u0142ko"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GIVE_UP
+      TermType: 0
+      Description: 
+      Languages:
+      - Give Up?
+      - "\u0421\u0434\u0430\u0435\u0448\u044C\u0441\u044F?"
+      - Gibst du auf?
+      - Ti stai arrendendo?
+      - Vous abandonnez ?
+      - "Poddajesz si\u0119?"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: HEALING_HELPER
+      TermType: 0
+      Description: 
+      Languages:
+      - The rest of the energy should be spent on healing. Use the map
+      - "\u041E\u0441\u0442\u0430\u0442\u043A\u0438 \u044D\u043D\u0435\u0440\u0433\u0438\u0438
+        \u0441\u0442\u043E\u0438\u0442 \u043F\u043E\u0442\u0440\u0430\u0442\u0438\u0442\u044C
+        \u043D\u0430 \u043B\u0435\u0447\u0435\u043D\u0438\u0435. \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439
+        \u043A\u0430\u0440\u0442\u0443"
+      - "Der Rest der Energie sollte f\xFCr die Heilung aufgewendet werden. Verwenden
+        Sie die Karte"
+      - Il resto dell'energia dovrebbe essere speso per la guarigione. Usa la mappa
+      - "Le reste de l'\xE9nergie devrait \xEAtre consacr\xE9 \xE0 la gu\xE9rison.
+        Utilisez la carte"
+      - "Reszt\u0119 energii nale\u017Cy wyda\u0107 na leczenie. U\u017Cyj mapy"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: HIT_BY_PADDLE
+      TermType: 0
+      Description: 
+      Languages:
+      - Hit him with a paddle
+      - "\u0411\u0435\u0439 \u0435\u0433\u043E \u0432\u0435\u0441\u043B\u043E\u043C"
+      - Schlage ihn mit einem Paddel
+      - Colpiscilo con una pagaia
+      - Frappez-le avec une pagaie
+      - "Uderz go wios\u0142em"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: HOME
+      TermType: 0
+      Description: 
+      Languages:
+      - Home
+      - "\u0414\u043E\u043C\u043E\u0439"
+      - Heimat
+      - Casa
+      - Domicile
+      - Dom
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOAD
+      TermType: 0
+      Description: 
+      Languages:
+      - 'load
+
+'
+      - "\u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C"
+      - 'Belastung
+
+'
+      - 'carico
+
+'
+      - 'charge
+
+'
+      - "Za\u0142aduj\n"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOAD_PROGRESS
+      TermType: 0
+      Description: 
+      Languages:
+      - The game is loading
+      - "\u0418\u0433\u0440\u0430 \u0437\u0430\u0433\u0440\u0443\u0436\u0430\u0435\u0442\u0441\u044F"
+      - Das Spiel wird geladen
+      - Il gioco si sta caricando
+      - Le jeu se charge
+      - "Gra si\u0119 \u0142aduje"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOOSE
+      TermType: 0
+      Description: 
+      Languages:
+      - Loose
+      - "\u041F\u043E\u0440\u0430\u0436\u0435\u043D\u0438\u0435"
+      - Lose
+      - Sciolto
+      - "L\xE2che"
+      - "Lu\u017Any"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MANA_HELP
+      TermType: 0
+      Description: 
+      Languages:
+      - You need energy to use weapons. Each new round, energy is restored
+      - "\u041D\u0443\u0436\u043D\u0430 \u044D\u043D\u0435\u0440\u0433\u0438\u044F,
+        \u0447\u0442\u043E\u0431\u044B \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C
+        \u043E\u0440\u0443\u0436\u0438\u0435. \u041A\u0430\u0436\u0434\u044B\u0439
+        \u043D\u043E\u0432\u044B\u0439 \u0440\u0430\u0443\u043D\u0434 \u044D\u043D\u0435\u0440\u0433\u0438\u044F
+        \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442\u0441\u044F"
+      - Sie brauchen Energie, um Waffen zu benutzen. Jede neue Runde wird Energie
+        wiederhergestellt
+      - Hai bisogno di energia per usare le armi. Ogni nuovo round, l'energia viene
+        ripristinata
+      - "Vous avez besoin d'\xE9nergie pour utiliser des armes. A chaque nouveau
+        tour, l'\xE9nergie est restaur\xE9e"
+      - "Do korzystania z broni potrzebujesz energii. Ka\u017Cda nowa runda przywraca
+        energi\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MEGA_CHEST
+      TermType: 0
+      Description: 
+      Languages:
+      - Special box
+      - "\u041E\u0441\u043E\u0431\u044B\u0439 \u044F\u0449\u0438\u043A"
+      - Spezialbox
+      - Scatola speciale
+      - "Bo\xEEte sp\xE9ciale"
+      - "Specjalne pude\u0142ko"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MERGE
+      TermType: 0
+      Description: 
+      Languages:
+      - You got a duplicate! They can be combined to improve cards. I'll show you
+        now
+      - "\u0422\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u043B \u0434\u0443\u0431\u043B\u0438\u043A\u0430\u0442!
+        \u0418\u0445 \u043C\u043E\u0436\u043D\u043E \u043E\u0431\u044A\u0435\u0434\u0438\u043D\u044F\u0442\u044C,
+        \u0447\u0442\u043E\u0431 \u0443\u043B\u0443\u0447\u0448\u0430\u0442\u044C
+        \u043A\u0430\u0440\u0442\u044B. \u0421\u0435\u0439\u0447\u0430\u0441 \u043F\u043E\u043A\u0430\u0436\u0443"
+      - "Du hast ein Duplikat! Sie k\xF6nnen kombiniert werden, um Karten zu verbessern.
+        Ich zeige es dir jetzt"
+      - Hai un duplicato! Possono essere combinati per migliorare le carte. te lo
+        mostro ora
+      - "Vous avez un doublon\_! Ils peuvent \xEAtre combin\xE9s pour am\xE9liorer
+        les cartes. je vais te montrer maintenant"
+      - "Masz duplikat! Mo\u017Cna je \u0142\u0105czy\u0107, aby ulepsza\u0107 karty.
+        poka\u017C\u0119 ci teraz"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MERGE_DIALOG_MERGE_INFO
+      TermType: 0
+      Description: 
+      Languages:
+      - You can only merge cards of the same type and rank
+      - "\u0421\u043B\u0438\u0442\u044C \u043C\u043E\u0436\u043D\u043E \u0442\u043E\u043B\u044C\u043A\u043E
+        \u043A\u0430\u0440\u0442\u044B \u043E\u0434\u043D\u043E\u0433\u043E \u0432\u0438\u0434\u0430
+        \u0438 \u0440\u0430\u043D\u0433\u0430"
+      - "Sie k\xF6nnen nur Karten des gleichen Typs und Rangs zusammenf\xFChren"
+      - Puoi unire solo carte dello stesso tipo e valore
+      - "Vous ne pouvez fusionner que des cartes du m\xEAme type et du m\xEAme rang"
+      - "Mo\u017Cesz \u0142\u0105czy\u0107 tylko karty tego samego typu i rangi"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MERGE_DIALOG_TITLE
+      TermType: 0
+      Description: 
+      Languages:
+      - Choose cards to merge
+      - "\u0412\u044B\u0431\u0435\u0440\u0438 \u043A\u0430\u0440\u0442\u044B \u0434\u043B\u044F
+        \u0441\u043B\u0438\u044F\u043D\u0438\u044F"
+      - "W\xE4hlen Sie Karten zum Zusammenf\xFChren aus"
+      - Scegli le carte da unire
+      - "Choisissez les cartes \xE0 fusionner"
+      - Wybierz karty do scalenia
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MERGE_DIALOG_TITLE_DRAG
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Drag and drop cards here to merge:'
+      - "\u041F\u0435\u0440\u0435\u0442\u044F\u043D\u0438 \u0441\u044E\u0434\u0430
+        \u043A\u0430\u0440\u0442\u044B \u0434\u043B\u044F \u0441\u043B\u0438\u044F\u043D\u0438\u044F:"
+      - "Ziehen Sie Karten hierher, um sie zusammenzuf\xFChren:"
+      - 'Trascina qui le carte per unirle:'
+      - "Faites glisser et d\xE9posez les cartes ici pour les fusionner\_:"
+      - "Przeci\u0105gnij i upu\u015B\u0107 karty tutaj, aby scali\u0107:"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MERGE_IN_DIALOG_HELP
+      TermType: 0
+      Description: 
+      Languages:
+      - Here you can connect duplicate cards and enhance the characteristics of weapons.
+        Try!
+      - "\u0417\u0434\u0435\u0441\u044C \u043C\u043E\u0436\u043D\u043E \u0441\u043E\u0435\u0434\u0438\u043D\u0438\u0442\u044C
+        \u0434\u0443\u0431\u043B\u0438\u043A\u0430\u0442\u044B \u043A\u0430\u0440\u0442\u044B
+        \u0438 \u0443\u0441\u0438\u043B\u0438\u0442\u044C \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\u0438
+        \u043E\u0440\u0443\u0436\u0438\u044F. \u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439!"
+      - "Hier k\xF6nnen Sie doppelte Karten verbinden und die Eigenschaften von Waffen
+        verbessern. Versuchen!"
+      - Qui puoi collegare carte duplicate e migliorare le caratteristiche delle
+        armi. Tentativo!
+      - "Ici, vous pouvez connecter des cartes en double et am\xE9liorer les caract\xE9ristiques
+        des armes. Essayer!"
+      - "Tutaj mo\u017Cesz po\u0142\u0105czy\u0107 zduplikowane karty i ulepszy\u0107
+        charakterystyk\u0119 broni. Pr\xF3bowa\u0107!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MIDDLE_CHEST
+      TermType: 0
+      Description: 
+      Languages:
+      - "\rBig box"
+      - "\u0411\u043E\u043B\u044C\u0448\u043E\u0439 \u044F\u0449\u0438\u043A"
+      - "\rGro\xDFe Schachtel"
+      - "\rScatola grande"
+      - "\rGrosse boite"
+      - "\rDu\u017Ce pud\u0142o"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MINA_BOMB_HELP
+      TermType: 0
+      Description: 
+      Languages:
+      - For safety reasons, do not hang mines and bombs on yourself. Throw them right
+        at your opponent!
+      - "\u041C\u0438\u043D\u044B \u0438 \u0431\u043E\u043C\u0431\u044B \u043F\u043E
+        \u0442\u0435\u0445\u043D\u0438\u043A\u0435 \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438
+        \u043D\u0430 \u0441\u0435\u0431\u044F \u043D\u0435 \u0432\u0435\u0448\u0430\u0439.
+        \u041A\u0438\u0434\u0430\u0439 \u0438\u0445 \u0441\u0440\u0430\u0437\u0443
+        \u0432 \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430!"
+      - "H\xE4ngen Sie aus Sicherheitsgr\xFCnden keine Minen und Bomben an sich.
+        Wirf sie direkt auf deinen Gegner!"
+      - Per motivi di sicurezza, non appendere mine e bombe su di te. Lanciali direttamente
+        al tuo avversario!
+      - "Pour des raisons de s\xE9curit\xE9, ne suspendez pas de mines et de bombes
+        sur vous-m\xEAme. Lancez-les directement sur votre adversaire\_!"
+      - "Ze wzgl\u0119d\xF3w bezpiecze\u0144stwa nie wieszaj na sobie min i bomb.
+        Rzu\u0107 nimi prosto w przeciwnika!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MINA_HELPER
+      TermType: 0
+      Description: 
+      Languages:
+      - A mine works well against close combat. Try.
+      - "\u041F\u0440\u043E\u0442\u0438\u0432 \u0431\u043B\u0438\u0436\u043D\u0435\u0433\u043E
+        \u0431\u043E\u044F \u0445\u043E\u0440\u043E\u0448\u043E \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442
+        \u043C\u0438\u043D\u0430. \u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439."
+      - Eine Mine funktioniert gut im Nahkampf. Versuchen.
+      - Una mina funziona bene contro il combattimento ravvicinato. Provare.
+      - "Une mine fonctionne bien contre le combat rapproch\xE9. Essayer."
+      - "Mina dobrze sprawdza si\u0119 w walce w zwarciu. Pr\xF3bowa\u0107."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MINI_CHEST_TITLE
+      TermType: 0
+      Description: 
+      Languages:
+      - Base box
+      - "\u0411\u0430\u0437\u043E\u0432\u044B\u0439 \u044F\u0449\u0438\u043A"
+      - Basisbox
+      - Scatola di base
+      - "Bo\xEEte de base"
+      - "Pude\u0142ko podstawowe"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: NO
+      TermType: 0
+      Description: 
+      Languages:
+      - Never!
+      - "\u041D\u0438 \u0437\u0430 \u0447\u0442\u043E!"
+      - Noch Nie!
+      - Mai!
+      - Jamais!
+      - Nigdy!
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: OK
+      TermType: 0
+      Description: 
+      Languages:
+      - OK
+      - Ok
+      - OK
+      - Ok
+      - D'accord
+      - Ok
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: OPEN
+      TermType: 0
+      Description: 
+      Languages:
+      - Open
+      - "\u041E\u0442\u043A\u0440\u044B\u0442\u044C"
+      - Offen
+      - Aprire
+      - Ouvrir
+      - Otwarty
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: OPEN_OPPONENT_CARDS_BY_AD
+      TermType: 0
+      Description: 
+      Languages:
+      - Open enemy cards for advertising
+      - "\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u043A\u0430\u0440\u0442\u044B
+        \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0430 \u0437\u0430
+        \u0440\u0435\u043A\u043B\u0430\u043C\u0443"
+      - "\xD6ffnen Sie Feindkarten f\xFCr Werbung"
+      - "Apri le carte nemiche per la pubblicit\xE0"
+      - "Ouvrez les cartes ennemies pour la publicit\xE9"
+      - "Otw\xF3rz karty wroga na reklam\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: PURCHASED
+      TermType: 0
+      Description: 
+      Languages:
+      - Bought
+      - "\u041A\u0443\u043F\u043B\u0435\u043D\u043E"
+      - Gekauft
+      - Comprato
+      - "Achet\xE9"
+      - "Kupi\u0142"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: READY
+      TermType: 0
+      Description: 
+      Languages:
+      - READY
+      - "\u0413\u043E\u0442\u043E\u0432"
+      - Bereit
+      - Pronto
+      - "Pr\xEAt"
+      - Gotowy
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: RECORD
+      TermType: 0
+      Description: 
+      Languages:
+      - record
+      - "\u0442\u0430\u0431\u043B\u0438\u0446\u0430 \u043B\u0438\u0434\u0435\u0440\u043E\u0432"
+      - 'Aufzeichnung
+
+'
+      - 'disco
+
+'
+      - 'record
+
+'
+      - "nagrywa\u0107\n"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: RESTORE_PURCHASE
+      TermType: 0
+      Description: 
+      Languages:
+      - restore purchase
+      - "\u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C
+        \u043F\u043E\u043A\u0443\u043F\u043A\u0438"
+      - Kauf wiederherstellen
+      - ripristinare acquisto
+      - restaurer l'achat
+      - "przywr\xF3ci\u0107 zakup"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: RESTORE_PURCHASE_NOTIFY
+      TermType: 0
+      Description: 
+      Languages:
+      - Purchases restored
+      - "\u041F\u043E\u043A\u0443\u043F\u043A\u0438 \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u044B"
+      - "Eink\xE4ufe wiederhergestellt"
+      - Acquisti ripristinati
+      - "Achats restaur\xE9s"
+      - "Zakupy przywr\xF3cone"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: ROUND
+      TermType: 0
+      Description: 
+      Languages:
+      - round
+      - "\u0440\u0430\u0443\u043D\u0434"
+      - runden
+      - il giro
+      - tour
+      - "okr\u0105g\u0142y"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SAVE
+      TermType: 0
+      Description: 
+      Languages:
+      - save
+      - "\u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u0435"
+      - speichern
+      - Salva
+      - sauvegarder
+      - "ratowa\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SAVED
+      TermType: 0
+      Description: 
+      Languages:
+      - 'saved:'
+      - "\u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u043E:"
+      - 'Gerettet:'
+      - 'salvato:'
+      - "enregistr\xE9:"
+      - 'zapisane:'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SAVE_PROGRESS
+      TermType: 0
+      Description: 
+      Languages:
+      - Game Saved
+      - "\u0418\u0433\u0440\u0430 \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0430"
+      - Spiel Gespeichert
+      - Gioco Salvato
+      - "Partie Sauvegard\xE9e"
+      - Gra Zapisana
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SHOOT_HIM
+      TermType: 0
+      Description: 
+      Languages:
+      - Shoot him!
+      - "\u0421\u0442\u0440\u0435\u043B\u044F\u0439 \u0432 \u043D\u0435\u0433\u043E!"
+      - "Erschie\xDF ihn!"
+      - Sparagli!
+      - "D\xE9glingue le!"
+      - Zastrzel go!
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SKIP_ANIMATION
+      TermType: 0
+      Description: 
+      Languages:
+      - SKIP
+      - "\u041F\u0440\u043E\u043F\u0443\u0441\u0442\u0438\u0442\u044C"
+      - "\xDCberspringen"
+      - Salta
+      - Sauter
+      - "Pomija\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SKIP_TIME
+      TermType: 0
+      Description: 
+      Languages:
+      - -30min
+      - "-30\u043C\u0438\u043D"
+      - -30 Min
+      - -30 Min
+      - -30 Min
+      - -30 Min
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SOON
+      TermType: 0
+      Description: 
+      Languages:
+      - Soon
+      - "C\u041A\u041E\u0420\u041E"
+      - "Demn\xE4chst"
+      - Presto
+      - "Bient\xF4t"
+      - "Wkr\xF3tce"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SOUND_OFF
+      TermType: 0
+      Description: 
+      Languages:
+      - sound off
+      - "\u0437\u0432\u0443\u043A \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D"
+      - Ton aus
+      - Audio Disattivato
+      - "son \xE9teint"
+      - "wy\u0142\u0105czy\u0107 dzwi\u0119k"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SOUND_ON
+      TermType: 0
+      Description: 
+      Languages:
+      - sound on
+      - "\u0437\u0432\u0443\u043A \u0432\u043A\u043B\u044E\u0447\u0435\u043D"
+      - Ton an
+      - suono acceso
+      - son sur
+      - "dzwi\u0119k w\u0142\u0105czony"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SPEED_UP_CHEST
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Speed up:'
+      - "\u0423\u0441\u043A\u043E\u0440\u0438\u0442\u044C:"
+      - 'Beschleunigen:'
+      - 'Accelerare:'
+      - "Acc\xE9l\xE9rer:"
+      - "Przy\u015Bpieszy\u0107:"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Select_boosters
+      TermType: 0
+      Description: 
+      Languages:
+      - Choose a booster
+      - "\u0412\u044B\u0431\u0435\u0440\u0438 \u0431\u0443\u0441\u0442\u0435\u0440"
+      - "W\xE4hlen Sie einen Booster"
+      - Scegli un booster
+      - Choisissez un rehausseur
+      - Wybierz wzmacniacz
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TACTICS_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Here you can choose the tactics of protection, in case of your absence.
+      - "\u0417\u0434\u0435\u0441\u044C \u043C\u043E\u0436\u043D\u043E \u0432\u044B\u0431\u0440\u0430\u0442\u044C
+        \u0442\u0430\u043A\u0442\u0438\u043A\u0443 \u0437\u0430\u0449\u0438\u0442\u044B,
+        \u043D\u0430 \u0441\u043B\u0443\u0447\u0430\u0439 \u0442\u0432\u043E\u0435\u0433\u043E
+        \u043E\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u044F"
+      - "Hier k\xF6nnen Sie die Taktik des Schutzes im Falle Ihrer Abwesenheit w\xE4hlen."
+      - Qui puoi scegliere le tattiche di protezione, in caso di tua assenza.
+      - Ici, vous pouvez choisir les tactiques de protection, en cas d'absence.
+      - "Tutaj mo\u017Cesz wybra\u0107 taktyk\u0119 ochrony na wypadek Twojej nieobecno\u015Bci."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TACTICS_1_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Someone attacked you. Need tactics for the future
+      - "\u041A\u0442\u043E-\u0442\u043E \u043D\u0430\u043F\u0430\u043B \u043D\u0430
+        \u0442\u0435\u0431\u044F. \u041D\u0443\u0436\u043D\u0430 \u0442\u0430\u043A\u0442\u0438\u043A\u0430
+        \u0437\u0430\u0449\u0438\u0442\u044B \u043D\u0430 \u0431\u0443\u0434\u0443\u0449\u0435\u0435"
+      - "Jemand hat dich angegriffen. Brauchen Sie Taktiken f\xFCr die Zukunft"
+      - Qualcuno ti ha aggredito. Servono tattiche per il futuro
+      - "Quelqu'un t'a attaqu\xE9. Besoin de tactiques pour l'avenir"
+      - "Kto\u015B ci\u0119 zaatakowa\u0142. Potrzebujesz taktyk na przysz\u0142o\u015B\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TACTICS_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Hang the weapon on the tub first, then decide how to use it.
+      - "\u0421\u043D\u0430\u0447\u0430\u043B\u0430 \u043F\u043E\u0432\u0435\u0441\u044C
+        \u043E\u0440\u0443\u0436\u0438\u0435 \u043D\u0430 \u0432\u0430\u043D\u043D\u0443,
+        \u0430 \u043F\u043E\u0442\u043E\u043C \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0438
+        \u043F\u043E\u0440\u044F\u0434\u043E\u043A \u0435\u0433\u043E \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F"
+      - "H\xE4ngen Sie zuerst die Waffe an die Wanne und entscheiden Sie dann, wie
+        Sie sie verwenden."
+      - Appendi prima l'arma alla vasca, quindi decidi come usarla.
+      - "Accrochez d'abord l'arme \xE0 la baignoire, puis d\xE9cidez comment l'utiliser."
+      - "Najpierw zawie\u015B bro\u0144 na wannie, a potem zdecyduj, jak jej u\u017Cy\u0107."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TACTICS_TITLE
+      TermType: 0
+      Description: 
+      Languages:
+      - Choose card order
+      - "\u0412\u044B\u0431\u0435\u0440\u0438 \u043F\u043E\u0440\u044F\u0434\u043E\u043A
+        \u043A\u0430\u0440\u0442"
+      - "Kartenreihenfolge w\xE4hlen"
+      - Scegli l'ordine della carta
+      - Choisissez la commande de la carte
+      - "Wybierz kolejno\u015B\u0107 kart"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TAKE_AMOUNT_BATTLE_POINTS
+      TermType: 0
+      Description: 
+      Languages:
+      - And you scored {[VALUE]} points
+      - "\u0410 \u0435\u0449\u0435 \u0442\u044B \u043D\u0430\u0431\u0440\u0430\u043B
+        {[VALUE]} \u043E\u0447\u043A\u043E\u0432"
+      - Und Sie haben {[VALUE]} Punkte erzielt
+      - E hai segnato {[VALUE]} punti
+      - "Et tu as marqu\xE9 {[VALUE]} de points"
+      - "I zdoby\u0142e\u015B {[VALUE]} punkty"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TAKE_CHEST_NOTIFICATION
+      TermType: 0
+      Description: 
+      Languages:
+      - You won a chest
+      - "\u0412\u044B \u0432\u044B\u0438\u0433\u0440\u0430\u043B\u0438 \u0441\u0443\u043D\u0434\u0443\u043A"
+      - Du hast eine Truhe gewonnen
+      - Hai vinto un forziere
+      - "Vous avez gagn\xE9 un coffre"
+      - "Wygra\u0142e\u015B skrzyni\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TAKE_NOW
+      TermType: 0
+      Description: 
+      Languages:
+      - Take it now
+      - "\u0412\u0437\u044F\u0442\u044C \u0441\u0435\u0439\u0447\u0430\u0441"
+      - Nimm es jetzt
+      - Prendilo adesso
+      - Prends le maintenant
+      - "We\u017A to teraz"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TAKE_PRIZE
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Take your reward:'
+      - "\u0417\u0430\u0431\u0435\u0440\u0438 \u043D\u0430\u0433\u0440\u0430\u0434\u0443:"
+      - 'Nimm deine Belohnung:'
+      - 'Prendi la tua ricompensa:'
+      - "Prenez votre r\xE9compense\_:"
+      - "Odbierz nagrod\u0119:"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TOAST_START_BATTLE
+      TermType: 0
+      Description: 
+      Languages:
+      - Be sure to take something offensive!
+      - "\u041E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u0432\u043E\u0437\u044C\u043C\u0438
+        \u0447\u0442\u043E-\u0442\u043E \u0430\u0442\u0430\u043A\u0443\u044E\u0449\u0435\u0435!"
+      - Achten Sie darauf, etwas Offensives zu nehmen!
+      - Assicurati di prendere qualcosa di offensivo!
+      - "Assurez-vous de prendre quelque chose d'offensant\_!"
+      - "Pami\u0119taj, aby wzi\u0105\u0107 co\u015B obra\u017Aliwego!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TOAST_WITHOUT_DAMAGE
+      TermType: 0
+      Description: 
+      Languages:
+      - You need to equip something more serious!
+      - "\u041D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E \u044D\u043A\u0438\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u0447\u0442\u043E-\u0442\u043E \u0431\u043E\u043B\u0435\u0435 \u0441\u0435\u0440\u044C\u0435\u0437\u043D\u043E\u0435!"
+      - "Sie m\xFCssen etwas Ernsteres ausr\xFCsten!"
+      - "Devi equipaggiare qualcosa di pi\xF9 serio!"
+      - "Vous devez \xE9quiper quelque chose de plus s\xE9rieux!"
+      - "Musisz wyposa\u017Cy\u0107 si\u0119 w co\u015B powa\u017Cniejszego!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TOAST_WITHOUT_WEAPONS
+      TermType: 0
+      Description: 
+      Languages:
+      - You need at least 5 cards to fight.
+      - "\u0414\u043B\u044F \u0431\u043E\u044F \u043D\u0430\u0434\u043E \u043C\u0438\u043D\u0438\u043C\u0443\u043C
+        5 \u043A\u0430\u0440\u0442"
+      - "Du ben\xF6tigst mindestens 5 Karten, um zu k\xE4mpfen."
+      - Hai bisogno di almeno 5 carte per combattere.
+      - Vous avez besoin d'au moins 5 cartes pour combattre.
+      - Do walki potrzebujesz co najmniej 5 kart.
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TROPHIES
+      TermType: 0
+      Description: 
+      Languages:
+      - trophy
+      - "\u0442\u0440\u043E\u0444\u0435\u044F"
+      - "Troph\xE4e"
+      - trofeo
+      - "troph\xE9e"
+      - trofeum
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TROPHIES_MORE__THAN_4
+      TermType: 0
+      Description: 
+      Languages:
+      - trophies
+      - "\u0442\u0440\u043E\u0444\u0435\u0435\u0432"
+      - "troph\xE4en"
+      - trofei
+      - "troph\xE9es"
+      - trofea
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TUTORIAL_WIN_TEXT
+      TermType: 0
+      Description: 
+      Languages:
+      - Congratulations on your first win
+      - "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u0435\u043C \u0441
+        \u0442\u0432\u043E\u0435\u0439 \u043F\u0435\u0440\u0432\u043E\u0439 \u043F\u043E\u0431\u0435\u0434\u043E\u0439"
+      - "Herzlichen Gl\xFCckwunsch zu deinem ersten Sieg"
+      - Congratulazioni per la tua prima vittoria
+      - "F\xE9licitations pour votre premi\xE8re victoire"
+      - Gratulujemy pierwszej wygranej
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: UMBRELLA_HELPER
+      TermType: 0
+      Description: 
+      Languages:
+      - You got an armor card, use it
+      - "\u0422\u0435\u0431\u0435 \u0432\u044B\u043F\u0430\u043B\u0430 \u043A\u0430\u0440\u0442\u0430
+        \u0431\u0440\u043E\u043D\u0438, \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439
+        \u0435\u0435"
+      - "Du hast eine R\xFCstungskarte, benutze sie"
+      - Hai una carta armatura, usala
+      - Vous avez une carte d'armure, utilisez-la
+      - "Masz kart\u0119 zbroi, u\u017Cyj jej"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: USE_TUBE_HEAL
+      TermType: 0
+      Description: 
+      Languages:
+      - We got hit! Need to restore health - use plunger!
+      - "\u041F\u043E \u043D\u0430\u043C \u043F\u043E\u043F\u0430\u043B\u0438! \u041D\u0443\u0436\u043D\u043E
+        \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C
+        \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435 - \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439
+        \u0432\u0430\u043D\u0442\u0443\u0437!"
+      - Wir wurden getroffen! Notwendigkeit, die Gesundheit wiederherzustellen -
+        verwenden Kolben!
+      - "Siamo stati colpiti! Necessit\xE0 di ripristinare la salute - utilizzare
+        stantuffo!"
+      - "Nous avons \xE9t\xE9 touch\xE9s\_! Besoin de restaurer la sant\xE9 - utiliser
+        piston!"
+      - "Zostali\u015Bmy trafieni! Konieczno\u015B\u0107 przywr\xF3cenia zdrowia
+        - u\u017Cyj\rt\u0142ok nurnikowy!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: VICTORIES
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Victories:'
+      - "\u041F\u043E\u0431\u0435\u0434\u044B:"
+      - 'Siege:'
+      - 'Vittorie:'
+      - "Victoires\_:"
+      - "Zwyci\u0119stwa:"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: WIN
+      TermType: 0
+      Description: 
+      Languages:
+      - VICTORY!
+      - "\u041F\u041E\u0411\u0415\u0414\u0410!"
+      - Sieg!
+      - Vittoria!
+      - La Victoire!
+      - "Zwyci\u0119stwo!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: WIN_TO_COLLECT
+      TermType: 0
+      Description: 
+      Languages:
+      - Win to collect
+      - "\u0412\u044B\u0438\u0433\u0440\u0430\u0439, \u0447\u0442\u043E\u0431\u044B
+        \u0441\u043E\u0431\u0440\u0430\u0442\u044C"
+      - Gewinne zum Sammeln
+      - Vinci per collezionare
+      - Gagner pour collectionner
+      - "Wygraj, aby zebra\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: YES
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes
+      - "\u0414\u0430"
+      - Ja
+      - "S\xEC"
+      - Oui
+      - Tak
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: YOU_GOT
+      TermType: 0
+      Description: 
+      Languages:
+      - YOU GOT
+      - "\u0422\u044B \u041F\u043E\u043B\u0443\u0447\u0438\u043B"
+      - Du Hast
+      - Tu Hai
+      - Vous Avez
+      - Masz
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_battles_player
+      TermType: 0
+      Description: 
+      Languages:
+      - Take part in battles
+      - "\u041F\u043E\u0443\u0447\u0430\u0441\u0442\u0432\u0443\u0439 \u0432 \u0431\u0438\u0442\u0432\u0430\u0445"
+      - "Nehmen Sie an K\xE4mpfen teil"
+      - Partecipa alle battaglie
+      - Participez aux batailles
+      - "We\u017A udzia\u0142 w bitwach"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_battles_win
+      TermType: 0
+      Description: 
+      Languages:
+      - Win battles
+      - "\u0412\u044B\u0438\u0433\u0440\u044B\u0432\u0430\u0439 \u0431\u0438\u0442\u0432\u044B"
+      - Schlachten gewinnen
+      - Vinci battaglie
+      - Gagnez des batailles
+      - Wygrywaj bitwy
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_cards_merged
+      TermType: 0
+      Description: 
+      Languages:
+      - Connect the cards
+      - "\u0421\u043E\u0435\u0434\u0438\u043D\u0438 \u043A\u0430\u0440\u0442\u044B"
+      - Verbinden Sie die Karten
+      - Collega le carte
+      - Connectez les cartes
+      - "Po\u0142\u0105cz karty"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_cards_opened
+      TermType: 0
+      Description: 
+      Languages:
+      - Unlock new cards
+      - "\u041E\u0442\u043A\u0440\u043E\u0439 \u043D\u043E\u0432\u044B\u0435 \u043A\u0430\u0440\u0442\u044B"
+      - Schalte neue Karten frei
+      - Sblocca nuove carte
+      - "D\xE9bloquez de nouvelles cartes"
+      - Odblokuj nowe karty
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_merge_two_cards
+      TermType: 0
+      Description: 
+      Languages:
+      - Merge two cards
+      - "\u041E\u0431\u044A\u0435\u0434\u0438\u043D\u0438 \u0434\u0432\u0435 \u043A\u0430\u0440\u0442\u044B"
+      - "Zwei Karten zusammenf\xFChren"
+      - Unisci due carte
+      - Fusionner deux cartes
+      - "Po\u0142\u0105cz dwie karty"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_open_giga_chest
+      TermType: 0
+      Description: 
+      Languages:
+      - Open a huge chest
+      - "\u041E\u0442\u043A\u0440\u043E\u0439 \u043E\u0433\u0440\u043E\u043C\u043D\u044B\u0439
+        \u0441\u0443\u043D\u0434\u0443\u043A"
+      - "\xD6ffne eine riesige Truhe"
+      - Apri una cassa enorme
+      - "Ouvrir un \xE9norme coffre"
+      - "Otw\xF3rz ogromn\u0105 skrzyni\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_open_medium_chest
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the middle chest
+      - "\u041E\u0442\u043A\u0440\u043E\u0439 \u0441\u0440\u0435\u0434\u043D\u0438\u0439
+        \u0441\u0443\u043D\u0434\u0443\u043A"
+      - "\xD6ffne die mittlere Truhe"
+      - Apri il petto centrale
+      - Ouvrez le coffre du milieu
+      - "Otw\xF3rz \u015Brodkow\u0105 skrzyni\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_open_mege_chest
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the big chest
+      - "\u041E\u0442\u043A\u0440\u043E\u0439 \u0431\u043E\u043B\u044C\u0448\u043E\u0439
+        \u0441\u0443\u043D\u0434\u0443\u043A"
+      - "\xD6ffne die gro\xDFe Truhe"
+      - Apri il grande petto
+      - Ouvre le grand coffre
+      - "Otw\xF3rz du\u017C\u0105 skrzyni\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_open_one_chest
+      TermType: 0
+      Description: 
+      Languages:
+      - open the chest
+      - "\u041E\u0442\u043A\u0440\u043E\u0439 \u0441\u0443\u043D\u0434\u0443\u043A"
+      - "\xF6ffne die Truhe"
+      - apri il petto
+      - ouvrir la poitrine
+      - "otw\xF3rz skrzyni\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_open_small_chest
+      TermType: 0
+      Description: 
+      Languages:
+      - Open mini chest
+      - "\u041E\u0442\u043A\u0440\u043E\u0439 \u043C\u0438\u043D\u0438 \u0441\u0443\u043D\u0434\u0443\u043A"
+      - "\xD6ffnen Sie die Mini-Truhe"
+      - Mini cassa aperta
+      - Mini coffre ouvert
+      - "Otw\xF3rz mini skrzyni\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_play_three_battle
+      TermType: 0
+      Description: 
+      Languages:
+      - Play three battles
+      - "\u0421\u044B\u0433\u0440\u0430\u0439 \u0442\u0440\u0438 \u0431\u0438\u0442\u0432\u044B"
+      - Spielen Sie drei Schlachten
+      - Gioca tre battaglie
+      - Jouez trois batailles
+      - Rozegraj trzy bitwy
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_take_card_rank
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a card {[VALUE]} rank
+      - "\u041F\u043E\u043B\u0443\u0447\u0438 \u043A\u0430\u0440\u0442\u0443 {[VALUE]}
+        \u0440\u0430\u043D\u0433\u0430 "
+      - Holen Sie sich eine Karte {[VALUE]} Rang
+      - Ottieni una carta {[VALUE]} rango
+      - Obtenir une carte {[VALUE]} rang
+      - "Zdob\u0105d\u017A kart\u0119 {[VALUE]} rang\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_take_card_rank_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a first rank card
+      - "\u041F\u043E\u043B\u0443\u0447\u0438 \u043A\u0430\u0440\u0442\u0443 \u043F\u0435\u0440\u0432\u043E\u0433\u043E
+        \u0440\u0430\u043D\u0433\u0430 "
+      - Holen Sie sich eine Karte des ersten Ranges
+      - Ottieni una carta di primo grado
+      - Obtenez une carte de premier rang
+      - "Zdob\u0105d\u017A kart\u0119 pierwszego stopnia"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_take_card_rank_10
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a rank ten card
+      - "\u041F\u043E\u043B\u0443\u0447\u0438 \u043A\u0430\u0440\u0442\u0443 \u0434\u0435\u0441\u044F\u0442\u043E\u0433\u043E
+        \u0440\u0430\u043D\u0433\u0430"
+      - Holen Sie sich eine Rang-10-Karte
+      - Ottieni una carta di rango dieci
+      - Obtenez une carte de rang dix
+      - "Zdob\u0105d\u017A kart\u0119 o randze dziesi\u0105tej"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_take_card_rank_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a second rank card
+      - "\u041F\u043E\u043B\u0443\u0447\u0438 \u043A\u0430\u0440\u0442\u0443 \u0432\u0442\u043E\u0440\u043E\u0433\u043E
+        \u0440\u0430\u043D\u0433\u0430"
+      - Holen Sie sich eine zweite Rangkarte
+      - Ottieni una seconda carta di rango
+      - "Obtenez une carte de deuxi\xE8me rang"
+      - "Zdob\u0105d\u017A kart\u0119 drugiego stopnia"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_take_card_rank_3
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a rank three card
+      - "\u041F\u043E\u043B\u0443\u0447\u0438 \u043A\u0430\u0440\u0442\u0443 \u0442\u0440\u0435\u0442\u044C\u0435\u0433\u043E
+        \u0440\u0430\u043D\u0433\u0430"
+      - Holen Sie sich eine Rang-Drei-Karte
+      - Ottieni una carta di rango tre
+      - Obtenez une carte de rang trois
+      - "Zdob\u0105d\u017A kart\u0119 rangi trzeciej"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_take_card_rank_4
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a rank four card
+      - "\u041F\u043E\u043B\u0443\u0447\u0438 \u043A\u0430\u0440\u0442\u0443 \u0447\u0435\u0442\u0432\u0435\u0440\u0442\u043E\u0433\u043E
+        \u0440\u0430\u043D\u0433\u0430"
+      - Holen Sie sich eine Rang-4-Karte
+      - Ottieni una carta di rango quattro
+      - Obtenez une carte de rang quatre
+      - "Zdob\u0105d\u017A kart\u0119 rangi czwartej"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_take_card_rank_5
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a rank five card
+      - "\u041F\u043E\u043B\u0443\u0447\u0438 \u043A\u0430\u0440\u0442\u0443 \u043F\u044F\u0442\u043E\u0433\u043E
+        \u0440\u0430\u043D\u0433\u0430"
+      - "Holen Sie sich eine Rang-F\xFCnf-Karte"
+      - Ottieni una carta di rango cinque
+      - Obtenez une carte de rang cinq
+      - "Zdob\u0105d\u017A kart\u0119 z pi\u0105tym stopniem"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_take_card_rank_6
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a rank six card
+      - "\u041F\u043E\u043B\u0443\u0447\u0438 \u043A\u0430\u0440\u0442\u0443 \u0448\u0435\u0441\u0442\u043E\u0433\u043E
+        \u0440\u0430\u043D\u0433\u0430"
+      - Holen Sie sich eine Rang-6-Karte
+      - Ottieni una carta di rango sei
+      - Obtenez une carte de rang six
+      - "Zdob\u0105d\u017A kart\u0119 rangi sz\xF3stej"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_take_card_rank_7
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a card of the seventh rank
+      - "\u041F\u043E\u043B\u0443\u0447\u0438 \u043A\u0430\u0440\u0442\u0443 \u0441\u0435\u0434\u044C\u043C\u043E\u0433\u043E
+        \u0440\u0430\u043D\u0433\u0430"
+      - Holen Sie sich eine Karte des siebten Ranges
+      - Ottieni una carta del settimo rango
+      - "Obtenez une carte du septi\xE8me rang"
+      - "Zdob\u0105d\u017A kart\u0119 si\xF3dmej rangi"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_take_card_rank_8
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a rank eight card
+      - "\u041F\u043E\u043B\u0443\u0447\u0438 \u043A\u0430\u0440\u0442\u0443 \u0432\u043E\u0441\u044C\u043C\u043E\u0433\u043E
+        \u0440\u0430\u043D\u0433\u0430"
+      - Holen Sie sich eine Rang acht Karte
+      - Ottieni una carta di rango otto
+      - Obtenez une carte de rang huit
+      - "Zdob\u0105d\u017A kart\u0119 o randze \xF3smej"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_take_card_rank_9
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a rank nine card
+      - "\u041F\u043E\u043B\u0443\u0447\u0438 \u043A\u0430\u0440\u0442\u0443 \u0434\u0435\u0432\u044F\u0442\u043E\u0433\u043E
+        \u0440\u0430\u043D\u0433\u0430"
+      - Holen Sie sich eine Rang-9-Karte
+      - Ottieni una carta di rango nove
+      - Obtenez une carte de rang neuf
+      - "Zdob\u0105d\u017A kart\u0119 rangi dziewi\u0105tej"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_take_chest
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a chest
+      - "\u041F\u043E\u043B\u0443\u0447\u0438 \u0441\u0443\u043D\u0434\u0443\u043A"
+      - Hol dir eine Truhe
+      - Prendi una cassa
+      - Obtenez un coffre
+      - "Zdob\u0105d\u017A skrzyni\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_win_bosses
+      TermType: 0
+      Description: 
+      Languages:
+      - Defeat the boss
+      - "\u041F\u043E\u0431\u0435\u0434\u0438 \u0431\u043E\u0441\u0441\u0430"
+      - Besiege den Boss
+      - Sconfiggi il capo
+      - Vaincre le boss
+      - Pokonaj szefa
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_win_one_battle
+      TermType: 0
+      Description: 
+      Languages:
+      - Win The Battle
+      - "\u0412\u044B\u0439\u0433\u0440\u0430\u0439 \u0431\u0438\u0442\u0432\u0443"
+      - Gewinne Den Kampf
+      - Vincere La Battaglia
+      - Gagner La Bataille
+      - "Wygraj Bitw\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: achiev_win_three_battle
+      TermType: 0
+      Description: 
+      Languages:
+      - Win three battles
+      - "\u0412\u044B\u0439\u0433\u0440\u0430\u0439 \u0442\u0440\u0438 \u0431\u0438\u0442\u0432\u044B"
+      - Gewinne drei Schlachten
+      - Vinci tre battaglie
+      - Gagner trois batailles
+      - Wygraj trzy bitwy
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: battlepass_description
+      TermType: 0
+      Description: 
+      Languages:
+      - Get More Rewards For Victories
+      - "\u041F\u043E\u043B\u0443\u0447\u0430\u0439 \u0431\u043E\u043B\u044C\u0448\u0435
+        \u043D\u0430\u0433\u0440\u0430\u0434 \u0437\u0430 \u043F\u043E\u0431\u0435\u0434\u044B"
+      - "Erhalte Mehr Belohnungen F\xFCr Siege"
+      - "Ottenere Pi\xF9 Ricompense Per Le Vittorie"
+      - "Obtenir Plus De R\xE9compenses Pour Les Victoires"
+      - "Zdob\u0105d\u017A Wi\u0119cej Nagr\xF3d Za Zwyci\u0119stwa"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: battlepass_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Battle Pass
+      - "\u0411\u043E\u0435\u0432\u043E\u0439 \u043F\u0440\u043E\u043F\u0443\u0441\u043A"
+      - Kampfpass
+      - Passaggio Di Battaglia
+      - Pass De Combat
+      - Przepustka Bojowa
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: big_money_pack_description
+      TermType: 0
+      Description: 
+      Languages:
+      - '[{VALUE}] money'
+      - "[{VALUE}] \u0434\u0435\u043D\u0435\u0433"
+      - '[{VALUE}] Geld'
+      - '[{VALUE}] denaro'
+      - '[{VALUE}] argent'
+      - "[{VALUE}] pieni\u0105dze"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: big_money_pack_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Big Set Of Currency
+      - "\u0411\u043E\u043B\u044C\u0448\u043E\u0439 \u043D\u0430\u0431\u043E\u0440
+        \u0432\u0430\u043B\u044E\u0442\u044B"
+      - "Gro\xDFe Menge An W\xE4hrung"
+      - Grande Set Di Valuta
+      - Grand Ensemble De Devises
+      - "Du\u017Cy Zestaw Walut"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: block_fastener
+      TermType: 0
+      Description: 
+      Languages:
+      - Locking random weapon mounts
+      - "\u0411\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u043A\u0430 \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E\u0433\u043E
+        \u043A\u0440\u0435\u043F\u043B\u0435\u043D\u0438\u044F \u0434\u043B\u044F
+        \u043E\u0440\u0443\u0436\u0438\u044F"
+      - "Zuf\xE4llige Waffenhalterungen sperren"
+      - Blocco di supporti per armi casuali
+      - "Verrouillage des supports d'armes al\xE9atoires"
+      - "Blokowanie losowych wierzchowc\xF3w broni"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: booster_available
+      TermType: 0
+      Description: 
+      Languages:
+      - Available after 7 wins
+      - "\u0414\u043E\u0441\u0442\u0443\u043F\u043D\u044B \u043F\u043E\u0441\u043B\u0435
+        7 \u043F\u043E\u0431\u0435\u0434"
+      - "Verf\xFCgbar nach 7 Siegen"
+      - Disponibile dopo 7 vittorie
+      - "Disponible apr\xE8s 7 victoires"
+      - "Dost\u0119pny po 7 wygranych"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: catorkit_description
+      TermType: 0
+      Description: 
+      Languages:
+      - '{[VALUE]} boosters of each type'
+      - "{[VALUE]} \u0431\u0443\u0441\u0442\u0435\u0440\u044B \u043A\u0430\u0436\u0434\u043E\u0433\u043E
+        \u0442\u0438\u043F\u0430"
+      - '{[VALUE]} Booster von jedem Typ'
+      - '{[VALUE]} booster di ogni tipo'
+      - '{[VALUE]} boosters de chaque type'
+      - "{[VALUE]} boostery ka\u017Cdego typu"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: catorkit_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Medium Set Of Boosters
+      - "\u0421\u0440\u0435\u0434\u043D\u0438\u0439 \u043D\u0430\u0431\u043E\u0440
+        \u0431\u0443\u0441\u0442\u0435\u0440\u043E\u0432"
+      - Mittlerer Satz Booster
+      - Set Medio Di Booster
+      - Ensemble Moyen De Boosters
+      - "\u015Aredni Zestaw Booster\xF3w"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: caymankit_description
+      TermType: 0
+      Description: 
+      Languages:
+      - '{[VALUE]} boosters of each type'
+      - "{[VALUE]} \u0431\u0443\u0441\u0442\u0435\u0440\u043E\u0432 \u043A\u0430\u0436\u0434\u043E\u0433\u043E
+        \u0442\u0438\u043F\u0430"
+      - '{[VALUE]} Booster jedes Typs'
+      - '{[VALUE]} booster di ogni tipo'
+      - '{[VALUE]} boosters de chaque type'
+      - "{[VALUE]} boostery ka\u017Cdego typu"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: caymankit_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Big Set Of Boosters
+      - "\u0411\u043E\u043B\u044C\u0448\u043E\u0439 \u043D\u0430\u0431\u043E\u0440
+        \u0431\u0443\u0441\u0442\u0435\u0440\u043E\u0432"
+      - "Gro\xDFe Reihe Von Boostern"
+      - Grande Set Di Booster
+      - Grand Ensemble De Boosters
+      - "Du\u017Cy Zestaw Booster\xF3w"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: complete_all_daily_quests
+      TermType: 0
+      Description: 
+      Languages:
+      - Complete all daily quests
+      - "\u0417\u0430\u0432\u0435\u0440\u0448\u0438 \u0432\u0441\u0435 \u0434\u043D\u0435\u0432\u043D\u044B\u0435
+        \u0437\u0430\u0434\u0430\u043D\u0438\u044F"
+      - "Schlie\xDFe alle t\xE4glichen Quests ab"
+      - Completa tutte le missioni giornaliere
+      - "Terminez toutes les qu\xEAtes quotidiennes"
+      - "Uko\u0144cz wszystkie codzienne zadania"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: crocokit_description
+      TermType: 0
+      Description: 
+      Languages:
+      - '{[VALUE]} boosters of each type'
+      - "{[VALUE]} \u0431\u0443\u0441\u0442\u0435\u0440\u0430 \u043A\u0430\u0436\u0434\u043E\u0433\u043E
+        \u0442\u0438\u043F\u0430"
+      - '{[VALUE]} Booster jedes Typs'
+      - '{[VALUE]} booster di ogni tipo'
+      - '{[VALUE]} boosters de chaque type'
+      - "{[VALUE]} boostery ka\u017Cdego typu"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: crocokit_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Small Set Of Boosters
+      - "\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0439 \u043D\u0430\u0431\u043E\u0440
+        \u0431\u0443\u0441\u0442\u0435\u0440\u043E\u0432"
+      - Kleiner Satz Booster
+      - Piccolo Set Di Booster
+      - Petit Ensemble De Boosters
+      - "Ma\u0142y Zestaw Booster\xF3w"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: daily_tasks_description
+      TermType: 0
+      Description: 
+      Languages:
+      - Complete all daily tasks within 5 days!
+      - "\u0412\u044B\u043F\u043E\u043B\u043D\u044F\u0439 \u0432\u0441\u0435 \u0435\u0436\u0435\u0434\u043D\u0435\u0432\u043D\u044B\u0435
+        \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u0432 \u0442\u0435\u0447\u0435\u043D\u0438\u0435
+        5 \u0434\u043D\u0435\u0439!"
+      - "Erledige alle t\xE4glichen Aufgaben innerhalb von 5 Tagen!"
+      - "Completa tutte le attivit\xE0 quotidiane entro 5 giorni!"
+      - "Terminez toutes les t\xE2ches quotidiennes en 5 jours\_!"
+      - "Uko\u0144cz wszystkie codzienne zadania w ci\u0105gu 5 dni!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: fantastic_money_pack_description
+      TermType: 0
+      Description: 
+      Languages:
+      - '{[VALUE}] money'
+      - "{[VALUE}] \u0434\u0435\u043D\u0435\u0433"
+      - '{[VALUE}] Geld'
+      - '{[VALUE}] denaro'
+      - '{[VALUE}] argent'
+      - "{[VALUE}] pieni\u0105dze"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: fantastic_money_pack_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Fantasy currency set
+      - "\u0424\u0430\u043D\u0442\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+        \u043D\u0430\u0431\u043E\u0440 \u0432\u0430\u043B\u044E\u0442\u044B"
+      - "Fantasy-W\xE4hrungsset"
+      - Set di valuta di fantasia
+      - Ensemble de devises fantastiques
+      - Zestaw walut fantasy
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: free_money_pack_description
+      TermType: 0
+      Description: 
+      Languages:
+      - Free gift every day
+      - "\u041A\u0430\u0436\u0434\u044B\u0439 \u0434\u0435\u043D\u044C \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439
+        \u043F\u043E\u0434\u0430\u0440\u043E\u043A"
+      - Jeden Tag ein kostenloses Geschenk
+      - Regalo gratuito ogni giorno
+      - Cadeau gratuit tous les jours
+      - "Darmowy prezent ka\u017Cdego dnia"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: free_money_pack_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Free money
+      - "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0435 \u0434\u0435\u043D\u044C\u0433\u0438"
+      - Freies Geld
+      - Soldi GRATIS
+      - Argent gratuit
+      - "Darmowe pieni\u0105dze"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: freeze_enemy
+      TermType: 0
+      Description: 
+      Languages:
+      - Disarming an opponent in the first round
+      - "\u041E\u0431\u0435\u0437\u0432\u0440\u0435\u0436\u0438\u0432\u0430\u043D\u0438\u0435
+        \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430 \u0432 \u043F\u0435\u0440\u0432\u043E\u043C
+        \u0440\u0430\u0443\u043D\u0434\u0435"
+      - Einen Gegner in der ersten Runde entwaffnen
+      - Disarmare un avversario al primo round
+      - "D\xE9sarmer un adversaire au premier tour"
+      - Rozbrajanie przeciwnika w pierwszej rundzie
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: giga_chest_description
+      TermType: 0
+      Description: 
+      Languages:
+      - Huge Chest
+      - "\u041E\u0433\u0440\u043E\u043C\u043D\u044B\u0439 \u0441\u0443\u043D\u0434\u0443\u043A"
+      - Riesige Brust
+      - Petto Enorme
+      - "\xC9norme Poitrine"
+      - Ogromna Skrzynia
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: giga_chest_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Huge Chest
+      - "\u041E\u0433\u0440\u043E\u043C\u043D\u044B\u0439 \u0441\u0443\u043D\u0434\u0443\u043A"
+      - Riesige Brust
+      - Petto Enorme
+      - "\xC9norme Poitrine"
+      - Ogromna Skrzynia
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: huge_money_pack_description
+      TermType: 0
+      Description: 
+      Languages:
+      - '[{VALUE}] money'
+      - "[{VALUE}] \u0434\u0435\u043D\u0435\u0433"
+      - '[{VALUE}] Geld'
+      - '[{VALUE}] denaro'
+      - '[{VALUE}] argent'
+      - "[{VALUE}] pieni\u0105dze"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: huge_money_pack_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Huge Set Of Currency
+      - "\u041E\u0433\u0440\u043E\u043C\u043D\u044B\u0439 \u043D\u0430\u0431\u043E\u0440
+        \u0432\u0430\u043B\u044E\u0442\u044B"
+      - "Riesige Menge An W\xE4hrung"
+      - Enorme Insieme Di Valuta
+      - "\xC9norme Ensemble De Devises"
+      - Ogromny Zestaw Walut
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: medium_chest_description
+      TermType: 0
+      Description: 
+      Languages:
+      - Medium Chest
+      - "\u0421\u0440\u0435\u0434\u043D\u0438\u0439 \u0441\u0443\u043D\u0434\u0443\u043A"
+      - Mittlere Brust
+      - Petto Medio
+      - Poitrine Moyenne
+      - "\u015Arednia Klatka Piersiowa"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: medium_chest_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Medium Chest
+      - "\u0421\u0440\u0435\u0434\u043D\u0438\u0439 \u0441\u0443\u043D\u0434\u0443\u043A"
+      - Mittlere Brust
+      - Petto Medio
+      - Poitrine Moyenne
+      - "\u015Arednia Klatka Piersiowa"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: medium_money_pack_description
+      TermType: 0
+      Description: 
+      Languages:
+      - '{[VALUE]} Money'
+      - "{[VALUE]} \u0434\u0435\u043D\u0435\u0433"
+      - '{[VALUE]} Geld'
+      - '{[VALUE]} Soldi'
+      - '{[VALUE]} Argent'
+      - "{[VALUE]} Pieni\u0105dze"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: medium_money_pack_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Average set of currency
+      - "\u0421\u0440\u0435\u0434\u043D\u0438\u0439 \u043D\u0430\u0431\u043E\u0440
+        \u0432\u0430\u043B\u044E\u0442\u044B"
+      - "Durchschnittlicher W\xE4hrungssatz"
+      - Insieme medio di valuta
+      - Ensemble moyen de devises
+      - "\u015Aredni zestaw walut"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: mega_chest_description
+      TermType: 0
+      Description: 
+      Languages:
+      - Large Chest
+      - "\u0411\u043E\u043B\u044C\u0448\u043E\u0439 \u0441\u0443\u043D\u0434\u0443\u043A"
+      - "Gro\xDFe Kiste"
+      - Grande Petto
+      - Grande Poitrine
+      - "Du\u017Ca Skrzynia"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: mega_chest_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Large Chest
+      - "\u0411\u043E\u043B\u044C\u0448\u043E\u0439 \u0441\u0443\u043D\u0434\u0443\u043A"
+      - "Gro\xDFe Kiste"
+      - Grande Petto
+      - Grande Poitrine
+      - "Du\u017Ca Skrzynia"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: mini_chest_description
+      TermType: 0
+      Description: 
+      Languages:
+      - Small Chest
+      - "\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0439 \u0441\u0443\u043D\u0434\u0443\u043A"
+      - Kleine Brust
+      - Piccolo Petto
+      - Petite Poitrine
+      - "Ma\u0142a Skrzynia"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: mini_chest_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Small Chest
+      - "\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0439 \u0441\u0443\u043D\u0434\u0443\u043A"
+      - Kleine Brust
+      - Piccolo Petto
+      - Petite Poitrine
+      - "Ma\u0142a Skrzynia"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: noads_description
+      TermType: 0
+      Description: 
+      Languages:
+      - Disable pop-up ads permanently
+      - "\u041E\u0442\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u0432\u0441\u043F\u043B\u044B\u0432\u044E\u0449\u0435\u0439
+        \u0440\u0435\u043A\u043B\u0430\u043C\u044B \u043D\u0430\u0432\u0441\u0435\u0433\u0434\u0430"
+      - Deaktivieren Sie Pop-up-Werbung dauerhaft
+      - Disattiva gli annunci popup in modo permanente
+      - "D\xE9sactiver d\xE9finitivement les pop-ups publicitaires"
+      - "Wy\u0142\u0105cz wyskakuj\u0105ce reklamy na sta\u0142e"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: noads_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Disabling ads
+      - "\u041E\u0442\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u0440\u0435\u043A\u043B\u0430\u043C\u044B"
+      - Anzeigen deaktivieren
+      - Disattivazione degli annunci
+      - "D\xE9sactivation des publicit\xE9s"
+      - "Wy\u0142\u0105czanie reklam"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: small_money_pack_description
+      TermType: 0
+      Description: 
+      Languages:
+      - '{[VALUE]} Money'
+      - "{[VALUE]} \u0434\u0435\u043D\u0435\u0433"
+      - '{[VALUE]} Geld'
+      - '{[VALUE]} Soldi'
+      - '{[VALUE]} Argent'
+      - "{[VALUE]} Pieni\u0105dze"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: small_money_pack_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Small set of currency
+      - "\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0439 \u043D\u0430\u0431\u043E\u0440
+        \u0432\u0430\u043B\u044E\u0442\u044B"
+      - "Kleiner W\xE4hrungssatz"
+      - Piccolo set di valuta
+      - Petit jeu de devises
+      - "Ma\u0142y zestaw walut"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: tasks_daily_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Daily Quests
+      - "\u0414\u043D\u0435\u0432\u043D\u044B\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F"
+      - "T\xE4gliche Quests"
+      - Missioni giornaliere
+      - "Qu\xEAtes quotidiennes"
+      - Codzienne zadania
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: x2_Damage
+      TermType: 0
+      Description: 
+      Languages:
+      - Double damage in the first round
+      - "\u0414\u0432\u043E\u0439\u043D\u043E\u0439 \u0443\u0440\u043E\u043D \u0432
+        \u043F\u0435\u0440\u0432\u043E\u043C \u0440\u0430\u0443\u043D\u0434\u0435"
+      - Doppelter Schaden in der ersten Runde
+      - Doppio danno al primo round
+      - "Double d\xE9g\xE2ts au premier tour"
+      - "Podw\xF3jne obra\u017Cenia w pierwszej rundzie"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: RESTORE
+      TermType: 0
+      Description: 
+      Languages:
+      - Restore Purchases
+      - "\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C
+        \u043F\u043E\u043A\u0443\u043F\u043A\u0438"
+      - "Eink\xE4ufe wiederherstellen"
+      - Ripristinare gli acquisti
+      - Restaurer les achats
+      - "Przywr\xF3\u0107 zakupy"
+      Flags: 000000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Russian
+      Code: ru
+      Flags: 0
+    - Name: German
+      Code: de
+      Flags: 0
+    - Name: Italian
+      Code: it
+      Flags: 0
+    - Name: French (France)
+      Code: fr-FR
+      Flags: 0
+    - Name: Polish
+      Code: pl
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbxpd5WXKmRifm-djF3oeY6jn0NMMIf-qR7x36Cz/exec
+    Google_SpreadsheetKey: 1lPfIYR-4HVTvvOGgtZT2QCcjn9MM9FqbXB0gM174XW8
+    Google_SpreadsheetName: I2Loc crocodile_battles Localization
+    Google_LastUpdatedVersion: 1667562088921
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

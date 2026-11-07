@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a65bf4c227f4eaf8833319f76144222, type: 3}
+  m_Name: BossSettings
+  m_EditorClassIdentifier: 
+  groups:
+  - groupType: 0
+    cardsGroup: 020000000c0000000d000000100000001500000006000000
+  - groupType: 1
+    cardsGroup: 0400000003000000070000001100000012000000
+  - groupType: 2
+    cardsGroup: 010000000b0000000a0000000800000013000000
+  - groupType: 3
+    cardsGroup: 16000000050000000900000017000000
+  bosses:
+  - bathType: 11
+    bathLevel: 3
+    bossBuilds:
+    - groupType: 0
+      chance: 70
+    - groupType: 1
+      chance: 30
+    _levelMods:
+    - level: 0
+      chance: 85
+    - level: 1
+      chance: 10
+    - level: -1
+      chance: 5
+  - bathType: 12
+    bathLevel: 4
+    bossBuilds:
+    - groupType: 0
+      chance: 20
+    - groupType: 1
+      chance: 50
+    - groupType: 2
+      chance: 20
+    - groupType: 3
+      chance: 10
+    _levelMods:
+    - level: 0
+      chance: 30
+    - level: 1
+      chance: 40
+    - level: 2
+      chance: 30
+  - bathType: 13
+    bathLevel: 7
+    bossBuilds:
+    - groupType: 0
+      chance: 10
+    - groupType: 1
+      chance: 40
+    - groupType: 2
+      chance: 20
+    - groupType: 3
+      chance: 30
+    _levelMods:
+    - level: 1
+      chance: 50
+    - level: 2
+      chance: 30
+    - level: 3
+      chance: 20
+  - bathType: 14
+    bathLevel: 8
+    bossBuilds:
+    - groupType: 1
+      chance: 20
+    - groupType: 2
+      chance: 30
+    - groupType: 3
+      chance: 30
+    - groupType: 4
+      chance: 20
+    _levelMods:
+    - level: 0
+      chance: 5
+    - level: 1
+      chance: 35
+    - level: 2
+      chance: 30
+    - level: 3
+      chance: 20
+    - level: 4
+      chance: 10
+  - bathType: 15
+    bathLevel: 10
+    bossBuilds:
+    - groupType: 1
+      chance: 30
+    - groupType: 2
+      chance: 30
+    - groupType: 3
+      chance: 20
+    - groupType: 4
+      chance: 20
+    _levelMods:
+    - level: 0
+      chance: 20
+    - level: 1
+      chance: 70
+    - level: 2
+      chance: 10
+  - bathType: 16
+    bathLevel: 10
+    bossBuilds:
+    - groupType: 1
+      chance: 10
+    - groupType: 2
+      chance: 30
+    - groupType: 3
+      chance: 30
+    - groupType: 4
+      chance: 30
+    _levelMods:
+    - level: 1
+      chance: 10
+    - level: 2
+      chance: 40
+    - level: 3
+      chance: 50

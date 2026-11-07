@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: passiveDialogAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b39eaabb1cb3bf9409df66e488c207da, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8c1f90d01a7da514d84efc3495876450, type: 3}
+  - {fileID: 21300000, guid: 9a812166baeed054ca009ce456514b76, type: 3}
+  - {fileID: 21300000, guid: 86c53a69c14c4fe40a01bf2c9f62529e, type: 3}
+  - {fileID: 21300000, guid: 3b3be18bc5d7a984d843547b7b674853, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Rectangle 1 copy 2
+  - win
+  - Rectangle 1 copy
+  - lose
+  m_RenderDataMap: {}
+  m_Tag: passiveDialogAtlas
+  m_IsVariant: 0

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9d20dcfdec1b2b84da8d5f8470f0cba6
+  m_SerializeEntries:
+  - m_GUID: 46876a2780737ec45a19d62f88e5ce56
+    m_Address: CFX_Explosion_B_Smoke+Text
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4adffb0018aeda44e9263f901167af1f
+    m_Address: CFX_Firework_Trails_Gravity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5c246f48c6cb7d4bb72e3c5aea2c8f5
+    m_Address: Assets/Setups/bath_setup.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1673659535a57224bae6ced8d501c4f3
+    m_Address: Assets/Setups/weapon_setup.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e3981ba453737fe4f9c80bf916536490
+    m_Address: Assets/Scripts/App/AddressablesManager/Dialogs/ChestsDialog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2c95c3c23e13954494849ecb3e2cfe3
+    m_Address: Assets/Setups/chest_setup.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0db0eb320bd0d1f49a24a20ad31e8993
+    m_Address: Assets/Scripts/App/AddressablesManager/Dialogs/ChestsContainerDialog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f108cba3b54ae6468352bb14ba49b42
+    m_Address: Assets/Scripts/App/AddressablesManager/Dialogs/merge_dialog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 29df0644d9cfb0c44bbd4cefab03f197
+    m_Address: Assets/Setups/name_generator.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c7a0eb03dbfa88a45a331cf7edb529f9
+    m_Address: Assets/Setups/battle_setup.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e5d4d9dc7eb479140befba1311c86f82
+    m_Address: Assets/Setups/task_setup.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f9a958f920239b94bb7622c7fc1b4a2b
+    m_Address: Assets/Scripts/App/AddressablesManager/Dialogs/TaskDialogs/ActiveTaskItem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6e062abc85d94b74580a902c981b12a9
+    m_Address: Assets/Scripts/App/AddressablesManager/Dialogs/TaskDialogs/tasks_dialog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0c524902436466e42b49efcd33477735, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d54e99a9ec8b9934eb871461cbff5f1a, type: 2}
+    - {fileID: 11400000, guid: 596a7632dd850504a9319e7a4f779e1a, type: 2}

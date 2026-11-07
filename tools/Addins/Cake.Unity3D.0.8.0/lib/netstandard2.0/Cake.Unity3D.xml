@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cake.Unity3D</name>
+    </assembly>
+    <members>
+        <member name="T:Cake.Unity3D.Unity3DBuildContext">
+            <summary>
+            The core build context for the a Unity3D project.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Unity3DBuildContext.m_cakeContext">
+            <summary>
+            The cake context being used.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Unity3DBuildContext.m_projectFolder">
+            <summary>
+            The absolute path to the Unity3D project to build.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Unity3DBuildContext.m_buildOptions">
+            <summary>
+            The build options to use when building the project.
+            </summary>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DBuildContext.#ctor(Cake.Core.ICakeContext,Cake.Core.IO.FilePath,Cake.Unity3D.Unity3DBuildOptions)">
+            <summary>
+            Default constructor
+            </summary>
+            <param name="context">The current cake context.</param>
+            <param name="projectFolder">The absolute path to the Unity3D project to build.</param>
+            <param name="options">The build options to use when building the project.</param>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DBuildContext.DumpOptions">
+            <summary>
+            Outputs all current options for this build context.
+            </summary>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DBuildContext.Build">
+            <summary>
+            Perform a build using the contexts project directory and build options.
+            </summary>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DBuildContext.GetAutomatedBuildScriptPath">
+            <summary>
+            Gets the path to the automated build script within a provided Unity3D project path.
+            </summary>
+            <returns>The absolute path to the automated build script.</returns>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DBuildContext.ProjectHasAutomatedBuildScript">
+            <summary>
+            Checks to see if the provided project has the automated build script already.
+            </summary>
+            <returns>True if the build script already exists.</returns>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DBuildContext.InstallAutomatedBuildScript">
+            <summary>
+            Extract the embedded automated build script resource to the Unity3D project.
+            </summary>
+        </member>
+        <member name="T:Cake.Unity3D.Unity3DBuildOptions">
+            <summary>
+            All build options available when performing a Unity3D build.
+            </summary>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DBuildOptions.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="P:Cake.Unity3D.Unity3DBuildOptions.Platform">
+            <summary>
+            The platform to build for.
+            Default: StandaloneWindows64
+            </summary>
+        </member>
+        <member name="P:Cake.Unity3D.Unity3DBuildOptions.OutputPath">
+            <summary>
+            The target path for the build project.
+            Default: null
+            </summary>
+        </member>
+        <member name="P:Cake.Unity3D.Unity3DBuildOptions.BuildVersion">
+            <summary>
+            A custom string used as the build version of the Unity3D project.
+            This will be used as the bundle version in the built application.
+            </summary>
+        </member>
+        <member name="P:Cake.Unity3D.Unity3DBuildOptions.UnityEditorLocation">
+            <summary>
+            The location of the Unity.exe to use.
+            Default: null
+            </summary>
+        </member>
+        <member name="P:Cake.Unity3D.Unity3DBuildOptions.OutputEditorLog">
+            <summary>
+            Should the editor log produced by Unity3D whilst building
+            be output to the console.
+            Default: true
+            </summary>
+        </member>
+        <member name="P:Cake.Unity3D.Unity3DBuildOptions.ForceScriptInstall">
+            <summary>
+            Should we install the automated build script
+            even if we find an existing one.
+            Default: false
+            </summary>
+        </member>
+        <member name="T:Cake.Unity3D.Unity3DBuildPlatform">
+            <summary>
+            All support build target platforms.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Unity3DBuildPlatform.StandaloneWindows64">
+            <summary>
+            Build a standalone windows x64 build.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Unity3DBuildPlatform.StandaloneWindows">
+            <summary>
+            Build a standalone windows x86 build.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Unity3DBuildPlatform.WebGL">
+            <summary>
+            Build a WebGL build.
+            </summary>
+        </member>
+        <member name="T:Cake.Unity3D.Helpers.Unity3DEditor">
+            <summary>
+            Some helper methods for interacting with Unity3D.
+            </summary>
+        </member>
+        <member name="M:Cake.Unity3D.Helpers.Unity3DEditor.LocateUnityInstalls">
+            <summary>
+            Locate all installed version of Unity3D.
+            Warning: This currently only works for Windows and has only been tested on Windows 10.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Cake.Unity3D.Helpers.Unity3DEditor.GetEditorLogLocation">
+            <summary>
+            Gets the absolute path to the Unity3D editor log.
+            This presumes that Unity3D is running as a user and not a service.
+            </summary>
+            <returns>The absolute path to the Unity3D editor log.</returns>
+        </member>
+        <member name="M:Cake.Unity3D.Helpers.Unity3DEditor.ProcessEditorLog(Cake.Core.ICakeContext,System.Boolean,System.String,System.Int32@)">
+            <summary>
+            Output all new log lines to the console for the specified log.
+            </summary>
+            <param name="context">The active cake context.</param>
+            <param name="outputEditorLog">Should the log be forward to the standard cake context output.</param>
+            <param name="logLocation">The location of the log file to redirect.</param>
+            <param name="currentLine">The line of the log of which we have already redirected.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Cake.Unity3D.Helpers.Unity3DEditor.SafeReadAllLines(System.String)">
+            <summary>
+            Read all lines from a given file.
+            Using read/write file share access.
+            </summary>
+            <param name="path">The absolute path to the file to read.</param>
+            <returns>An array of all lines in the log file.</returns>
+        </member>
+        <member name="T:Cake.Unity3D.Helpers.Unity3DEditorLog">
+            <summary>
+            Helper class for processing the Unity3D editor log
+            </summary>
+        </member>
+        <member name="T:Cake.Unity3D.Helpers.Unity3DEditorLog.MessageType">
+            <summary>
+            The type of message we deem a line of log text to be.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Helpers.Unity3DEditorLog.MessageType.Debug">
+            <summary>
+            Useful for diagnostics
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Helpers.Unity3DEditorLog.MessageType.Info">
+            <summary>
+            Important information
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Helpers.Unity3DEditorLog.MessageType.Warning">
+            <summary>
+            A warning.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Helpers.Unity3DEditorLog.MessageType.Error">
+            <summary>
+            An error.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Helpers.Unity3DEditorLog.LogPatterns">
+            <summary>
+            A map between Regex patterns and the type of message they represent.
+            This allows us to do some basic pattern matching on log lines to improve
+            the readability.
+            </summary>
+        </member>
+        <member name="M:Cake.Unity3D.Helpers.Unity3DEditorLog.#cctor">
+            <summary>
+            Static constructor used for setting up message type patterns.
+            </summary>
+        </member>
+        <member name="M:Cake.Unity3D.Helpers.Unity3DEditorLog.ProcessLogLine(System.String)">
+            <summary>
+            Given a line of text from the editor log, calculate
+            the type of message the line is.
+            This is very privative and needs vast improvements.
+            </summary>
+            <param name="line">The line of text to process.</param>
+            <returns>The type of message the line represents.</returns>
+        </member>
+        <member name="T:Cake.Unity3D.Helpers.WindowsShortcut">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Cake.Unity3D.Helpers.WindowsShortcut.GetShortcutTarget(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Cake.Unity3D.Unity3DTestContext">
+            <summary>
+            The core test context for the a Unity3D project.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Unity3DTestContext.m_cakeContext">
+            <summary>
+            The cake context being used.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Unity3DTestContext.m_projectFolder">
+            <summary>
+            The absolute path to the Unity3D project to test.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Unity3DTestContext.m_testOptions">
+            <summary>
+            The test options to use when building the project.
+            </summary>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DTestContext.#ctor(Cake.Core.ICakeContext,Cake.Core.IO.FilePath,Cake.Unity3D.Unity3DTestOptions)">
+            <summary>
+            Default constructor
+            </summary>
+            <param name="context">The current cake context.</param>
+            <param name="projectFolder">The absolute path to the Unity3D project to build.</param>
+            <param name="options">The test options to use when building the project.</param>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DTestContext.DumpOptions">
+            <summary>
+            Outputs all current options for this build context.
+            </summary>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DTestContext.Test">
+            <summary>
+            Perform a build using the contexts project directory and build options.
+            </summary>
+        </member>
+        <member name="T:Cake.Unity3D.Unity3DTestMode">
+            <summary>
+            All support test modes.
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Unity3DTestMode.EditMode">
+            <summary>
+            Represents Unity3D EditMode tests
+            </summary>
+        </member>
+        <member name="F:Cake.Unity3D.Unity3DTestMode.PlayMode">
+            <summary>
+            Represents Unity3D PlayMode tests
+            </summary>
+        </member>
+        <member name="T:Cake.Unity3D.Unity3DTestOptions">
+            <summary>
+            All build options available when performing a Unity3D build.
+            </summary>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DTestOptions.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="P:Cake.Unity3D.Unity3DTestOptions.TestMode">
+            <summary>
+            The test to run.
+            Default: EditMode
+            </summary>
+        </member>
+        <member name="P:Cake.Unity3D.Unity3DTestOptions.TestResultOutputPath">
+            <summary>
+            The target path for the build project.
+            Default: null
+            </summary>
+        </member>
+        <member name="P:Cake.Unity3D.Unity3DTestOptions.UnityEditorLocation">
+            <summary>
+            The location of the Unity.exe to use.
+            Default: null
+            </summary>
+        </member>
+        <member name="P:Cake.Unity3D.Unity3DTestOptions.OutputEditorLog">
+            <summary>
+            Should the editor log produced by Unity3D whilst building
+            be output to the console.
+            Default: true
+            </summary>
+        </member>
+        <member name="T:Cake.Unity3D.Unity3DAliases">
+            <summary>
+            Adds the ability to build Unity3D projects using cake.
+            </summary>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DAliases.BuildUnity3DProject(Cake.Core.ICakeContext,Cake.Core.IO.FilePath,Cake.Unity3D.Unity3DBuildOptions)">
+            <summary>
+            Build a provided Unity3D project with the specified build options.
+            </summary>
+            <param name="context">The active cake context.</param>
+            <param name="projectFolder">The absolute path to the Unity3D project to build.</param>
+            <param name="options">The build options to use when building the project.</param>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DAliases.TestUnity3DProject(Cake.Core.ICakeContext,Cake.Core.IO.FilePath,Cake.Unity3D.Unity3DTestOptions)">
+            <summary>
+            Test a provided Unity3D project with the specified test options.
+            </summary>
+            <param name="context">The active cake context.</param>
+            <param name="projectFolder">The absolute path to the Unity3D project to test.</param>
+            <param name="options">The test options to use when testing the project.</param>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DAliases.GetAllUnityInstalls(Cake.Core.ICakeContext)">
+            <summary>
+            Locate all installed version of Unity3D.
+            Warning: This currently only works for Windows and has only been tested on Windows 10.
+            </summary>
+            <param name="context">The active cake context.</param>
+            <returns>A dictionary containing 'key' Unity version, 'value' absolute install path</returns>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DAliases.TryGetUnityInstall(Cake.Core.ICakeContext,System.String,System.String@)">
+            <summary>
+            Try and get the absolute install path for a specific Unity3D version.
+            </summary>
+            <param name="context">The active cake context.</param>
+            <param name="version">The version to try and locate.</param>
+            <param name="installPath">If found the absolute install path will be written to this out variable</param>
+            <returns>True if the editor version was found, false otherwise.</returns>
+        </member>
+        <member name="M:Cake.Unity3D.Unity3DAliases.TryGetUnityVersionForProject(Cake.Core.ICakeContext,System.String,System.String@)">
+            <summary>
+            Try and get the version of Unity3D a specified project uses.
+            </summary>
+            <param name="context">The active cake context.</param>
+            <param name="projectPath">The absolute path to the Unity3D project we want to get the Unity3D version for.</param>
+            <param name="unityVersion">If found the name of the Unity3D version used for the project.</param>
+            <returns>True if the editor version was found, false otherwise.</returns>
+        </member>
+    </members>
+</doc>

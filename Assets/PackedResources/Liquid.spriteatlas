@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Liquid
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 265c265a7e5c28e46bd0bba6129efca3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2f7d846082b178242b189c5cbd4536c3, type: 3}
+  - {fileID: 21300000, guid: 7edc033152944b14aa1f5fcfe218caa5, type: 3}
+  - {fileID: 21300000, guid: 41d588e14155a94469536442946b7ad5, type: 3}
+  - {fileID: 21300000, guid: da554fe13d36da94f924d5e2bae4865c, type: 3}
+  - {fileID: 21300000, guid: 957820421c746194fb740337c4ccb249, type: 3}
+  - {fileID: 21300000, guid: ec38ad82684985540ae21e8f6a93984a, type: 3}
+  - {fileID: 21300000, guid: d1b5de92544fe92438fdbfad5678d28d, type: 3}
+  - {fileID: 21300000, guid: 38aad6b24b6b1b542bc548716484e23e, type: 3}
+  - {fileID: 21300000, guid: 6907d103b497a7942839cacbcba317e8, type: 3}
+  - {fileID: 21300000, guid: 6c9c9403185709843b9304f029aee083, type: 3}
+  - {fileID: 21300000, guid: bf2c6523a9131c44a8380b4ac04cc521, type: 3}
+  - {fileID: 21300000, guid: 8d32bf733421e954eac62e4d9b06bedd, type: 3}
+  - {fileID: 21300000, guid: e3b31e836efbc3e49876728bb143d995, type: 3}
+  - {fileID: 21300000, guid: 4eebcd93933b3564aa94d3827a422648, type: 3}
+  - {fileID: 21300000, guid: 37cc40e3f5cd8a84080a1989db173d13, type: 3}
+  - {fileID: 21300000, guid: 5284b8e35e3e2a64ebe64a7dabc173fa, type: 3}
+  - {fileID: 21300000, guid: 6ea56804a4ce5e84c8e31016dfec15a5, type: 3}
+  - {fileID: 21300000, guid: 4e56a154d6c18ba498ae239f05edc073, type: 3}
+  - {fileID: 21300000, guid: 9b2d5484091583341888a4505991e3ef, type: 3}
+  - {fileID: 21300000, guid: 142f93c48e8eb2443be3af0d312c029d, type: 3}
+  - {fileID: 21300000, guid: a752e956b4e21e842b696611b303ca0d, type: 3}
+  - {fileID: 21300000, guid: 2e615176ed44f6c42989bcf1b791f26c, type: 3}
+  - {fileID: 21300000, guid: ddaee1966a38d7244948f3dfd9e4e987, type: 3}
+  - {fileID: 21300000, guid: 42febea684f865e49ac051a265493bf9, type: 3}
+  - {fileID: 21300000, guid: 5794b36716f4c3049aff8f288330ebcc, type: 3}
+  - {fileID: 21300000, guid: 8bfc35d74e6a7de4bb1cd387e2f001eb, type: 3}
+  - {fileID: 21300000, guid: 0750bef73200b4448805687c0a49cd0e, type: 3}
+  - {fileID: 21300000, guid: 2352d558aa4bfaa448a869d4380c0f76, type: 3}
+  - {fileID: 21300000, guid: b04e5ff8255ed9546a42d72ee5c598f4, type: 3}
+  - {fileID: 21300000, guid: a7fef61989673534689bb7c7382908fd, type: 3}
+  - {fileID: 21300000, guid: ed2a3d49036161f43818adc6a3106d48, type: 3}
+  - {fileID: 21300000, guid: 9a6abeb9f74da29408f14c0868dabf28, type: 3}
+  - {fileID: 21300000, guid: 0285737a0db79014e918585109bd5ad5, type: 3}
+  - {fileID: 21300000, guid: 6de27f7ae63eac346b1676e03c9ad43e, type: 3}
+  - {fileID: 21300000, guid: 91d66fda83216a642ba37031d804cb62, type: 3}
+  - {fileID: 21300000, guid: e5fd7e3b673355749aa660b38446d0ea, type: 3}
+  - {fileID: 21300000, guid: 5a68850c9e1d6a148a32fe2dec6ffaa2, type: 3}
+  - {fileID: 21300000, guid: fa8140bce86b1e54d9920d2cdd9b6611, type: 3}
+  - {fileID: 21300000, guid: 146f5e1d16ca7674bbaeef22d04e92c7, type: 3}
+  - {fileID: 21300000, guid: 601b0d2d9bcace1438675d93a2656785, type: 3}
+  - {fileID: 21300000, guid: 54aea98d0ae106e4ca637260b6cc912e, type: 3}
+  - {fileID: 21300000, guid: 96aecced7770c3c44b45ede6db11d56f, type: 3}
+  - {fileID: 21300000, guid: 6408a61ea2b389a428cdf15faead2862, type: 3}
+  - {fileID: 21300000, guid: 86126c3e880820b41bbad7263dd5dd3e, type: 3}
+  - {fileID: 21300000, guid: 8cc23a4e01ab9c1458305a34f8d0d3da, type: 3}
+  - {fileID: 21300000, guid: 7e65015e24908c646bee95988a94c9d2, type: 3}
+  - {fileID: 21300000, guid: 3dd4f37ff33a984469bdfec91bc38f2a, type: 3}
+  - {fileID: 21300000, guid: 1cdc7cbffbf16cd43a5430f3645e168c, type: 3}
+  - {fileID: 21300000, guid: 34ab0bef75758d045bf9e3d024ce0d01, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Liquid_small12
+  - Liquid_small07
+  - Liquid 0210
+  - Liquid_small11
+  - Liquid_small16
+  - Liquid 0214
+  - Liquid 0211
+  - Liquid 0203
+  - Liquid 0201
+  - Layer 1256 copy 2
+  - Liquid 0200
+  - Liquid_small09
+  - liq 3 small15
+  - liq 3 small07
+  - liq 3 small10
+  - Liquid_small08
+  - Liquid_small03
+  - liq 3 small14
+  - Liquid 0206
+  - Liquid 0209
+  - Liquid_small04
+  - liq 3 small05
+  - liq 3 small03
+  - Liquid_small14
+  - liq 3 small11
+  - Liquid 0204
+  - liq 3 small04
+  - liq 3 small02
+  - Liquid_small13
+  - Liquid_small15
+  - Liquid_small00
+  - Liquid_small06
+  - liq 3 small00
+  - Liquid 0208
+  - liq 3 small06
+  - Liquid_small10
+  - liq 3 small13
+  - Liquid 0212
+  - liq 3 small12
+  - Liquid_small01
+  - Liquid 0207
+  - liq 3 small08
+  - Liquid 0213
+  - Liquid 0205
+  - liq 3 small09
+  - Liquid_small05
+  - Liquid 0202
+  - Liquid_small02
+  - liq 3 small01
+  m_RenderDataMap: {}
+  m_Tag: Liquid
+  m_IsVariant: 0

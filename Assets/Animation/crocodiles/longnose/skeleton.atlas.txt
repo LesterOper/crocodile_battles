@@ -1,0 +1,139 @@
+
+skeleton.png
+size: 484,416
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 27
+  rotate: false
+  xy: 0, 1
+  size: 59, 48
+  orig: 59, 48
+  offset: 0, 0
+  index: -1
+Layer28
+  rotate: false
+  xy: 254, 12
+  size: 47, 51
+  orig: 47, 51
+  offset: 0, 0
+  index: -1
+Layer29
+  rotate: false
+  xy: 0, 57
+  size: 21, 36
+  orig: 21, 36
+  offset: 0, 0
+  index: -1
+Layer30
+  rotate: false
+  xy: 0, 256
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 0, 2
+  size: 303, 412
+  orig: 303, 421
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: 270
+  xy: 336, 207
+  size: 206, 114
+  orig: 206, 114
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: 180
+  xy: 385, 113
+  size: 98, 99
+  orig: 103, 99
+  offset: 0, 0
+  index: -1
+hand_back
+  rotate: false
+  xy: 272, 128
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+hand_back_1
+  rotate: true
+  xy: 302, 313
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+hand_front
+  rotate: true
+  xy: 292, 366
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+hand_front_1
+  rotate: false
+  xy: 451, 291
+  size: 25, 34
+  orig: 25, 34
+  offset: 0, 0
+  index: -1
+horn
+  rotate: false
+  xy: 409, 214
+  size: 71, 76
+  orig: 71, 76
+  offset: 0, 0
+  index: -1
+lock
+  rotate: false
+  xy: 0, 357
+  size: 38, 56
+  orig: 38, 56
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 258, 81
+  size: 50, 46
+  orig: 50, 46
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 259, 1
+  size: 309, 137
+  orig: 309, 155
+  offset: 0, 14
+  index: -1
+nosetop
+  rotate: true
+  xy: 0, 312
+  size: 44, 30
+  orig: 44, 30
+  offset: 0, 0
+  index: -1
+pupil
+  rotate: false
+  xy: 0, 292
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 389, 7
+  size: 93, 89
+  orig: 93, 89
+  offset: 0, 0
+  index: -1
+tooth2_copy_2
+  rotate: false
+  xy: 260, 229
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1

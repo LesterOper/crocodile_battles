@@ -1,0 +1,160 @@
+
+skeleton.png
+size: 556,432
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L116
+  rotate: true
+  xy: 497, 250
+  size: 72, 47
+  orig: 73, 47
+  offset: 1, 0
+  index: -1
+L75copy5
+  rotate: 270
+  xy: 508, 204
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+L76copy5
+  rotate: false
+  xy: 317, 150
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+L77copy5
+  rotate: false
+  xy: 324, 223
+  size: 25, 34
+  orig: 25, 34
+  offset: 0, 0
+  index: -1
+L78copy5
+  rotate: true
+  xy: 0, 146
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+Layer223copy6
+  rotate: false
+  xy: 370, 322
+  size: 38, 56
+  orig: 38, 56
+  offset: 0, 0
+  index: -1
+Layer37
+  rotate: false
+  xy: 347, 380
+  size: 59, 50
+  orig: 59, 50
+  offset: 0, 0
+  index: -1
+Layer38
+  rotate: 270
+  xy: 458, 7
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1
+Layer39
+  rotate: false
+  xy: 47, 13
+  size: 51, 48
+  orig: 51, 48
+  offset: 0, 0
+  index: -1
+Layer40
+  rotate: false
+  xy: 314, 25
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+Layer41
+  rotate: false
+  xy: 0, 1
+  size: 41, 48
+  orig: 41, 48
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 0, 11
+  size: 371, 420
+  orig: 371, 428
+  offset: 0, 0
+  index: -1
+eye 1
+  rotate: 270
+  xy: 417, 229
+  size: 201, 113
+  orig: 201, 113
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: 180
+  xy: 450, 116
+  size: 102, 98
+  orig: 104, 98
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 0, 43
+  size: 95, 66
+  orig: 95, 66
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 340, 12
+  size: 308, 121
+  orig: 326, 139
+  offset: 18, 18
+  index: -1
+pupil
+  rotate: false
+  xy: 42, 412
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 463, 26
+  size: 70, 89
+  orig: 70, 89
+  offset: 0, 0
+  index: -1
+tooth1
+  rotate: false
+  xy: 284, 4
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+tooth2
+  rotate: false
+  xy: 96, 3
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+tooth3
+  rotate: false
+  xy: 321, 405
+  size: 20, 25
+  orig: 20, 25
+  offset: 0, 0
+  index: -1
+topnose
+  rotate: false
+  xy: 0, 400
+  size: 43, 30
+  orig: 44, 30
+  offset: 0, 0
+  index: -1

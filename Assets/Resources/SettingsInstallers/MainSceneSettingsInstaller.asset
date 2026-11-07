@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 956f81ed3c70d15498bb72496695fe76, type: 3}
+  m_Name: MainSceneSettingsInstaller
+  m_EditorClassIdentifier: 
+  battlePassPrizeContainer: {fileID: 11400000, guid: 4bdb3293fa1086148aedf20ea90ecd43,
+    type: 2}
+  taskSetup: {fileID: 11400000, guid: e5d4d9dc7eb479140befba1311c86f82, type: 2}
+  dailyTaskPrizeSetup: {fileID: 11400000, guid: 4ebbb41de8529cd4f8ed5ba98ecb6b0e,
+    type: 2}
+  chestSettings: {fileID: 11400000, guid: 970ea39eb9d96c5448aab857ab99eba8, type: 2}

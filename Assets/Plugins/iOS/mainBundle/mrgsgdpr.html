@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title></title>
+    
+    <style>
+        html, body {height: 100%; min-height: 100%; margin: 0; padding: 0; font-size: .5208vw;}
+        body {position: relative; background: #cdcdcd; color: #3d3d3d; font-family: Tahoma, Geneva, sans-serif;}
+        .container {position: relative; background: #f1f1f1; top: 50%; max-width: 71%; margin: 0 auto; font-size: 4.4rem; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); -webkit-border-radius: 20px; border-radius: 20px;}
+        .big-font {font-family: Helvetica, Tahoma, sans-serif; font-size: 5rem;}
+        a, a:link, a:hover, a:visited, a:active {color: #106eb1; text-decoration: underline;}
+        .header {padding: 2.7rem 1rem 0rem 1rem; color: #222222; text-align: center; font-weight: 600; -webkit-border-radius: 20px 20px 0 0; border-radius: 20px 20px 0 0;}
+        .button-container {text-align: center;}
+        .button-container:active{background: #cccccc;}
+        .button {display: inline-block; padding: 2.6rem 0; width: 100%; background: #f1f1f1;  border-top: 2px solid #cbcbcb; color: #106eb1; outline: none;}
+        .button.disabled {background: #b8b8b8;}
+        .button:active { background: #cdcdcd; }
+        .unselectable { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+        .text {padding: 0rem 0rem 20px 0rem;  -webkit-border-radius: 0 0 20px 20px; border-radius: 0 0 20px 20px;}
+        .text-b {display: block; margin-bottom: 3rem; text-align: center; padding: 1rem 2rem;}
+        .text-b-2 {margin-bottom: 10rem;}
+        .check {float: left; width: 4.1rem; height: 4rem; margin-top: .5rem; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAABQCAYAAACETVz/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA/5JREFUeNrsm21IU1EYx/+76XTaTJvbDEO0tFkZRfVhvWi+0ZWgqE/1ISIoiCgzk0ot+1gWRCWBlkEkRUGvSB9cRGVbpGmlvb8XmtEHQ0uzNN065zZXmK1zvatd4fzleLfdO/jtuc/LOc/ZNC6XCzabLQFAMRmZZITBv/pExmUy8kVRfE5f0FRVVVnIsYaMcKhL7WRYCehTgTzYqUJAuJkoGwT3LVar5tN/AQN9MDk52a9Udrv916cj+y2penFIDskhOSSH5JAckkNySA7JITkkh+SQHJJDckgOySHlivYnaY/a06Mc0B/0tzr7LXlZxUa81A+5DT+a6GpTu5sNgiiKT8jRSsY5MjpUANfhZrG62TyB43QfXSqAdA1g4vs4SsX3cRRp4D7O8vKFw6fi+D/ndH9C2fW9aGlvRlLoTFj0U9QF2dPbjYPXduN16wvp+a2eapJ7+jBRP00dEwyny4nyGyUewH7VtznwuKNRHZY8WXcUjW/rBz1X32aHxt+WrHp4AdXPL3m9pq5NivTVfoGsfePA+YZTrJfv+e+QT94/wLGbpaRAM08Tmv4rZEt7E0pJqul19jJdHyzo6GEpM2Rjy20U24pQUXNIShty1db1ASVXi/HlWxfT9VohCJnmxfThU6bovtNUS1LFAfQ5+/Cq9ZmUfNem5EHQsH1GCkYBKSiLAgUtMkyLEBFoYIvuO823cITkMgrosSpJGzR9sIje2lKpmjSxlUBNAFIjFyBSa2ZL5g3NdTjiODCoD9H0QdOI99mrSwoSGixMgEIAUiKzEBU8lm1J++BdAw479nt1cppGHC+veD1P0w3T2pq4zqo52YjWxbKvuytqyv4ahdRSx2vLB60aLJb2LA/I3wrrGsyIscprDowQ2CrmYPX3IbkLrD4r5ZiZKzF7XKr8DsbKWWuhDQhinsmUXN0F26NKXLx/BmX2fRI8ixZPXYZ0S9bQ2iwW82Ssn7eFGfRzTyfO3j2Bynun0d37lek9C5KWSENRLygxKgnZqVuZQeUojViPWtEnDStq0ezUfJ+CUv9bRvyQVUwlw2KehJy0AgT5AJRGMI1kjWe26CNIqgTTRGxQCDolerqUC1nL6ZCWDz9ACwlosGxA6jZr5m6UqopcyZ6qJZgSkZNegOBAHfN74iLjsW7e5iH79ZDmk/HGRGLRfCbQseExxJ8LZX0on0D+BPVuUXPYGORmFiFEG6oo2BTNzOONFslKusCQ384ZQo3YlFEEfZDyb4QrXj6MN06QLPor6ChdBHIztiMixOCTvOqTNQ4FzcvcgVjDeBhHmqVyatJHqa8XFDM6DoVZO//JAm5YdNVoO/oj/P97hz+pUxRFPd/HUajhtY/zXYABAC32TlqLyZ4fAAAAAElFTkSuQmCC') 0 0 no-repeat; background-size: 100% auto;}
+        input[type=checkbox] {position: absolute; left: -9999px;}
+        input[type=checkbox]:checked + span.check {background-position: 0 100%;}
+        .check-txt {overflow: hidden; display: block; margin-left: 4.5rem;}
+        @media (orientation: portrait) {html {font-size: .5208vh;} .container {max-width: 92%;}}
+        @media (orientation: landscape) and (min-device-aspect-ratio: 16/9) {html {font-size: .9259vh;}}
+    </style>
+    <script>
+        function clickButton() {
+            document.forms["form"].submit();
+        }
+
+        function checkFontSize() {
+            var x = window.screen.width;
+                x = Math.min(window.screen.width, window.screen.height);
+
+            document.getElementsByTagName('html')[0].style.fontSize = x * 0.008859 + 'px';
+
+            setTimeout(function() {
+                document.getElementById('container').style.display = 'block';
+            }, 500);
+        }
+        window.onorientationchange = function () { document.getElementById('container').style.display = 'none'; checkFontSize(); }
+    </script>
+<body onload="checkFontSize();">
+    <div class="container unselectable" id="container">
+        <div class="header big-font">$GDPR_HEADER$</div>
+        <div class="text">
+            <form name="form" action="">
+                <input type="hidden" name="checkboxAgree" value="on">
+                <div class="text-b">$GDPR_TEXT$</div>
+                <div class="button-container"><span class="button big-font" id="btn" onclick="clickButton();" ontouchstart="">$GDPR_SUBMIT_BUTTON$</span></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

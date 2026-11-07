@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3db655261fc489490a7c9cbb187df0d, type: 3}
+  m_Name: chest_setup
+  m_EditorClassIdentifier: 
+  ChestContainer:
+  - Type: 0
+    ChestObject: {fileID: 0}
+    ChestCharacteristic:
+      chestName: 
+      chestIcon: {fileID: 0}
+      trophyCount: 0
+      trophyCost: 0
+      readyTimeMinutes: 0
+      pointsToGet: 0
+  - Type: 1
+    ChestObject: {fileID: 2296423284774125037, guid: 03074e9fd88d357408ae2aa9eb8e086d,
+      type: 3}
+    ChestCharacteristic:
+      chestName: MINI_CHEST_TITLE
+      chestIcon: {fileID: 21300000, guid: 527291faffb4e8148ba96f36989b00e8, type: 3}
+      trophyCount: 2
+      trophyCost: 1
+      readyTimeMinutes: 2
+      pointsToGet: 500
+  - Type: 2
+    ChestObject: {fileID: 2670831097055444304, guid: a073d7382e6415440b3d8f20c2927e6b,
+      type: 3}
+    ChestCharacteristic:
+      chestName: MIDDLE_CHEST
+      chestIcon: {fileID: 21300000, guid: 1ebb7c50dc37a2746a17e0ea90864063, type: 3}
+      trophyCount: 4
+      trophyCost: 5
+      readyTimeMinutes: 30
+      pointsToGet: 1000
+  - Type: 3
+    ChestObject: {fileID: 6814875540342081601, guid: b2e8924381942e64f9278504251dfbb0,
+      type: 3}
+    ChestCharacteristic:
+      chestName: MEGA_CHEST
+      chestIcon: {fileID: 21300000, guid: daebde4c996f92d49b4d2384bc852bd7, type: 3}
+      trophyCount: 7
+      trophyCost: 10
+      readyTimeMinutes: 120
+      pointsToGet: 3000
+  - Type: 4
+    ChestObject: {fileID: 3507499612624392932, guid: e1179bf6422d06e45815520ff561b5eb,
+      type: 3}
+    ChestCharacteristic:
+      chestName: GIGA_CHEST
+      chestIcon: {fileID: 21300000, guid: 37e337467bc35d74b986ff2a17281cc5, type: 3}
+      trophyCount: 10
+      trophyCost: 15
+      readyTimeMinutes: 120
+      pointsToGet: 4000
+  - Type: 5
+    ChestObject: {fileID: 3053363383648104414, guid: 248ff38ac7b1fb04198041e7c42d7354,
+      type: 3}
+    ChestCharacteristic:
+      chestName: DAILY_CHEST
+      chestIcon: {fileID: 21300000, guid: 0dddcb5f9817dea4784e3790ebed142e, type: 3}
+      trophyCount: 5
+      trophyCost: 0
+      readyTimeMinutes: 60
+      pointsToGet: 0

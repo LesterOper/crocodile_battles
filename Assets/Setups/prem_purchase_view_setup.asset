@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff781f41d2c43c3ae20605fa819adea, type: 3}
+  m_Name: prem_purchase_view_setup
+  m_EditorClassIdentifier: 
+  _premPurchasesData:
+  - _type: 1
+    amount: 50
+    _smallIcon: {fileID: 21300000, guid: 67bc42560545c9b4c8e62f7c4d8520e3, type: 3}
+    _nameKey: free_money_pack_name
+    _descriptionKey: free_money_pack_description
+  - _type: 2
+    amount: 300
+    _smallIcon: {fileID: 21300000, guid: 595329d5e34b1e648915f0bfdacb4294, type: 3}
+    _nameKey: small_money_pack_name
+    _descriptionKey: small_money_pack_description
+  - _type: 3
+    amount: 700
+    _smallIcon: {fileID: 21300000, guid: 911f8dec0df0a8d4e8291acf234b8656, type: 3}
+    _nameKey: medium_money_pack_name
+    _descriptionKey: medium_money_pack_description
+  - _type: 4
+    amount: 1500
+    _smallIcon: {fileID: 21300000, guid: 0eeb31d569e1f064e97af08d181641e2, type: 3}
+    _nameKey: big_money_pack_name
+    _descriptionKey: big_money_pack_description
+  - _type: 5
+    amount: 4000
+    _smallIcon: {fileID: 21300000, guid: 63ae3ac2c89d9844d81e0251af5c98db, type: 3}
+    _nameKey: huge_money_pack_name
+    _descriptionKey: huge_money_pack_description
+  - _type: 6
+    amount: 10000
+    _smallIcon: {fileID: 21300000, guid: dc700575b735f5e4fab6284dfe0d61a4, type: 3}
+    _nameKey: fantastic_money_pack_name
+    _descriptionKey: fantastic_money_pack_description
+  - _type: 7
+    amount: 0
+    _smallIcon: {fileID: 21300000, guid: 0ae2daeff7a204449b8992ece2bd7110, type: 3}
+    _nameKey: noads_name
+    _descriptionKey: noads_description
+  - _type: 8
+    amount: 3
+    _smallIcon: {fileID: 21300000, guid: 3b880dc8ca158084b8ab4e1ecbab1970, type: 3}
+    _nameKey: crocokit_name
+    _descriptionKey: crocokit_description
+  - _type: 9
+    amount: 10
+    _smallIcon: {fileID: 21300000, guid: 11390f9133bb1b44581c4776da8fcb30, type: 3}
+    _nameKey: catorkit_name
+    _descriptionKey: catorkit_description
+  - _type: 10
+    amount: 25
+    _smallIcon: {fileID: 21300000, guid: f0c851bae7917304384f952c7c6204ff, type: 3}
+    _nameKey: caymankit_name
+    _descriptionKey: caymankit_description
+  - _type: 11
+    amount: 1
+    _smallIcon: {fileID: 21300000, guid: 37d693f276d01a54881ed6a2238c1bc6, type: 3}
+    _nameKey: mini_chest_name
+    _descriptionKey: mini_chest_description
+  - _type: 12
+    amount: 1
+    _smallIcon: {fileID: 21300000, guid: c2b18ae157834b544823f8a8d6c76845, type: 3}
+    _nameKey: medium_chest_name
+    _descriptionKey: medium_chest_description
+  - _type: 13
+    amount: 1
+    _smallIcon: {fileID: 21300000, guid: 9039ac1698b2b624791d1c59ec8f286b, type: 3}
+    _nameKey: mega_chest_name
+    _descriptionKey: mega_chest_description
+  - _type: 14
+    amount: 1
+    _smallIcon: {fileID: 21300000, guid: 8e0fd70d06a236047aa635ff943407c9, type: 3}
+    _nameKey: giga_chest_name
+    _descriptionKey: giga_chest_description
+  - _type: 18
+    amount: 1
+    _smallIcon: {fileID: 21300000, guid: 61d0582e4320e5349bbf773cef92adf6, type: 3}
+    _nameKey: battlepass_name
+    _descriptionKey: battlepass_description

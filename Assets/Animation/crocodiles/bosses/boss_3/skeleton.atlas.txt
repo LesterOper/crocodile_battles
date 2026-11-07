@@ -1,0 +1,139 @@
+
+skeleton.png
+size: 972,428
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer22
+  rotate: false
+  xy: 839, 6
+  size: 38, 56
+  orig: 38, 56
+  offset: 0, 0
+  index: -1
+Layer750
+  rotate: false
+  xy: 287, 8
+  size: 77, 53
+  orig: 77, 53
+  offset: 0, 0
+  index: -1
+Layer820
+  rotate: 180
+  xy: 594, 2
+  size: 68, 65
+  orig: 68, 65
+  offset: 0, 0
+  index: -1
+Layer821
+  rotate: false
+  xy: 537, 4
+  size: 74, 64
+  orig: 74, 64
+  offset: 0, 0
+  index: -1
+Layer822
+  rotate: false
+  xy: 146, 5
+  size: 77, 65
+  orig: 77, 67
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 0, 54
+  size: 426, 372
+  orig: 430, 372
+  offset: 4, 0
+  index: -1
+hand11copy2
+  rotate: true
+  xy: 225, 3
+  size: 42, 55
+  orig: 42, 56
+  offset: 0, 1
+  index: -1
+hand1copy2
+  rotate: 270
+  xy: 885, 4
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+hand22copy2
+  rotate: false
+  xy: 655, 4
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+hand2copy2
+  rotate: false
+  xy: 0, 125
+  size: 64, 53
+  orig: 64, 53
+  offset: 0, 0
+  index: -1
+headback
+  rotate: 180
+  xy: 353, 19
+  size: 189, 108
+  orig: 189, 108
+  offset: 0, 0
+  index: -1
+headtop
+  rotate: false
+  xy: 748, 73
+  size: 222, 100
+  orig: 222, 100
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: 180
+  xy: 420, 44
+  size: 337, 382
+  orig: 337, 382
+  offset: 0, 0
+  index: -1
+helmetback
+  rotate: true
+  xy: 724, 180
+  size: 247, 221
+  orig: 257, 221
+  offset: 0, 0
+  index: -1
+helmethornback
+  rotate: true
+  xy: 383, 356
+  size: 70, 80
+  orig: 70, 80
+  offset: 0, 0
+  index: -1
+light
+  rotate: 270
+  xy: 0, 6
+  size: 87, 144
+  orig: 87, 144
+  offset: 0, 0
+  index: -1
+neck
+  rotate: 270
+  xy: 749, 3
+  size: 100, 88
+  orig: 100, 88
+  offset: 0, 0
+  index: -1
+zub5
+  rotate: false
+  xy: 0, 97
+  size: 22, 27
+  orig: 22, 28
+  offset: 0, 0
+  index: -1
+zub6
+  rotate: false
+  xy: 0, 195
+  size: 22, 28
+  orig: 22, 28
+  offset: 0, 0
+  index: -1

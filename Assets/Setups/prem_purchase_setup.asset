@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5c0103dccb164c4f845661e3070ae1b, type: 3}
+  m_Name: prem_purchase_setup
+  m_EditorClassIdentifier: 
+  _premPurchasesData:
+  - _sku: 
+    _type: 1
+    _priceType: 2
+    _price: 1
+    _hasCooldown: 1
+    _cooldown: 28800
+    _giveX2AmountForFirstTime: 0
+  - _sku: small_money_pack
+    _type: 2
+    _priceType: 1
+    _price: 199
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 1
+  - _sku: medium_money_pack
+    _type: 3
+    _priceType: 1
+    _price: 399
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 1
+  - _sku: big_money_pack
+    _type: 4
+    _priceType: 1
+    _price: 699
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 1
+  - _sku: huge_money_pack
+    _type: 5
+    _priceType: 1
+    _price: 1199
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 1
+  - _sku: fantastic_money_pack
+    _type: 6
+    _priceType: 1
+    _price: 2099
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 1
+  - _sku: no_ads
+    _type: 7
+    _priceType: 1
+    _price: 399
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 0
+  - _sku: gold_pass
+    _type: 18
+    _priceType: 1
+    _price: 799
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 0
+  - _sku: croco_kit
+    _type: 8
+    _priceType: 1
+    _price: 599
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 0
+  - _sku: gator_kit
+    _type: 9
+    _priceType: 1
+    _price: 1299
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 0
+  - _sku: cayman_kit
+    _type: 10
+    _priceType: 1
+    _price: 2099
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 0
+  - _sku: 
+    _type: 11
+    _priceType: 0
+    _price: 110
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 0
+  - _sku: 
+    _type: 12
+    _priceType: 0
+    _price: 250
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 0
+  - _sku: 
+    _type: 13
+    _priceType: 0
+    _price: 530
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 0
+  - _sku: 
+    _type: 14
+    _priceType: 0
+    _price: 1000
+    _hasCooldown: 0
+    _cooldown: 0
+    _giveX2AmountForFirstTime: 0

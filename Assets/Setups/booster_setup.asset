@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e043e05d6d45411aa0ff7c6bf1152ae5, type: 3}
+  m_Name: booster_setup
+  m_EditorClassIdentifier: 
+  _winsToUnlockBoosters: 6
+  boosters:
+  - boosterType: 1
+    boosterCost: 250
+    boosterIcon: {fileID: 21300000, guid: 42434b0ae0e52a649aea67e8cee456ce, type: 3}
+    boosterTitle: x2_Damage
+  - boosterType: 2
+    boosterCost: 350
+    boosterIcon: {fileID: 21300000, guid: 9675186260214b24a8a9983281a99a4b, type: 3}
+    boosterTitle: freeze_enemy
+  - boosterType: 3
+    boosterCost: 450
+    boosterIcon: {fileID: 21300000, guid: 9a9bbaffd1490a74b938e0694e0bc04b, type: 3}
+    boosterTitle: block_fastener

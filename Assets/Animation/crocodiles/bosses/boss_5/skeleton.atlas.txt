@@ -1,0 +1,83 @@
+
+skeleton.png
+size: 508,636
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 917
+  rotate: false
+  xy: 0, 599
+  size: 44, 34
+  orig: 45, 34
+  offset: 1, 0
+  index: -1
+Layer 918
+  rotate: false
+  xy: 52, 205
+  size: 69, 51
+  orig: 69, 51
+  offset: 0, 0
+  index: -1
+Layer 919
+  rotate: false
+  xy: 0, 97
+  size: 55, 49
+  orig: 64, 49
+  offset: 9, 0
+  index: -1
+armour
+  rotate: false
+  xy: 283, 62
+  size: 196, 199
+  orig: 196, 199
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 0, 207
+  size: 397, 426
+  orig: 397, 426
+  offset: 0, 0
+  index: -1
+hand 1 copy 3
+  rotate: false
+  xy: 0, 279
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+hand 11 copy 3
+  rotate: false
+  xy: 0, 42
+  size: 42, 55
+  orig: 42, 56
+  offset: 0, 1
+  index: -1
+hand 2 copy 3
+  rotate: false
+  xy: 0, 230
+  size: 64, 53
+  orig: 64, 53
+  offset: 0, 0
+  index: -1
+hand 22 copy 3
+  rotate: false
+  xy: 5, 2
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+head bnm
+  rotate: true
+  xy: 369, 244
+  size: 206, 136
+  orig: 206, 136
+  offset: 0, 0
+  index: -1
+head top
+  rotate: false
+  xy: 0, 1
+  size: 400, 207
+  orig: 402, 236
+  offset: 0, 29
+  index: -1

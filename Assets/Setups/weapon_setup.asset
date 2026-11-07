@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f12045bf6bdaa69498b1ce5e779ec3a6, type: 3}
+  m_Name: weapon_setup
+  m_EditorClassIdentifier: 
+  WeaponsContainer:
+  - Type: 1
+    WeaponObject: {fileID: 8529989877313656196, guid: 17c4a6fd027a0054b984236960b1aa96,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: 83a3cda6db50b3e4fa09b868ca24dfa1, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: bf2b19c85424f644d80dde752099030c, type: 3}
+    Mana: 3
+    RoundDuration: 1
+  - Type: 2
+    WeaponObject: {fileID: 5589009544932816882, guid: d3bcf57b7d8633743b52aefe8e4b063b,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: 0d38f1c251bbda5449803616735889b3, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: bf2b19c85424f644d80dde752099030c, type: 3}
+    Mana: 1
+    RoundDuration: 1
+  - Type: 6
+    WeaponObject: {fileID: 6473502482888392641, guid: fa004aaf4e243a74e9df0f66fd583d0f,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: ace6ea6da8389d64183fd6cc5464c29c, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 0fc540a649e6799428ba468ad7d79549, type: 3}
+    Mana: 2
+    RoundDuration: 1
+  - Type: 7
+    WeaponObject: {fileID: 4451112831405148479, guid: dbbf1209cbccb7645bb7d1d98e3b1d41,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: 92eac6e15fa28f74dbc69a28280a2623, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 0fc540a649e6799428ba468ad7d79549, type: 3}
+    Mana: 2
+    RoundDuration: 1
+  - Type: 8
+    WeaponObject: {fileID: 6681112334257913441, guid: f6bff176180b5174097f3285d8a0a4a0,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: 74f5c3981d8a1094ca41b26173693a08, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 0fc540a649e6799428ba468ad7d79549, type: 3}
+    Mana: 3
+    RoundDuration: 1
+  - Type: 9
+    WeaponObject: {fileID: 4253943889560276897, guid: bf4c9741b691e15489b72b521dc37a2d,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: 131099ea51b457443bf62579c6276d79, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 0fc540a649e6799428ba468ad7d79549, type: 3}
+    Mana: 3
+    RoundDuration: 1
+  - Type: 10
+    WeaponObject: {fileID: 7104835315605156412, guid: be404ebaf3362f2429fca1a920aeff01,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: 7e2c695fff4e7ff429c819233fb03588, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 0fc540a649e6799428ba468ad7d79549, type: 3}
+    Mana: 3
+    RoundDuration: 1
+  - Type: 11
+    WeaponObject: {fileID: 6811421774056206659, guid: 7ac9dd8cf5ab55e4fb225d225b9b8a47,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: 853285687ca47e74f9c6a8334c37a6ec, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: bf2b19c85424f644d80dde752099030c, type: 3}
+    Mana: 2
+    RoundDuration: 1
+  - Type: 12
+    WeaponObject: {fileID: 1100131678660814641, guid: 82e06a35ca194504c8f5aa7b5975f24f,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: 4b15eb3593bda904f85d13f946b161e3, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: e247859ed67912248bbea65c71171a03, type: 3}
+    Mana: 2
+    RoundDuration: 1
+  - Type: 13
+    WeaponObject: {fileID: 3541503849433667166, guid: 2e8b8449289b6d842af7365c5363bfaa,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: e760f2d6a2d7e544ab7b068a40b2c04e, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 7cc8b68b80dd3404cafe08c3eaacbfde, type: 3}
+    Mana: 2
+    RoundDuration: 1
+  - Type: 16
+    WeaponObject: {fileID: 115714991052362106, guid: 765841205322077408078207eedd1307,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: af605e3efd2719141b917cfc43d89a96, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 3f60ac9a62746224299bba6ec9b61dca, type: 3}
+    Mana: 1
+    RoundDuration: 1
+  - Type: 17
+    WeaponObject: {fileID: 2911151412642600951, guid: 92dd0cb398be63a4681ef08ba87bb6ee,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: 2f1244ec7ee9a58428fa5605c5b43c2b, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 3f60ac9a62746224299bba6ec9b61dca, type: 3}
+    Mana: 1
+    RoundDuration: 1
+  - Type: 18
+    WeaponObject: {fileID: 1658367065803047495, guid: 684690486373bf64283592b9fb597f98,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: c1e289ae4c6eb2849a19a12bb29de73f, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 3f60ac9a62746224299bba6ec9b61dca, type: 3}
+    Mana: 1
+    RoundDuration: 1
+  - Type: 19
+    WeaponObject: {fileID: 7251999769021475571, guid: d1f8218c4706ed14593d3f9c6ccd0d27,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: 7134e0608468f6b4d983391a0e3596b9, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 0fc540a649e6799428ba468ad7d79549, type: 3}
+    Mana: 3
+    RoundDuration: 1
+  - Type: 21
+    WeaponObject: {fileID: 3766162640659905543, guid: c043444d1d056164a8458d15898b1325,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: cda541e081db1ca40971b1662838dfdf, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 0fc540a649e6799428ba468ad7d79549, type: 3}
+    Mana: 2
+    RoundDuration: 1
+  - Type: 22
+    WeaponObject: {fileID: 5876284472122854132, guid: 0300b61681b9e5640b27e93b82f9259f,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: dccb3d8706ab3f14ba2d2e6a255d4a7a, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: bf2b19c85424f644d80dde752099030c, type: 3}
+    Mana: 3
+    RoundDuration: 1
+  - Type: 23
+    WeaponObject: {fileID: 2121160048740784545, guid: 726ba595b3986a0478ab5b3b4acf3c1e,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: c17de17e370cda040a4206328747cff4, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 0fc540a649e6799428ba468ad7d79549, type: 3}
+    Mana: 3
+    RoundDuration: 1
+  - Type: 4
+    WeaponObject: {fileID: 853955460327478455, guid: edd748cc78a352c4ab4df376c072fa91,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: e5e7d68f4d99abb428b444198845cbe4, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 0fc540a649e6799428ba468ad7d79549, type: 3}
+    Mana: 2
+    RoundDuration: 1
+  - Type: 3
+    WeaponObject: {fileID: 9001938696474078410, guid: 4015c7c4e27aac34ba5d6a882e75ce16,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: 1d934e07a1f95b044adee70670b66bdb, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 0fc540a649e6799428ba468ad7d79549, type: 3}
+    Mana: 2
+    RoundDuration: 1
+  - Type: 5
+    WeaponObject: {fileID: 4868347989145500193, guid: 545647ad655a89c43b7258050e4cf313,
+      type: 3}
+    WeaponSprite: {fileID: 21300000, guid: 1be2d1c32b22b62449029cf9ede88e4c, type: 3}
+    FastenerSprite: {fileID: 21300000, guid: 0fc540a649e6799428ba468ad7d79549, type: 3}
+    Mana: 3
+    RoundDuration: 1

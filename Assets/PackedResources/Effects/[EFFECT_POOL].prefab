@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4645804325999792596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6396251502591990718}
+  - component: {fileID: 6579325825977786678}
+  m_Layer: 0
+  m_Name: '[EFFECT_POOL]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6396251502591990718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4645804325999792596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0319497, y: -6.299078, z: 765.4575}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6579325825977786678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4645804325999792596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c8c2a170f21423a84b9cea19e8cdc2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectObjectWithCroco: {fileID: 8491635151681225158, guid: e7690023d26aa7742955de18bc9e4b03,
+    type: 3}
+  effectObjectWithWater: {fileID: 7154273687495274101, guid: d4fb2fe95d36fdc479f606b0daa1f158,
+    type: 3}
+  effectSolidProjectileWithCroco: {fileID: 1049056682574592133, guid: 5664610de9463404b8b6c2ccfd38a288,
+    type: 3}
+  effectSolidProjectileWithWater: {fileID: 7884144814551581447, guid: 9ebd00dab254d444f95bb86f8f94d95e,
+    type: 3}
+  bottleProjectile: {fileID: 4700753528198872354, guid: 3840283127b6f5c4e98f0a25dea233eb,
+    type: 3}

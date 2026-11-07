@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1446346996054320375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 498788784487138122}
+  - component: {fileID: 1995493272417035569}
+  m_Layer: 0
+  m_Name: DialogsBatleContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &498788784487138122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446346996054320375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.672847, y: 0.55878496, z: 57.564327}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1995493272417035569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446346996054320375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6143f9bd1f7fe9439e19536cd15e920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SettingsDialog: {fileID: 3152198266179285195, guid: 376da8960f67f2c40b621889cfbe4a7f,
+    type: 3}
+  ChestsContainerDialog: {fileID: 0}
+  ShopDialog: {fileID: 0}
+  TacticsDialog: {fileID: 0}
+  MergeDialog: {fileID: 0}
+  _chestsDialog: {fileID: 0}
+  _passiveDialog: {fileID: 0}
+  _battleDialog: {fileID: 8366845046119791411, guid: 264ab2c02c35f79499b363f33a58c4d5,
+    type: 3}
+  _bossBattleEndDialog: {fileID: 3288123075078613580, guid: 2a9055ffbef17034f815a4f4669b8d29,
+    type: 3}

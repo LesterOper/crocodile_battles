@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: endBattle
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: fb1b775471c128041ad71cede11634d6, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: eee1e9d4c623fe44fb6ec6e2d395be5e, type: 3}
+  - {fileID: 21300000, guid: a4439f7e8ed3900459cbe1aa1dd7c5fe, type: 3}
+  - {fileID: 21300000, guid: 3f8c7fbe8b734be4e8b8e835a50e7c29, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - win_icon_boss
+  - win_boss_bg
+  - loose bg
+  m_RenderDataMap: {}
+  m_Tag: endBattle
+  m_IsVariant: 0

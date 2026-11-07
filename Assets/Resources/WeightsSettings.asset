@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56f8b54f85964522bbde7bccd9735195, type: 3}
+  m_Name: WeightsSettings
+  m_EditorClassIdentifier: 
+  weights:
+  - battlesCount: 0
+    weight:
+    - mod: 5
+      weightAmount: 100
+    levelWeight:
+    - mod: 0
+      weightAmount: 100
+    weaponLevelWeight:
+    - mod: 0
+      weightAmount: 100
+  - battlesCount: 6
+    weight:
+    - mod: 0
+      weightAmount: 60
+    - mod: -1
+      weightAmount: 40
+    levelWeight:
+    - mod: 0
+      weightAmount: 40
+    - mod: 1
+      weightAmount: 60
+    weaponLevelWeight:
+    - mod: 0
+      weightAmount: 40
+    - mod: 1
+      weightAmount: 40
+    - mod: 2
+      weightAmount: 20
+  - battlesCount: 11
+    weight:
+    - mod: 0
+      weightAmount: 30
+    - mod: -1
+      weightAmount: 50
+    - mod: -2
+      weightAmount: 20
+    levelWeight:
+    - mod: 1
+      weightAmount: 20
+    - mod: 2
+      weightAmount: 40
+    - mod: 3
+      weightAmount: 40
+    weaponLevelWeight:
+    - mod: 0
+      weightAmount: 20
+    - mod: 1
+      weightAmount: 30
+    - mod: 2
+      weightAmount: 40
+    - mod: 3
+      weightAmount: 10
+  - battlesCount: 21
+    weight:
+    - mod: -1
+      weightAmount: 30
+    - mod: -2
+      weightAmount: 60
+    - mod: -3
+      weightAmount: 10
+    levelWeight:
+    - mod: 2
+      weightAmount: 30
+    - mod: 3
+      weightAmount: 70
+    weaponLevelWeight:
+    - mod: 1
+      weightAmount: 10
+    - mod: 2
+      weightAmount: 20
+    - mod: 3
+      weightAmount: 40
+    - mod: 4
+      weightAmount: 20
+    - mod: 5
+      weightAmount: 10
+  - battlesCount: 36
+    weight:
+    - mod: -1
+      weightAmount: 30
+    - mod: -2
+      weightAmount: 40
+    - mod: -3
+      weightAmount: 30
+    levelWeight:
+    - mod: 2
+      weightAmount: 30
+    - mod: 3
+      weightAmount: 50
+    - mod: 4
+      weightAmount: 20
+    weaponLevelWeight:
+    - mod: 1
+      weightAmount: 10
+    - mod: 2
+      weightAmount: 20
+    - mod: 3
+      weightAmount: 40
+    - mod: 4
+      weightAmount: 20
+    - mod: 5
+      weightAmount: 10
+  - battlesCount: 51
+    weight:
+    - mod: -2
+      weightAmount: 30
+    - mod: -3
+      weightAmount: 40
+    - mod: -4
+      weightAmount: 30
+    levelWeight:
+    - mod: 3
+      weightAmount: 30
+    - mod: 4
+      weightAmount: 40
+    - mod: 5
+      weightAmount: 20
+    - mod: 6
+      weightAmount: 10
+    weaponLevelWeight:
+    - mod: 1
+      weightAmount: 10
+    - mod: 2
+      weightAmount: 20
+    - mod: 3
+      weightAmount: 40
+    - mod: 4
+      weightAmount: 20
+    - mod: 5
+      weightAmount: 10
+  - battlesCount: 101
+    weight:
+    - mod: -2
+      weightAmount: 10
+    - mod: -3
+      weightAmount: 20
+    - mod: -4
+      weightAmount: 40
+    - mod: -5
+      weightAmount: 30
+    levelWeight:
+    - mod: 4
+      weightAmount: 30
+    - mod: 5
+      weightAmount: 40
+    - mod: 6
+      weightAmount: 20
+    - mod: 7
+      weightAmount: 10
+    weaponLevelWeight:
+    - mod: 1
+      weightAmount: 10
+    - mod: 2
+      weightAmount: 20
+    - mod: 3
+      weightAmount: 40
+    - mod: 4
+      weightAmount: 20
+    - mod: 5
+      weightAmount: 10
+  _weaponsGroupsRandomizer:
+    _weaponsGroupWeightHandlers:
+    - _groupType: 0
+      chance: 30
+    - _groupType: 1
+      chance: 20
+    - _groupType: 2
+      chance: 10
+    - _groupType: 3
+      chance: 15
+    - _groupType: 4
+      chance: 25
+  _groups:
+  - _groupType: 0
+    _weapons: 0100000002000000030000000400000005000000
+  - _groupType: 1
+    _weapons: 060000000700000008000000090000000a000000
+  - _groupType: 2
+    _weapons: 0b0000000c0000000d0000001000000011000000
+  - _groupType: 3
+    _weapons: 120000001300000015000000
+  - _groupType: 4
+    _weapons: 1600000017000000

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d61fe8cb7d74f34fb2400a79aec0e35, type: 3}
+  m_Name: GameSettingsInstaller
+  m_EditorClassIdentifier: 
+  bathSetup: {fileID: 11400000, guid: c5c246f48c6cb7d4bb72e3c5aea2c8f5, type: 2}
+  weaponSetup: {fileID: 11400000, guid: 1673659535a57224bae6ced8d501c4f3, type: 2}
+  cardsBorderSetup: {fileID: 11400000, guid: bcf9555653148f04092355483758d8d3, type: 2}
+  characterSkinSetup: {fileID: 11400000, guid: 82715fa339a0692408ede5ea2295e82f, type: 2}
+  chestSetup: {fileID: 11400000, guid: e2c95c3c23e13954494849ecb3e2cfe3, type: 2}
+  _nameGenerator: {fileID: 11400000, guid: 29df0644d9cfb0c44bbd4cefab03f197, type: 2}
+  battleSetup: {fileID: 11400000, guid: c7a0eb03dbfa88a45a331cf7edb529f9, type: 2}
+  mergeCostSetup: {fileID: 11400000, guid: ecd4733f7baeebe4bbb8e542b1b9b810, type: 2}
+  taskSetup: {fileID: 11400000, guid: e5d4d9dc7eb479140befba1311c86f82, type: 2}

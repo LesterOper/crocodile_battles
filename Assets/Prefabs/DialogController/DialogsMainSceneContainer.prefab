@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1446346996054320375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 498788784487138122}
+  - component: {fileID: 1995493272417035569}
+  m_Layer: 0
+  m_Name: DialogsMainSceneContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &498788784487138122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446346996054320375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.672847, y: 0.55878496, z: 57.564327}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1995493272417035569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446346996054320375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6143f9bd1f7fe9439e19536cd15e920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParentRectTransform: {fileID: 0}
+  SettingsDialog: {fileID: 3152198266179285195, guid: 5504612cd4e0a9a46bae9b34780d189e,
+    type: 3}
+  ChestsContainerDialog: {fileID: 1812336922646578389, guid: 0db0eb320bd0d1f49a24a20ad31e8993,
+    type: 3}
+  MergeDialog: {fileID: 5463262213901071799, guid: 9f108cba3b54ae6468352bb14ba49b42,
+    type: 3}
+  _chestsDialog: {fileID: 6258704628059369273, guid: e3981ba453737fe4f9c80bf916536490,
+    type: 3}
+  _passiveDialog: {fileID: 1780354565778547712, guid: 6854d7960285f9e4b891219570b15b60,
+    type: 3}
+  _battleDialog: {fileID: 8366845046119791411, guid: 264ab2c02c35f79499b363f33a58c4d5,
+    type: 3}
+  _bossBattleEndDialog: {fileID: 3288123075078613580, guid: 2a9055ffbef17034f815a4f4669b8d29,
+    type: 3}
+  weaponCollectionDialog: {fileID: 5677235101175648671, guid: 4167e0c458a89bf41a5180d0dd3714c6,
+    type: 3}
+  bathCollectionDialog: {fileID: 1060466783324339381, guid: df70eab571e95fe459f2a9919e29d92d,
+    type: 3}
+  saveProgressDialog: {fileID: 4061791220432933276, guid: ee436bfd72f5c83498c298922b7009ac,
+    type: 3}
+  loadProgressDialog: {fileID: 2037365404327237347, guid: 2fb22226855d14e47b8f85d21ecbe8c5,
+    type: 3}
+  takeCardsDialog: {fileID: -7283006035605975329, guid: 1dce4e79d0e04594baa1ff24f6ac85d5,
+    type: 3}
+  battlePassDialog: {fileID: 8156171902167551078, guid: 3a1ac95a75423c441875df6cb07629ab,
+    type: 3}
+  restorePurchasesDialog: {fileID: -121300278083594538, guid: f70b0a832e2db8540a865fd989d24a3d,
+    type: 3}
+  achievementDialog: {fileID: 466570840586322104, guid: 6e062abc85d94b74580a902c981b12a9,
+    type: 3}
+  boostersDialog: {fileID: 7637600698383992807, guid: 7c6bf37d90bb09140a2123a3e348888b,
+    type: 3}
+  buyBoosterDialog: {fileID: 2978168583551208374, guid: d7b5644d69cc8564abf0f1bc0d22ee9b,
+    type: 3}
+  premshopDialog: {fileID: 8286461934735935171, guid: 75e7a0d573e63ad479547ed2e6aefeac,
+    type: 3}
+  purchasedDialog: {fileID: 9181547032925405567, guid: e8f03128861c29f4a92d8a14dfe26774,
+    type: 3}

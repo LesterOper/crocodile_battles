@@ -1,0 +1,205 @@
+{
+    "m_SelectedDeviceId": "fugmuoros8obrsdi",
+    "m_SelectedPackage": {
+        "deviceId": "CQ3001ENEW",
+        "name": "net.alexplay.crocodile_battles",
+        "processId": 12809,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "fugmuoros8obrsdi",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 25243,
+            "exited": true
+        },
+        {
+            "deviceId": "fugmuoros8obrsdi",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 8953,
+            "exited": true
+        },
+        {
+            "deviceId": "fugmuoros8obrsdi",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 2654,
+            "exited": true
+        },
+        {
+            "deviceId": "fugmuoros8obrsdi",
+            "name": "net.alexplay.trash_tycoon",
+            "processId": 11173,
+            "exited": true
+        },
+        {
+            "deviceId": "fugmuoros8obrsdi",
+            "name": "net.alexplay.trash_tycoon",
+            "processId": 15068,
+            "exited": true
+        },
+        {
+            "deviceId": "fugmuoros8obrsdi",
+            "name": "net.alexplay.trash_tycoon",
+            "processId": 17284,
+            "exited": false
+        },
+        {
+            "deviceId": "Y018A3002184",
+            "name": "net.alexplay.petroleum_tycoon",
+            "processId": 13498,
+            "exited": true
+        },
+        {
+            "deviceId": "Y018A3002184",
+            "name": "net.alexplay.petroleum_tycoon",
+            "processId": 14577,
+            "exited": false
+        },
+        {
+            "deviceId": "0123456789ABCDEF",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 15587,
+            "exited": true
+        },
+        {
+            "deviceId": "0123456789ABCDEF",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 16864,
+            "exited": false
+        },
+        {
+            "deviceId": "334ec27b0904",
+            "name": "com.android.settings",
+            "processId": 32730,
+            "exited": true
+        },
+        {
+            "deviceId": "334ec27b0904",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 31953,
+            "exited": true
+        },
+        {
+            "deviceId": "334ec27b0904",
+            "name": "com.google.android.gms.ui",
+            "processId": 2736,
+            "exited": true
+        },
+        {
+            "deviceId": "334ec27b0904",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 2088,
+            "exited": false
+        },
+        {
+            "deviceId": "CQ3001ENEW",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 25566,
+            "exited": true
+        },
+        {
+            "deviceId": "CQ3001ENEW",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 26985,
+            "exited": true
+        },
+        {
+            "deviceId": "CQ3001ENEW",
+            "name": "com.sonymobile.home",
+            "processId": 16251,
+            "exited": false
+        },
+        {
+            "deviceId": "CQ3001ENEW",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 27387,
+            "exited": true
+        },
+        {
+            "deviceId": "CQ3001ENEW",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 8532,
+            "exited": true
+        },
+        {
+            "deviceId": "CQ3001ENEW",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 14206,
+            "exited": false
+        },
+        {
+            "deviceId": "CQ3001ENEW",
+            "name": "net.alexplay.crocodile_battles",
+            "processId": 12809,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_FilterOptions": {
+        "m_Filter": "",
+        "m_UseRegularExpressions": false,
+        "m_MatchCase": false
+    },
+    "m_SymbolPaths": [],
+    "m_CaptureVideoSettings": {
+        "TimeLimitEnabled": false,
+        "TimeLimit": 180,
+        "VideoSizeEnabled": false,
+        "VideoSizeX": 1280,
+        "VideoSizeY": 720,
+        "BitRateEnabled": false,
+        "BitRateK": 20000,
+        "DisplayIdEnabled": false,
+        "DisplayId": ""
+    }
+}
